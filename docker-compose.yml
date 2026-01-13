@@ -28,6 +28,9 @@ services:
     container_name: printoscar_api
     ports:
       - "8081:8080"
+    volumes:
+      - ./segishop-api/SegishopAPI/wwwroot/wp-content/uploads:/app/wwwroot/wp-content/uploads
+      - ./segishop-api/SegishopAPI/wwwroot/uploads:/app/wwwroot/uploads
     environment:
       - "ConnectionStrings__DefaultConnection=Server=db,1433;Database=SegishopDB_Dev;User Id=sa;Password=@9-qNabWXD83;TrustServerCertificate=True;MultipleActiveResultSets=true;"
       - ASPNETCORE_ENVIRONMENT=Production
