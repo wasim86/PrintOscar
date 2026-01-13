@@ -1,0 +1,43 @@
+# Node / Next.js
+node_modules/
+.next/
+.trae/
+dist/
+build/
+segishop/node_modules/
+segishop/.next/
+db-backup/
+*.bak
+
+# .NET / Visual Studio
+bin/
+obj/
+Debug/
+Release/
+.vs/
+*.pdb
+*.user
+*.suo
+**/bin/
+**/obj/
+**/uploads/
+
+# Logs and Temporary Files
+*.log
+*_log.txt
+winget_results.txt
+*.db
+*.db-shm
+*.db-wal
+**/*.log
+**/*.db
+**/*.db-shm
+**/*.db-wal
+
+# Environment Files
+.env
+*.env
+**/.env
+
+# Garbage / System files
+ersASUS*

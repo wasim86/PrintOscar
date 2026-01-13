@@ -1,0 +1,17 @@
+How to run this Project
+
+Backend (.NET API)
+
+- In c:\Projects\Segishop\segishop-api\SegishopAPI :
+  - $Env:ASPNETCORE_ENVIRONMENT='Development'; $Env:ASPNETCORE_URLS='http://localhost:5001'; $Env:ConnectionStrings__DefaultConnection='Server=(localdb)\mssqllocaldb;Database=SegishopDB_Dev;Trusted_Connection=true;MultipleActiveResultSets=true'; dotnet run
+
+
+Frontend (Next.js)
+
+- In c:\Projects\Segishop\segishop :
+  - $Env:NODE_ENV='development'; $Env:NEXT_PUBLIC_API_URL='http://localhost:5001/api'; $Env:NEXT_PUBLIC_APP_URL='http://localhost:3000'; npm run dev
+Open:
+
+- Frontend: http://localhost:3000
+- API Swagger: http://localhost:5001
+

@@ -1,0 +1,190 @@
+/* Hero Section Custom Animations */
+
+/* Smooth slide transitions */
+.hero-slide-enter {
+  opacity: 0;
+  transform: translateX(100px);
+}
+
+.hero-slide-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 800ms ease-out, transform 800ms ease-out;
+}
+
+.hero-slide-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.hero-slide-exit-active {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 800ms ease-out, transform 800ms ease-out;
+}
+
+/* Image hover zoom effect */
+.image-hover-zoom {
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.image-hover-zoom:hover {
+  transform: scale(1.02);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.image-hover-zoom img {
+  transition: transform 0.7s ease;
+}
+
+.image-hover-zoom:hover img {
+  transform: scale(1.1);
+}
+
+/* Floating animation for decorative elements */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+.float-animation-delayed {
+  animation: float 6s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+.float-animation-delayed-2 {
+  animation: float 6s ease-in-out infinite;
+  animation-delay: 4s;
+}
+
+/* Text reveal animation */
+@keyframes textReveal {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.text-reveal {
+  animation: textReveal 0.8s ease-out forwards;
+}
+
+.text-reveal-delayed {
+  opacity: 0;
+  animation: textReveal 0.8s ease-out forwards;
+  animation-delay: 0.2s;
+}
+
+.text-reveal-delayed-2 {
+  opacity: 0;
+  animation: textReveal 0.8s ease-out forwards;
+  animation-delay: 0.4s;
+}
+
+.text-reveal-delayed-3 {
+  opacity: 0;
+  animation: textReveal 0.8s ease-out forwards;
+  animation-delay: 0.6s;
+}
+
+/* Button hover effects */
+.btn-hover-effect {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.btn-hover-effect::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.btn-hover-effect:hover::before {
+  left: 100%;
+}
+
+.btn-hover-effect:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Slide counter animation */
+.slide-counter {
+  position: relative;
+  overflow: hidden;
+}
+
+.slide-counter::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #f97316;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: transform 0.3s ease;
+}
+
+.slide-counter.active::after {
+  transform: scale(1);
+}
+
+/* Category text glow effect */
+.category-text-glow {
+  text-shadow: 0 0 20px rgba(249, 115, 22, 0.3);
+  transition: text-shadow 0.3s ease;
+}
+
+.category-text-glow:hover {
+  text-shadow: 0 0 30px rgba(249, 115, 22, 0.5);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-slide-enter,
+  .hero-slide-exit-active {
+    transform: translateY(50px);
+  }
+  
+  .hero-slide-enter-active,
+  .hero-slide-exit {
+    transform: translateY(0);
+  }
+}
+
+/* Loading shimmer effect */
+@keyframes shimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 400% 100%;
+  animation: shimmer 1.5s infinite;
+}

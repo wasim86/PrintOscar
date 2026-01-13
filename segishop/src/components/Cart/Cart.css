@@ -1,0 +1,191 @@
+/* Modern Cart Styles - Clean & Professional */
+
+/* Cart Container - Force Light Theme */
+.cart-container {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* Override dark mode for cart */
+.cart-container * {
+  color: inherit !important;
+}
+
+.cart-container .text-gray-900 {
+  color: #111827 !important;
+}
+
+.cart-container .text-gray-600 {
+  color: #4b5563 !important;
+}
+
+.cart-container .text-gray-500 {
+  color: #6b7280 !important;
+}
+
+.cart-container .bg-white {
+  background-color: #ffffff !important;
+}
+
+.cart-container .bg-gray-50 {
+  background-color: #f9fafb !important;
+}
+
+.cart-container .bg-gray-100 {
+  background-color: #f3f4f6 !important;
+}
+
+.cart-container .border-gray-200 {
+  border-color: #e5e7eb !important;
+}
+
+.cart-container .border-gray-300 {
+  border-color: #d1d5db !important;
+}
+
+/* Scrollbar Styling */
+.cart-container ::-webkit-scrollbar {
+  width: 6px;
+}
+
+.cart-container ::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+.cart-container ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.cart-container ::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Animation for cart slide-in */
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.cart-container {
+  animation: slideIn 0.3s ease-out;
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+  .cart-container {
+    max-width: 100vw;
+    width: 100vw;
+  }
+}
+
+/* Focus states for accessibility */
+.cart-container button:focus,
+.cart-container input:focus {
+  outline: 2px solid #f97316;
+  outline-offset: 2px;
+}
+
+/* Loading states */
+.cart-loading {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* Hover effects */
+.cart-container button {
+  transition: all 0.2s ease-in-out;
+}
+
+.cart-container button:hover {
+  transform: translateY(-1px);
+}
+
+/* Product image hover effect */
+.cart-container img {
+  transition: transform 0.2s ease-in-out;
+}
+
+.cart-container img:hover {
+  transform: scale(1.05);
+}
+
+/* Quantity button animations */
+.cart-container .quantity-btn {
+  transition: background-color 0.2s ease-in-out;
+}
+
+.cart-container .quantity-btn:active {
+  transform: scale(0.95);
+}
+
+/* Progress bar animation */
+.progress-bar {
+  overflow: hidden;
+}
+
+.progress-fill {
+  transition: width 0.5s ease-in-out;
+}
+
+/* Success/Error states */
+.cart-success {
+  background-color: #dcfce7;
+  border-color: #16a34a;
+  color: #15803d;
+}
+
+.cart-error {
+  background-color: #fef2f2;
+  border-color: #dc2626;
+  color: #dc2626;
+}
+
+/* Mobile optimizations */
+@media (max-width: 480px) {
+  .cart-container {
+    font-size: 14px;
+  }
+  
+  .cart-container h2 {
+    font-size: 18px;
+  }
+  
+  .cart-container h3 {
+    font-size: 16px;
+  }
+}
+
+/* Force light mode - no dark mode for cart */
+
+/* Print styles */
+@media print {
+  .cart-container {
+    display: none;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  .cart-container {
+    border: 2px solid #000;
+  }
+  
+  .cart-container button {
+    border: 2px solid #000;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .cart-container * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

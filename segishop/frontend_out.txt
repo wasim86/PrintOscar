@@ -1,0 +1,162 @@
+
+> segishop@0.1.0 dev
+> next dev -p 3000
+
+   ▲ Next.js 15.4.2
+   - Local:        http://localhost:3000
+   - Network:      http://10.177.132.104:3000
+
+ ✓ Starting...
+ ✓ Ready in 5.9s
+ ○ Compiling / ...
+ ✓ Compiled / in 13.5s (883 modules)
+ GET / 200 in 15941ms
+ ✓ Compiled in 3.4s (366 modules)
+ GET / 200 in 584ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1437ms (534 modules)
+ GET /favicon.ico 200 in 1877ms
+ GET /?ide_webview_request_time=1767629765054 200 in 977ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 3.2s (888 modules)
+ GET /@vite/client 404 in 4259ms
+ ○ Compiling /products ...
+ ✓ Compiled /products in 7.3s (919 modules)
+ GET /products 200 in 8207ms
+ GET /products 200 in 97ms
+ GET /products 200 in 133ms
+ GET /products?category=crystal 200 in 109ms
+ GET /products?category=clocks 200 in 64ms
+ GET /products?category=deskmantle-clocks 200 in 101ms
+ GET /products?category=deskmantle-clocks 200 in 101ms
+ GET /products?category=achiever-and-star-awards 200 in 178ms
+ GET /products?category=achiever-and-star-awards 200 in 86ms
+ ○ Compiling /products/[slug] ...
+ ✓ Compiled /products/[slug] in 5.2s (958 modules)
+ GET /products/star-casting-in-goldtone-finish-on-rosewood-piano-finish-baseblack-brass-plate 200 in 8433ms
+ GET /products/star-casting-in-goldtone-finish-on-rosewood-piano-finish-baseblack-brass-plate 200 in 212ms
+ GET /products/star-casting-in-goldtone-finish-on-rosewood-piano-finish-baseblack-brass-plate 200 in 194ms
+ GET /products?category=1234-columns-trophy 200 in 141ms
+ GET /products?category=1234-columns-trophy 200 in 583ms
+ GET /products/pole-round-with-trim2 200 in 172ms
+ GET /products?category=auto-show-awards 200 in 168ms
+ GET /products?category=auto-show-awards 200 in 491ms
+ GET /products/flags 200 in 108ms
+ GET /products?category=auto-show-awards 200 in 162ms
+ GET /products?category=auto-show-awards 200 in 1392ms
+ GET /products/car-awards 200 in 113ms
+ GET /products?category=resins-trophy 200 in 417ms
+ GET /products?category=resins-trophy 200 in 281ms
+ GET /products/vollyball-award 200 in 102ms
+ GET /products?category=bowling-awards 200 in 117ms
+ GET /products?category=bowling-awards 200 in 785ms
+ GET /products/3d-sport-stars-bowling 200 in 88ms
+ GET /products?category=baseball-softball 200 in 97ms
+ GET /products?category=baseball-softball 200 in 249ms
+ GET /products?category=certificate-photo-plaques 200 in 177ms
+ GET /products?category=certificate-photo-plaques 200 in 164ms
+ GET /products?category=bowling-awards 200 in 110ms
+ GET /products?category=bowling-awards 200 in 74ms
+ GET /products/3d-sport-stars-bowling 200 in 90ms
+ GET /products?category=pens-1 200 in 95ms
+ GET /products?category=pens-1 200 in 707ms
+ GET /products/floating-pen-desk-set-with-memo-pad-in-matte-teakwood-finish-black-plate 200 in 194ms
+ GET /products?category=eagel-plaques-awards 200 in 93ms
+ GET /products?category=eagel-plaques-awards 200 in 199ms
+ GET /products?category=eagle-awards 200 in 88ms
+ GET /products?category=eagle-awards 200 in 310ms
+ GET /products/eagle-head-tower 200 in 107ms
+ GET /products/crystal-eagle-awards 200 in 122ms
+ GET /products?category=piano-finish-bases 200 in 115ms
+ GET /products?category=piano-finish-bases 200 in 606ms
+ GET /products/spinning-squeeze-sports-ball-trophy 200 in 95ms
+ GET /products?category=plaques-executive-awards 200 in 51ms
+ GET /products?category=eagel-plaques-awards 200 in 584ms
+ GET /products?category=eagel-plaques-awards 200 in 74ms
+ GET /products?category=acrylic-plaques 200 in 116ms
+ GET /products?category=acrylic-plaques 200 in 149ms
+ GET /products/large-rosewood-piano-finish-floating-acrylic-plaque 200 in 95ms
+ GET /products?category=eagle-awards 200 in 144ms
+ GET /products?category=eagle-awards 200 in 453ms
+ GET /products/premier-rosewood-piano-finish-floating-acrylic-plaque 200 in 142ms
+ GET /products?category=acrylic-plaques 200 in 114ms
+ GET /products?category=acrylic-plaques 200 in 327ms
+ GET /products/large-red-velvet-stand-off-acrylic-plaque 200 in 96ms
+ GET /products?category=eagel-plaques-awards 200 in 48ms
+ GET /products?category=eagel-plaques-awards 200 in 108ms
+ GET /products?category=tennis 200 in 47ms
+ GET /products?category=tennis 200 in 42ms
+ ✓ Compiled in 8.9s (974 modules)
+ GET /?ide_webview_request_time=1767629765054 200 in 559ms
+ GET /products?category=tennis 200 in 100ms
+ ✓ Compiled in 1642ms (409 modules)
+ GET /?ide_webview_request_time=1767629765054 200 in 162ms
+ GET /products?category=tennis 200 in 43ms
+ ✓ Compiled in 2s (409 modules)
+ GET /?ide_webview_request_time=1767629765054 200 in 70ms
+ GET /products?category=tennis 200 in 47ms
+ ✓ Compiled in 2.6s (974 modules)
+ GET /?ide_webview_request_time=1767629765054 200 in 357ms
+ GET /products?category=tennis 200 in 148ms
+ ✓ Compiled in 3.1s (974 modules)
+ GET /?ide_webview_request_time=1767629765054 200 in 520ms
+ GET /products?category=tennis 200 in 108ms
+ ✓ Compiled in 1723ms (409 modules)
+ GET /?ide_webview_request_time=1767629765054 200 in 208ms
+ GET /products?category=tennis 200 in 54ms
+ ✓ Compiled in 952ms (409 modules)
+ GET /?ide_webview_request_time=1767629765054 200 in 198ms
+ GET /products?category=tennis 200 in 226ms
+ ✓ Compiled in 1057ms (409 modules)
+ GET /?ide_webview_request_time=1767629765054 200 in 407ms
+ GET /products?category=tennis 200 in 57ms
+ ✓ Compiled in 1431ms (409 modules)
+ GET /?ide_webview_request_time=1767629765054 200 in 164ms
+ GET /products?category=tennis 200 in 101ms
+ ✓ Compiled in 2.9s (958 modules)
+ ✓ Compiled in 4.6s (974 modules)
+ GET /?ide_webview_request_time=1767629765054 200 in 601ms
+ GET /products?category=tennis 200 in 113ms
+ GET /products?category=martial-arts-1 200 in 99ms
+ GET /products?category=martial-arts-1 200 in 41ms
+ ✓ Compiled in 3.7s (409 modules)
+ GET /?ide_webview_request_time=1767629765054 200 in 254ms
+ GET /products?category=martial-arts-1 200 in 52ms
+ GET /products?category=glass 200 in 74ms
+ GET /products?category=classic-glass-awards-and-plaques 200 in 45ms
+ GET /products?category=classic-glass-awards-and-plaques 200 in 108ms
+ GET / 200 in 77ms
+ GET / 200 in 42ms
+ GET /products/peak-series-acrylic-award-with-blue-accents 200 in 101ms
+ ✓ Compiled in 1406ms (409 modules)
+ GET /products/peak-series-acrylic-award-with-blue-accents 200 in 145ms
+ GET / 200 in 49ms
+ ✓ Compiled in 1682ms (958 modules)
+ GET /products/peak-series-acrylic-award-with-blue-accents 200 in 917ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1005ms (568 modules)
+ GET /@vite/client 404 in 1577ms
+ GET / 200 in 326ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 727ms (585 modules)
+ GET /favicon.ico 200 in 956ms
+ ✓ Compiled in 7.2s (974 modules)
+ GET /products/peak-series-acrylic-award-with-blue-accents 200 in 934ms
+ GET / 200 in 888ms
+ ✓ Compiled in 16.8s (974 modules)
+ ✓ Compiled /favicon.ico in 4ms (565 modules)
+ ✓ Compiled in 1ms (582 modules)
+ ✓ Compiled in 14ms (582 modules)
+ GET /products/peak-series-acrylic-award-with-blue-accents 200 in 10178ms
+ GET /products/peak-series-acrylic-award-with-blue-accents 200 in 16861ms
+ ✓ Compiled in 4.2s (991 modules)
+ GET /favicon.ico 200 in 16182ms
+ GET / 200 in 16227ms
+ GET / 200 in 16762ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 3.3s (585 modules)
+ GET /@vite/client 404 in 4137ms
+ ✓ Compiled in 2.2s (409 modules)
+ GET /products/peak-series-acrylic-award-with-blue-accents 200 in 615ms
+ GET / 200 in 113ms
+[?25h

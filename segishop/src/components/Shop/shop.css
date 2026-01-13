@@ -1,0 +1,133 @@
+/* Clean Radio Button Styles for Price Range */
+.price-range-radio {
+  accent-color: #ea580c;
+}
+
+.price-range-radio:checked {
+  background-color: #ea580c;
+  border-color: #ea580c;
+}
+
+.price-range-label {
+  transition: background-color 0.2s ease;
+  padding: 8px;
+  border-radius: 6px;
+  position: relative;
+  z-index: 1;
+}
+
+.price-range-label:hover {
+  background-color: #fff7ed;
+}
+
+.price-range-label:hover span {
+  color: #ea580c;
+}
+
+/* Prevent event bubbling issues */
+.price-range-container {
+  position: relative;
+  z-index: 2;
+}
+
+.price-range-container * {
+  pointer-events: auto;
+}
+
+.price-range-radio:focus {
+  ring: 2px;
+  ring-color: #ea580c;
+  ring-opacity: 0.5;
+}
+
+
+
+/* Product card hover effects */
+.product-card {
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Filter section animations */
+.filter-section {
+  transition: all 0.3s ease;
+}
+
+.filter-section.collapsed {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.filter-section.expanded {
+  max-height: 500px;
+  opacity: 1;
+}
+
+/* Color swatch styles */
+.color-swatch {
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.color-swatch:hover {
+  transform: scale(1.1);
+}
+
+.color-swatch.selected::after {
+  content: '✓';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Mobile filter modal animations */
+.mobile-filter-modal {
+  animation: slideInRight 0.3s ease-out;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Loading states */
+.loading-skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Responsive adjustments for radio buttons */
+@media (max-width: 768px) {
+  .price-range-radio {
+    height: 18px;
+    width: 18px;
+  }
+
+  .price-range-label {
+    padding: 8px 4px;
+  }
+}

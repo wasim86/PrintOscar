@@ -1,0 +1,6584 @@
+{
+  "Diamond Figure Trophy": {
+    "default": "300.1.5097-G.25"
+  },
+  "Gold Aluminum Star Solid Walnut Plaque w/Black Recessed Area/Black Brass Plate": {
+    "default": "P3328"
+  },
+  "Rosewood Piano Finish Plaque w/Gabled Point Gold Star Casting/Black Brass Plate": {
+    "default": "P3992"
+  },
+  "Modern Gold Finish Star Casting on Walnut Finish Base with Black Brass Plate": {
+    "default": "105"
+  },
+  "Gold Metal Star Paperweight": {
+    "default": "107"
+  },
+  "Polished Metal Goldtone Cast Star/Rosewood Piano Finish Base/Black Brass Plate": {
+    "default": "108"
+  },
+  "Chrome Plated Metal Star Paperweight": {
+    "default": "125"
+  },
+  "Rosewood Piano Finish Star Paperweight with Felt Bottom": {
+    "default": "133"
+  },
+  "Star Casting in Goldtone Finish on Rosewood Piano Finish Base/Black Brass Plate": {
+    "default": "1570"
+  },
+  "Metal Classic Achiever/Black Piano Finish Base/Gold Flexi-Brass Plastic Plate": {
+    "default": "1581"
+  },
+  "Cherry Finish Plaque, Sapphire Marble/Gold Florentine LaserFX Plate, Gold Backer": {
+    "default": "P3556"
+  },
+  "Clear Square Acrylic Paperweight": {
+    "default": "A6375CL"
+  },
+  "Oak Finish Photo Plaque with Black Brass Plates-Photo Size 5\" x 7\"": {
+    "default": "P1465"
+  },
+  "Walnut Finish Photo/Certificate Holder": {
+    "default": "P1490"
+  },
+  "Walnut Finish Photo Plaque with Black Brass Plate-Holds 8\" x 10\" Photo": {
+    "default": "P1499"
+  },
+  "American Walnut 12 Plate Photo Plaque w/Black Brass Plates-Holds 5\" x 7\" Photo": {
+    "default": "P2777"
+  },
+  "Black Glass Certificate Plaque with Easy Open and Close Backing": {
+    "default": "P4190"
+  },
+  "Solid Walnut Certificate Plaque with Plexiglass Cover": {
+    "default": "P452"
+  },
+  "Carved Crystal Eagle on a Black Crystal Base with Black/Silver Plate": {
+    "default": "K9117"
+  },
+  "Walnut Plaque with Scupltured Eagle Casting and Black/Gold Brass Plate": {
+    "default": "P1683"
+  },
+  "Walnut Plaque with Antique Bronze Eagle and Black Brass Plate": {
+    "default": "P1784"
+  },
+  "American Walnut Plaque/Detailed Black & Gold Eagle Medallion/Black LaserFX Plate": {
+    "default": "P2294"
+  },
+  "Walnut 12 Plate Perpetual Plaque w/Antique Bronze Eagle Casting/LaserFX Plates": {
+    "default": "P2296"
+  },
+  "Eagle with Flag Casting on American Walnut Plaque with Black Brass Plate": {
+    "default": "P2394"
+  },
+  "Walnut Plaque with Detailed Black/Gold Eagle Medallion and Black Brass Plate": {
+    "default": "P3168"
+  },
+  "Emerald Marble Design Acrylic Paperweight": {
+    "default": "A6375EM"
+  },
+  "Antique Bronze Eagle Casting on Walnut Base with Black Brass Plate": {
+    "default": "1293"
+  },
+  "Antique Bronze Eagle Casting on Black Piano Finish Base with Gold Plate": {
+    "default": "1295"
+  },
+  "Star Acrylic Paperweight": {
+    "default": "A6730"
+  },
+  "Gold Finish Metal Eagle on Black Piano Finish Base with Gold Flexi-Brass Plate": {
+    "default": "1298"
+  },
+  "Ruby Marble Design Acrylic Paperweight": {
+    "default": "A6375RU"
+  },
+  "Sapphire Marble Design Acrylic Paperweight": {
+    "default": "A6375SA"
+  },
+  "Antique Bronze Resin Eagle on Rosewood Piano Finish Base/Black Brass Plate": {
+    "default": "1588"
+  },
+  "American Walnut Frame w/Maroon Velour Back/Bronze Finish Frame/Black Brass Plate": {
+    "default": "P1873"
+  },
+  "American Walnut Frame w/Black Velour Back/Bronze Finish Frame/Black Brass Plate": {
+    "default": "P1874"
+  },
+  "Walnut Frame w/Black Velour Backing/Antique Bronze Frame and Black Brass Plate": {
+    "default": "P2773"
+  },
+  "Walnut Frame w/Maroon Velour Backing/Antique Bronze Frame and Black Brass Plate": {
+    "default": "P2774"
+  },
+  "Clear Acrylic Paperweight": {
+    "default": "BAC044"
+  },
+  "American Walnut Airflyte Frame w/Maroon Velour & Black Florentine LaserFX Plate": {
+    "default": "P2979"
+  },
+  "American Walnut Airflyte Frame w/Black Velour & Black Florentine LaserFX Plate": {
+    "default": "P2980"
+  },
+  "American Walnut Frame w/Black Back/Antique Bronze Cast Frame/Black Brass Plate": {
+    "default": "P2984"
+  },
+  "Rosewood Piano Finish AirFlyte Frame, Antique Bronze Casting, Gold Metal Back": {
+    "default": "P3975"
+  },
+  "Rosewood Piano Finish Airflyte Frame w/Black LaserFX Plate,Gold Metal Background": {
+    "default": "P3990"
+  },
+  "Rosewood Piano Finish Airflyte Frame, Black LaserFX Plate on Gold Metal Backing": {
+    "default": "P4139"
+  },
+  "Cherry Finish Frame w/Black/Gold LaserFX Plate on Brushed Metal Gold Background": {
+    "default": "P4270"
+  },
+  "Cherry Finish Frame w/Sapphire Marble LaserFX Plate on Brushed Metal Gold Backer": {
+    "default": "P4272"
+  },
+  "Cherry Finish Frame/Antique Bronze Metal Frame on Brushed Metal Gold Background": {
+    "default": "P4275"
+  },
+  "Rosewood Piano Finish Frame with Florentine Star Shower LaserFX Plate": {
+    "default": "P4454"
+  },
+  "Walnut Plaque with Antique Bronze Cast Gavel and Black Brass Plate": {
+    "default": "PG1686"
+  },
+  "American Walnut Plaque with Walnut Gavel/Black Brass Plate": {
+    "default": "PG1687"
+  },
+  "American Walnut Frame with Gold Electroplated Metal Gavel on Black Velour": {
+    "default": "PG2442"
+  },
+  "American Walnut Plaque with Walnut Gavel and Black Brass Plate": {
+    "default": "PG2786"
+  },
+  "American Walnut Plaque with Walnut Gavel and Activity Insert/Black Brass Plate": {
+    "default": "PG2784"
+  },
+  "American Walnut Frame with Gold Electroplated Metal Gavel on Maroon Velour": {
+    "default": "PG3412"
+  },
+  "Rosewood Piano Finish Plaque w/Gold Electroplated Metal Gavel, Black Brass Plate": {
+    "default": "PG3751"
+  },
+  "Rosewood Piano Finish Gavel Plaque with Black Black Plate": {
+    "default": "PG4470"
+  },
+  "Walnut Gavel Base with Brass Plate (Base Only)": {
+    "default": "735"
+  },
+  "American Walnut Gavel Sounding Block (Block Only)": {
+    "default": "737"
+  },
+  "American Walnut 40 Plate Perpetual Plaque with Black Brass Plates": {
+    "default": "P15"
+  },
+  "Cherry Finish Perpetual Plaque w/12 Black Brass Plates on Brushed Gold Backer": {
+    "default": "P4277"
+  },
+  "Rosewood High Gloss Perpetual Plaque with Acrylic Engraving Plates": {
+    "default": "P5340"
+  },
+  "Black High Gloss Perpetual Plaque with Acrylic Engraving Plates": {
+    "default": "P5364"
+  },
+  "American Walnut 12 Plate Perpetual Plaque with Black Brass Plates": {
+    "default": "P2989"
+  },
+  "American Walnut Perpetual Plaque with 12 Black Brass Plates": {
+    "default": "P2770"
+  },
+  "AirFlyte Edge Walnut Quarterly Award Perpetual Plaque wth Black Brass Plates": {
+    "default": "P2849"
+  },
+  "American Walnut 12 Plate Perpetual Plaque with Black Brass Header Plate": {
+    "default": "P2910"
+  },
+  "American Walnut 12 Plate Perpetual Plaque with Sapphire Marble Brass Plates": {
+    "default": "P3503"
+  },
+  "American Walnut 24 Plate Perpetual Plaque with Sapphire Marble Brass Plates": {
+    "default": "P3507"
+  },
+  "Cherry Finish 12 Plate Perpetual Plaque with Black Plate": {
+    "default": "P3528"
+  },
+  "American Walnut 12 Plate Perpetual Plaque with Black Brass Elliptical Plates": {
+    "default": "P3621"
+  },
+  "Rosewood Piano Finish Plaque, Black/Gold Embossed Back Plate & Black Brass Plate": {
+    "default": "P3821"
+  },
+  "Black Piano Finish Plaque w/Black/Gold Embossed Back Plate & Black Brass Plate": {
+    "default": "P3930"
+  },
+  "Octagonal Rosewood Piano Finish Plaque with Black Florentine LaserFX Plate": {
+    "default": "P4160"
+  },
+  "High Gloss Rosewood Finish Book Award with Two Black/Gold LaserFX Plates": {
+    "default": "P4834"
+  },
+  "Walnut Plaque w/Gold Maltese Cross Clock/Firefighter Relief/Black Brass Plate": {
+    "default": "BC96"
+  },
+  "American Walnut Plaque with Gold Casting Accents and Black Plate": {
+    "default": "P1070"
+  },
+  "American Walnut Notch Corner Plaque w/Antique Bronze Scroll & Black Brass Plate": {
+    "default": "P1433"
+  },
+  "American Walnut Notch Corner Plaque w/Antique Bronze Frame/Black Brass Plate": {
+    "default": "P1438"
+  },
+  "American Walnut Plaque with Antique Bronze Frame and Black Brass Plate": {
+    "default": "P1901"
+  },
+  "American Walnut CAM Plaque with Black Brass Plate (Medallion Sold Separately)": {
+    "default": "P2290"
+  },
+  "American Walnut CAM Plaque w/12 Black Brass Plates (Medallion Sold Separately)": {
+    "default": "P2285"
+  },
+  "Walnut Plaque w/Antique Bronze Casting & High Quality Phoenix Frame Casting": {
+    "default": "P2373"
+  },
+  "Walnut Maltese Cross Plaque w/Black Brass Plate and 2\" Insert (sold separately)": {
+    "default": "P2790"
+  },
+  "Music Note Resin": {
+    "default": "JDS21"
+  },
+  "Music Jazz Star Resin": {
+    "default": "JSR108"
+  },
+  "Antique Gold Car Grill Resin": {
+    "default": "CRS108"
+  },
+  "Baseball/Softball Blaze Award": {
+    "default": "BZ01"
+  },
+  "Baseball Happy Cup Award": {
+    "default": "HC101"
+  },
+  "Male Baseball Resin": {
+    "default": "JDS11"
+  },
+  "Female Softball Resin": {
+    "default": "JDS12"
+  },
+  "Baseball Jazz Star Award": {
+    "default": "JSR101"
+  },
+  "Baseball Little Pals Resin": {
+    "default": "LPR01"
+  },
+  "Baseball Triad Award": {
+    "default": "TRD101"
+  },
+  "Softball Tri Star Resin": {
+    "default": "TS807"
+  },
+  "Basketball Blaze Award": {
+    "default": "BZ02"
+  },
+  "Basketball Happy Cup Award": {
+    "default": "HC102"
+  },
+  "Male Basketball Resin": {
+    "default": "JDS15"
+  },
+  "Basketball Jazz Star Resin": {
+    "default": "JSR102"
+  },
+  "Basketball Little Pal's Resin": {
+    "default": "LPR02"
+  },
+  "Basketball Triad Award": {
+    "default": "TRD102"
+  },
+  "Clear Acrylic Star Paperweight": {
+    "default": "STA5C"
+  },
+  "Jade Acrylic Star Paperweight": {
+    "default": "STA5J"
+  },
+  "Full Color Square Acrylic Paperweight": {
+    "default": "SAC044"
+  },
+  "Small Full Color Rectangle Paperweight": {
+    "default": "SUBAPW24"
+  },
+  "Large Full Color Rectangle Acrylic Paperweight": {
+    "default": "SUBAPW34"
+  },
+  "Full Color Star Acrylic Paperweight": {
+    "default": "SUBSTA5"
+  },
+  "Small Full Color Beveled Impress Acrylic": {
+    "default": "SUBIMP201"
+  },
+  "Medium Full Color Beveled Impress Acrylic": {
+    "default": "SUBIMP202"
+  },
+  "Large Full Color Beveled Impress Acrylic": {
+    "default": "SUBIMP203"
+  },
+  "Small Full Color Diamond Impress Acrylic": {
+    "default": "SUBIMP301"
+  },
+  "Medium Full Color Diamond Impress Acrylic": {
+    "default": "SUBIMP302"
+  },
+  "Large Full Color Diamond Impress Acrylic": {
+    "default": "SUBIMP303"
+  },
+  "Bowling Jazz Star Resin": {
+    "default": "JSR103"
+  },
+  "Bowling Little Pals Resin": {
+    "default": "LPR03"
+  },
+  "Bowling Triad Resin": {
+    "default": "TRD103"
+  },
+  "Volleyball Jazz Star Resin": {
+    "default": "JSR113"
+  },
+  "Volleyball Banner Resin-8\"": {
+    "default": "BNN39"
+  },
+  "Swimming Jazz Star Resin": {
+    "default": "JSR111"
+  },
+  "Swimming Triad Resin": {
+    "default": "TRD111"
+  },
+  "Bamboo Ballpoint Pen with Stylus": {
+    "default": "LP836"
+  },
+  "Black Brass Pencil": {
+    "default": "PS7160"
+  },
+  "Rosewood Pen": {
+    "default": "PS5652R"
+  },
+  "Blue Brass Pen": {
+    "default": "PS5664BL"
+  },
+  "Jade Acrylic w/Gold-Plated Brass Base and 2 1/2\" CAM Insert": {
+    "default": "A1817"
+  },
+  "Jade Acrylic": {
+    "default": "A1842"
+  },
+  "Airflyte Sapphire Marble Acrylic with Gold-Plated Brass Base": {
+    "default": "A1850SA"
+  },
+  "Black Acrylic 10\" Desk Wedge": {
+    "default": "ADW10BK"
+  },
+  "Black Acrylic 8\" Desk Wedge": {
+    "default": "ADW8BK"
+  },
+  "Clear 10\" Acrylic Desk": {
+    "default": "ADW10CL"
+  },
+  "Clear 8\" Acrylic Desk": {
+    "default": "ADW8CL"
+  },
+  "Gold Metal Golfball Clock on Rosewood Piano Nameplate, Business Card Holder, Pen": {
+    "default": "PAB03"
+  },
+  "Rosewood Finish Business Card Box": {
+    "default": "PAB01"
+  },
+  "Light Brown Laserable Leatherette Pen Sleeve": {
+    "default": "CS120"
+  },
+  "Dark Brown Laserable Leatherette Pen Sleeve": {
+    "default": "CS121"
+  },
+  "Black/Gold Laserable Leatherette Pen Sleeve": {
+    "default": "CS122A"
+  },
+  "Rawhide Laserable Leatherette Pen Sleeve": {
+    "default": "CS123"
+  },
+  "Gray Laserable Leatherette Pen Sleeve": {
+    "default": "CS124"
+  },
+  "Pink Laserable Leatherette Pen Sleeve": {
+    "default": "CS127"
+  },
+  "Black/Silver Laserable Leatherette Pen Sleeve": {
+    "default": "CS128"
+  },
+  "Rustic/Gold Laserable Leatherette Pen Sleeve": {
+    "default": "CS129"
+  },
+  "Teal Laserable Leatherette Pen Sleeve": {
+    "default": "CS132"
+  },
+  "Maple Pen/Pencil Case": {
+    "default": "CS203M"
+  },
+  "Rosewood Pen/Pencil Case": {
+    "default": "CS203R"
+  },
+  "Genuine Walnut 10 1/2\" Desk Wedge": {
+    "default": "DS10"
+  },
+  "Genuine Walnut 12 1/2\" Desk Wedge": {
+    "default": "DS12"
+  },
+  "Genuine Walnut Desk Wedge with Card Holder": {
+    "default": "DS20"
+  },
+  "Genuine Walnut 8 1/2\" Desk Wedge": {
+    "default": "DS8"
+  },
+  "Jade 10\" Glass Desk Wedge": {
+    "default": "GDW10J",
+    "10\" x 2\" x 3/4\"": "GDW010J",
+    "8\" x 2\" x 3/4\"": "GDW08J"
+  },
+  "Jade Glass 8\" Desk Wedge": {
+    "default": "GDW8J"
+  },
+  "Glass Name Plate w/Black Silkscreened Engraving Area, Mirror Border": {
+    "default": "G2788"
+  },
+  "Rosewood Pen or Letter Opener Case (holds single piece only)": {
+    "default": "PB5656R"
+  },
+  "Rosewood Pen and Letter Opener Set": {
+    "default": "PKC6200R"
+  },
+  "Rosewood Finish Pen and Key Ring": {
+    "default": "PKC6400"
+  },
+  "Matte Silver Business Card Case": {
+    "default": "PAB02"
+  },
+  "Rosewood Piano Finish Desk Wedge (NP10 Plate Sold Separately)": {
+    "default": "PNA210"
+  },
+  "Rosewood Piano Finish Desk Wedge": {
+    "default": "PNA28"
+  },
+  "Rosewood Piano Finish & Metal Name Bar (NP10 Plate Sold Separately)": {
+    "default": "PNA310"
+  },
+  "Rosewood Piano Finish Desk Wedge with Card Holder (NP10 Plate Sold Separately)": {
+    "default": "PNA410"
+  },
+  "Rosewood Piano Finish Desk Wedge with Card Holder (NP8 Plate Sold Separately)": {
+    "default": "PNA48"
+  },
+  "Black Piano Finish Desk Wedge (NP10 Plate Sold Separately)": {
+    "default": "PNB210"
+  },
+  "Black Piano Finish Desk Wedge (NP8 Plate Sold Separately)": {
+    "default": "PNB28"
+  },
+  "Goldtone Ballpoint Pens on Solid Walnut Base with Black Plate": {
+    "default": "PS5195"
+  },
+  "Maple and Walnut Pen Case": {
+    "default": "PS70"
+  },
+  "Rosewood Piano Finish Pen Set with Silver Aluminum Accents": {
+    "default": "PS8111"
+  },
+  "Rosewood Piano Finish Post-It Note Holder with Black Plate": {
+    "default": "502"
+  },
+  "Double Gold-Tone Pen Set on Rosewood Piano Finish Base, Black Plate": {
+    "default": "503"
+  },
+  "Floating Pen Desk Set with Memo Pad in Matte Teakwood Finish, Black Plate": {
+    "default": "510"
+  },
+  "American Walnut Nameplate with Business Card Holder, Black Plate": {
+    "default": "PAB05"
+  },
+  "Rosewood Piano Finish Nameplate with Business Card Holder, Plate": {
+    "default": "PAB04"
+  },
+  "Black Piano Finish Desk Wedge with Plate": {
+    "default": "556"
+  },
+  "Rosewood Piano Finish Desk Wedge with Black Plat": {
+    "default": "572"
+  },
+  "Rosewood Piano Finish Nameplate with Gold Metal Accents, Black Plate": {
+    "default": "588"
+  },
+  "Black Piano Finish Nameplate with Acrylic Engraving Plate, Two Silver Posts": {
+    "default": "591"
+  },
+  "Rosewood Piano Finish Nameplate with Acrylic Engraving Plate, Two Silver Posts": {
+    "default": "598"
+  },
+  "Tennis Jazz Star Resin": {
+    "default": "JSR112"
+  },
+  "Tennis Little Pals Resin": {
+    "default": "LPR10"
+  },
+  "Cheer Jazz Star Resin": {
+    "default": "JSR104"
+  },
+  "Cheer Little Pals Resin": {
+    "default": "LPR04"
+  },
+  "Cheer Triad Resin": {
+    "default": "TRD104"
+  },
+  "Golf Ball/Club Resin": {
+    "default": "JDS31A"
+  },
+  "Female Golf Resin": {
+    "default": "JDS44"
+  },
+  "Soccer Blaze Award": {
+    "default": "BZ04"
+  },
+  "Soccer Jazz Star Resin": {
+    "default": "JSR109"
+  },
+  "Soccer Little Pals Resin": {
+    "default": "LPR08"
+  },
+  "Soccer Triad Award": {
+    "default": "TRD109"
+  },
+  "Soccer Tri Star Resin": {
+    "default": "TS806"
+  },
+  "American Eagle Awards": {
+    "default": "MX2015",
+    "12\"": "AE710",
+    "14''": "AE620",
+    "9 3/4\"": "AE600",
+    "7 1/2\"": "AE700",
+    "14 1/2\"": "AE720",
+    "19 1/2\"": "AE1000",
+    "25 1/2\"": "AE2000",
+    "10 1/2\"": "GA201",
+    "11\"": "GA202",
+    "11 3/4\"": "L-017-28",
+    "6\"": "L-018-28",
+    "8 3/4\"": "L-019-28",
+    "8\"": "L-016-28"
+  },
+  "EAGLE ON BASE PAINTED": {
+    "default": "AE20",
+    "101.2\"": "PLAQ1012"
+  },
+  "EAGLE HEAD ON WOOD BASE": {
+    "default": "AE215"
+  },
+  "EAGLE HEAD ON BASE": {
+    "default": "AE250",
+    "81.2\"": "PLAQ812"
+  },
+  "EAGLE & FLAG COPPER WITH CHERRY BASE": {
+    "default": "AE302",
+    "91.4\"": "PLAQ914"
+  },
+  "EAGLE & FLAGS WITH CHERRY BASE": {
+    "default": "AE305",
+    "11\"": "PLAQ101"
+  },
+  "EAGLE HEAD&FLAG WITH CHERRY BASE": {
+    "default": "AE308"
+  },
+  "Car Awards": {
+    "default": "SL791"
+  },
+  "Black Piano Finish Book Clock w/Diamond Spun Dial, 3 Hand Movement, Black Plate": {
+    "default": "BC1055"
+  },
+  "Walnut Quartz Book Clock, Brass Diamond Spun Bezel, Glass Lens, Ivory Dial": {
+    "default": "BC8"
+  },
+  "Rosewood Piano Finish Book Clock w/Diamond Spun Dial, 3 Hand Movement, Plate": {
+    "default": "BC834"
+  },
+  "Cherry Finish Clock w/3 Hand Movement, Shelf Stand or Wall Mount": {
+    "default": "BC1014"
+  },
+  "Walnut Quartz Clock, Brass Diamond Spun Bezel, Glass Lens, Ivory Dial, Plate": {
+    "default": "BC380"
+  },
+  "American Walnut Quartz Clock with Black Plate/Hangs Vertical or Horizontal": {
+    "default": "BC52"
+  },
+  "Black Piano Finish Clock, Waterfall Bezel w/Glass Lens, Gold Dial, Plate": {
+    "default": "BC55"
+  },
+  "Rosewood Piano Finish Clock, Waterfall Bezel w/Glass Lens, Gold Dial, Plate": {
+    "default": "BC68"
+  },
+  "Walnut Quartz Clock, Brass Diamond Spun Bezel, Glass Lens, Black & Gold Dial": {
+    "default": "BC828"
+  },
+  "Solid Brass Diamond Spun Bezel w/Glass Lens and Ivory Dial, Black Plate": {
+    "default": "BC888"
+  },
+  "Rosewood Piano Finish Clock, Brass Bezel w/Glass Lens, Black/Gold Dial, Plate": {
+    "default": "BC98"
+  },
+  "Arch Glass Clock with Second Hand Timing and Alarm": {
+    "default": "GCK001"
+  },
+  "Clear Crystal with Clock and Black Crystal Base": {
+    "default": "CRY171"
+  },
+  "Clear Crystal Crescent on Black Crystal Base": {
+    "default": "CRY011L"
+  },
+  "Desk Clock w/Beveled Glass Upright, Silver Metal Base, 3 Hand Movement, Plate": {
+    "default": "BC999"
+  },
+  "Glass Clock with Frosted Top, Polished Edge and Base, Black Plate": {
+    "default": "BC985"
+  },
+  "Crystal Clock": {
+    "default": "BC962"
+  },
+  "Rosewood Piano Finish Clock, Brass Base, Diamond Spun Dial, 3 Hand Movement": {
+    "default": "BC48"
+  },
+  "Rosewood Piano Finish Clock with Glass Picture Frame/Black Plate": {
+    "default": "BC19"
+  },
+  "Rosewood Piano Finish Clock with Two Engraving Plates to Accomodate Extra Copy": {
+    "default": "BC3"
+  },
+  "Clear Crystal Faceted Rising Spire on Black Base": {
+    "default": "CRY059M"
+  },
+  "Skeleton Clock w/Sub-Second Dial, Brass Finish Movement, Rosewood Piano Accents": {
+    "default": "BC523"
+  },
+  "Glass Clock, Brushed Aluminum Panel, White Dial and Black Aluminum Plate": {
+    "default": "BC65"
+  },
+  "Glass and Rosewood Piano Finish Clock with Gold Metal Accents": {
+    "default": "BC956"
+  },
+  "Large Crystal Diamond on Clear Pedestal Base": {
+    "default": "CRY104"
+  },
+  "Arch Clock with Glass Upright and Rosewood Piano Finish Post and Base, Plate": {
+    "default": "BC919"
+  },
+  "Napolean Clock,Traditional Style, Deep Hand Rubbed Mahogany Finish, Black Plate": {
+    "default": "BC901"
+  },
+  "Desktop Clock, Rosewood Piano Finish Wood w/Gold Metal Accents, Black Plate": {
+    "default": "BC899"
+  },
+  "Rosewood Piano Finish Desk Clock with Black Plate": {
+    "default": "BC892"
+  },
+  "Rosewood Piano Finish Mantle Clock, Chrome Plated Posts, Silver Accents": {
+    "default": "BC879"
+  },
+  "Beveled Glass Desk Clock, Rosewood Piano Finish Base, Gold Metal Accents, Plate": {
+    "default": "BC872"
+  },
+  "Rosewood Arch Piano Finish Clock, Brass Base, Diamond Spun Dial, 3 Hand Movement": {
+    "default": "BC46"
+  },
+  "Glass Clock with World Dial on Black High Gloss Base, Black Plate": {
+    "default": "BC1039"
+  },
+  "Glass Clock with Rosewood High Gloss Base, Black Aluminum Plate": {
+    "default": "BC1028"
+  },
+  "Glass Clock with World Time Dial on Piano Finish Base, Black Aluminm Plate": {
+    "default": "BC1020"
+  },
+  "Rail Station Style Desk Clock on Rosewood Finish High Gloss Base, Black Plate": {
+    "default": "BC1000"
+  },
+  "Crystal Oval on Clear Base": {
+    "default": "CRY164"
+  },
+  "Clear Crystal Block on Black Crystal Base": {
+    "default": "CRY1819"
+  },
+  "Triple Crystal Blocks on a Black Base": {
+    "default": "CRY1933"
+  },
+  "Clear Crystal 4\" Diameter Diamond": {
+    "default": "CRY108"
+  },
+  "Crystal Diamond on a Clear Pedestal Base": {
+    "default": "CRY1433MC"
+  },
+  "Crystal Diamond on Black Crystal Pedestal": {
+    "default": "CRY1459MB"
+  },
+  "Crystal Diamond on Clear Crystal Pedestal": {
+    "default": "CRY1459MC"
+  },
+  "Blue Crystal Floating Diamond with Blue Columns on Clear Base": {
+    "default": "CRY243"
+  },
+  "Clear Crystal Diamond on Blue Pedestal Base": {
+    "default": "CRY272"
+  },
+  "Crystal Diamond Top Award on Black Pedestal Base": {
+    "default": "CRY03211C"
+  },
+  "Clear Crystal 5 Rising Diamonds on Black Pedestal Base": {
+    "default": "CRY6924M"
+  },
+  "Crystal Globe on Clear Tower": {
+    "default": "CRY116",
+    "8\"": "CRY159",
+    "6\"": "CRY160"
+  },
+  "Crystal Spinning Globe on Black Pedestal Base": {
+    "default": "CRY1435MB"
+  },
+  "Clear Crystal Slant Front Rectangle": {
+    "default": "CRY1828"
+  },
+  "Crystal Spinning Globe on Black Base": {
+    "default": "CRY315"
+  },
+  "Clear Crystal Dome with Inset Globe on Black Base": {
+    "default": "CRY318"
+  },
+  "Clear Crystal with Inset Crystal Globe and Blue Base": {
+    "default": "CRY536"
+  },
+  "Blue Crystal Globe with Base and Pen": {
+    "default": "CRY7211"
+  },
+  "Clear Crystal Globe in Hand": {
+    "default": "CRY75"
+  },
+  "Crystal Golf Ball on Black Pedestal Base": {
+    "default": "CRY008G"
+  },
+  "Crystal Golf Club & Ball on Black Base": {
+    "default": "CRY044L"
+  },
+  "Clear Crystal Golf Ball on Facet Column w/Black Base": {
+    "default": "CRY058M"
+  },
+  "Round Facet Crystal with Golf Ball on Clear Pedestal Base": {
+    "default": "CRY161"
+  },
+  "Clear Crystal Golf Ball & Club on Black Pedestal Base": {
+    "default": "CRY305"
+  },
+  "Clear Crystal Golf Wave on Black Pedestal Base": {
+    "default": "CRY338"
+  },
+  "Crystal Golf Ball Wine Stopper": {
+    "default": "CRY3612"
+  },
+  "Clear Crystal Golf Ball Clock with Black Pedestal Base": {
+    "default": "CRY6101L"
+  },
+  "Oval Crystal with Decorative Edge": {
+    "default": "CRY143"
+  },
+  "Rounded Crystal wiht Decorative Edge": {
+    "default": "CRY144"
+  },
+  "High Gloss Rosewood Finish Book Award with Two Full Color Plates": {
+    "default": "P4877"
+  },
+  "Full Color Plaque (Sublimatable) with Black Edge": {
+    "default": "UN1004"
+  },
+  "American Walnut Plaque with Black Brass Plate (Sheffield Series)": {
+    "default": "P102",
+    "4 1/2\" x 6\"": "P640",
+    "5\" x 7\"": "P641",
+    "6\" x 8\"": "P642",
+    "8\" x 10\"": "P644",
+    "9\" x 12\"": "P645"
+  },
+  "American Walnut Shield Plaque with Black Brass Plate (Sheffield Series)": {
+    "default": "P106",
+    "6\" x 7 1/2\"": "P810",
+    "7 1/4\" x 9\"": "P811",
+    "8 1/2\" x 10 1/2\"": "P812"
+  },
+  "American Walnut Plaque with 2\" Activity Insert": {
+    "default": "P1415"
+  },
+  "American Walnut Plaque with 2\" Activity Insert (Witney Series)": {
+    "default": "P5444",
+    "4 1/2\" x 6\"": "P1410",
+    "6\" x 8\"": "P1411"
+  },
+  "American Walnut Plaque with 4\" Diameter Black Disc and Black Brass Plate": {
+    "default": "P3332"
+  },
+  "American Walnut Plaque with Sapphire Marble LaserFX Plate": {
+    "default": "P3120",
+    "7\" x 9\"": "P3486",
+    "8\" x 10 1/2\"": "P3487",
+    "9\" x 12\"": "P3488"
+  },
+  "Walnut Plaque with Black/Gold 2 1/2\" Laserable Brass Disc (Sheffield Series)": {
+    "default": "P2498"
+  },
+  "Wrestling Award": {
+    "default": "RFB017",
+    "8 7/5\"": "85-01-29",
+    "6.5\"": "RST334",
+    "8.5\"": "RST534"
+  },
+  "SATURN RESIN SERIES WRES": {
+    "default": "RF2627",
+    "6\"": "SRSW06"
+  },
+  "LITTLE BUDDY BOWLER": {
+    "default": "LBR05"
+  },
+  "MOTION X MALE BOWLING": {
+    "default": "MX713"
+  },
+  "MOTION X FEMALE BOWLING": {
+    "default": "MX714"
+  },
+  "RESIN COMET SERIES BOWLING": {
+    "default": "RCS104"
+  },
+  "RESIN DIAMOND PLATE BOWLING": {
+    "default": "RDP05"
+  },
+  "Bowling Award": {
+    "default": "RF1176SG",
+    "6 5\"": "RST228",
+    "8 5\"": "RST428"
+  },
+  "STAR SERIES BOWLING": {
+    "default": "RF1804"
+  },
+  "SATURN RESIN SERIES": {
+    "default": "RF2608"
+  },
+  "FEMALE BOWLING ON BASE": {
+    "default": "RFG35"
+  },
+  "RESIN PLATE BOWLING": {
+    "default": "RFH505"
+  },
+  "FLAME SERIES BOWLING": {
+    "default": "RFL05B"
+  },
+  "BOWLING IMPACT SERIES": {
+    "default": "RIC861"
+  },
+  "VICTORY, FEMALE": {
+    "default": "F257"
+  },
+  "3D SPORT STARS BOWLING": {
+    "default": "SSR04"
+  },
+  "FOUR STAR BOWLING": {
+    "default": "STS104"
+  },
+  "FOOTBALL ON BASE": {
+    "default": "RF755",
+    "12\"": "RF755A"
+  },
+  "ASSEM MOTION TROPHY FOOTBALL": {
+    "default": "ATR110"
+  },
+  "Football Award": {
+    "default": "BT759"
+  },
+  "FOOTBALL CRYSTAL WITH LASER": {
+    "default": "CRY212"
+  },
+  "RESIN FOOTBALL FIGURE": {
+    "default": "CSR1006"
+  },
+  "FOOTBALL ACRYLIC DISPLAY": {
+    "default": "DCM-FTBL "
+  },
+  "HELMET ACRYLIC DISPLAY": {
+    "default": "DCM-HLMT"
+  },
+  "STAMFORD RESIN FOOTBALL": {
+    "default": "JDP410"
+  },
+  "RIBBON FIG FOOTBALL": {
+    "default": "MF5506"
+  },
+  "MOTION X MALE FOOTBALL": {
+    "default": "MX509"
+  },
+  "KING": {
+    "default": "F4044"
+  },
+  "VICTORY, MALE": {
+    "default": "F254"
+  },
+  "BEAUTY QUEEN": {
+    "default": "F841"
+  },
+  "BEAUTY QUEEN, FEMALE": {
+    "default": "F2437"
+  },
+  "MOTION X OVAL FOOTBALL": {
+    "default": "MX2009"
+  },
+  "RESIN COMET SERIES FOOTBALL": {
+    "default": "RCS106"
+  },
+  "RESIN DIAMOND PLATE FOOT": {
+    "default": "RDP10"
+  },
+  "RESIN FOOTBALL HELMET": {
+    "default": "RF138D"
+  },
+  "STAR SERIES FOOTBALL": {
+    "default": "RF1806",
+    "6\"": "RF1910A"
+  },
+  "RESIN CHECKMATE FOOTBALL": {
+    "default": "RF1910"
+  },
+  "FOOTBALL RUNNER BRONZE GOLD": {
+    "default": "RF2325B"
+  },
+  "FOOTBALL RUNNER WITH GOLD": {
+    "default": "RF2325SG"
+  },
+  "SATURN RESIN SERIES FOOTBALL": {
+    "default": "RF2610"
+  },
+  "FOOTBALL, BURSTER PLT": {
+    "default": "RF-3630",
+    "5.5\"": "RF-3630A"
+  },
+  "Police Award": {
+    "default": "RF1155"
+  },
+  "FULL COLOR FOOTBALL": {
+    "default": "RF-7030-60-BM"
+  },
+  "FOOTBALL PEDESTAL": {
+    "default": "RFB027",
+    "10.5\"": "RFB027A"
+  },
+  "FOOTBALL, BRONZE WITH GOLD": {
+    "default": "RX802AB"
+  },
+  "FOOTBALL RUNNER, MALE": {
+    "default": "RX3381B"
+  },
+  "3D SPORT STARS FOOTBALL": {
+    "default": "SSR06"
+  },
+  "BILLBOARD SERIES SM SWIM": {
+    "default": "RST216"
+  },
+  "DELTA RESIN SWIMMING": {
+    "default": "RF6014"
+  },
+  "RESIN CURVE SERIES SWIM": {
+    "default": "RF2814"
+  },
+  "SWIMMING RES PLATE": {
+    "default": "RF2769"
+  },
+  "ULTRA ACTION SPT SWIM F": {
+    "default": "RF2727"
+  },
+  "ULTRA ACTION SPT SWIM M": {
+    "default": "RF2726"
+  },
+  "SATURN RESIN SERIES Swimming Award": {
+    "default": "RF2617"
+  },
+  "RESIN CHECKMATE SWIMMING": {
+    "default": "RF1926"
+  },
+  "STAR SERIES SWIMMING": {
+    "default": "RF1814"
+  },
+  "RESIN COMET SERIES SWIMM": {
+    "default": "RCS114"
+  },
+  "3-D LARGE OVAL SWIM, F": {
+    "default": "3D439"
+  },
+  "3-D LARGE OVAL SWIM, M": {
+    "default": "3D438"
+  },
+  "3-D SMALL OVAL SWIMMIN": {
+    "default": "3D238"
+  },
+  "3-D LARGE OVAL HOCKEY": {
+    "default": "3D414"
+  },
+  "STAMFORD RESIN HOCKEY": {
+    "default": "JDP413"
+  },
+  "LITTLE BUDDY HOCKEY": {
+    "default": "LBR13"
+  },
+  "MOTION X MALE HOCKEY": {
+    "default": "MX717"
+  },
+  "MOTION X OVAL HOCKEY": {
+    "default": "MX2017"
+  },
+  "ICE HOCKEY FORWARD M": {
+    "default": "RF1341SG"
+  },
+  "ICE HOCKEY WITH GOLD TRIM": {
+    "default": "RF2301SG"
+  },
+  "HOCKEY GOALIE WITH GOLD TRIM": {
+    "default": "RF2311SG"
+  },
+  "ICE HOCKEY MALE": {
+    "default": "RX3101K"
+  },
+  "SATURN RESIN SERIES HOCKEY": {
+    "default": "RF2609"
+  },
+  "ULTRA ACTION SPORT HOCKEY": {
+    "default": "RF2709"
+  },
+  "RESIN CURVE SERIES HOCKEY": {
+    "default": "RF2810"
+  },
+  "SPORTS FRAME HOCKEY": {
+    "default": "RF8610"
+  },
+  "HOCKEY MALE LARGE": {
+    "default": "RFB023"
+  },
+  "WINNERS CUP RESIN HOCKEY": {
+    "default": "RFC10"
+  },
+  "ICE HOCKEY GOALIE MALE": {
+    "default": "RFCR121AA"
+  },
+  "RESIN PLATE HOCKEY MALE": {
+    "default": "RFH513"
+  },
+  "HOCKEY IMPACT SERIES": {
+    "default": "RIC857"
+  },
+  "STAR BURST RESIN HOCKEY": {
+    "default": "RS13"
+  },
+  "SUPER STAR SM HOCKEY MALE": {
+    "default": "RST313"
+  },
+  "SUPER STAR SM HOCKEY F": {
+    "default": "RST314"
+  },
+  "SUPER STAR LG HOCKEY MALE": {
+    "default": "RST513"
+  },
+  "HOCKEY GOALIE": {
+    "default": "RST515"
+  },
+  "HOCKEY RESIN WITH CLOCK": {
+    "default": "RTC1101B"
+  },
+  "3D SPORT STARS HOCKEY": {
+    "default": "SSR10"
+  },
+  "Vollyball Award": {
+    "default": "CRY1218"
+  },
+  "Trophy Cup Awards": {
+    "default": "AMC204"
+  },
+  "Rosewood Desk Clock": {
+    "default": "RWS38"
+  },
+  "Rosewood Book Clock": {
+    "default": "RWS27"
+  },
+  "Desk set Slant Base": {
+    "default": "Q154"
+  },
+  "Pf Rosewood Wall Clock": {
+    "default": "Q055"
+  },
+  "Desk Set Slant Base": {
+    "default": "Q064"
+  },
+  "Piano Fin Rosewood Box": {
+    "default": "Q032"
+  },
+  "Superstar Lg Cheerleader": {
+    "default": "RST506"
+  },
+  "Star Burst Resin Cheerleading": {
+    "default": "RS06"
+  },
+  "Delta Resin Cheerleading": {
+    "default": "RF6005"
+  },
+  "Saturn Series Resin Cheerlead": {
+    "default": "RF2606"
+  },
+  "Star Series Cheerleading": {
+    "default": "RF1805"
+  },
+  "Flag Series Cheerleading": {
+    "default": "RF1606"
+  },
+  "Billboard Series Cheerleading": {
+    "default": "RST306"
+  },
+  "Assembled Cheerleader Trophy": {
+    "default": "ATR306"
+  },
+  "Assem Motion Cheerleader Trophy": {
+    "default": "ATR106"
+  },
+  "Cheerleader Crystal with 3D": {
+    "default": "CRY1292"
+  },
+  "Flags": {
+    "default": "SAC55"
+  },
+  "Resin Sprint Car": {
+    "default": "SAC65"
+  },
+  "Car Show": {
+    "default": "SAC006"
+  },
+  "Crystal Eagle Awards": {
+    "default": "CRY801"
+  },
+  "Eagle Head Tower": {
+    "default": "CRY320"
+  },
+  "Crystal Eagle On Riser Award": {
+    "default": "CRY187"
+  },
+  "Softball Crystal Awards": {
+    "default": "CRY1290"
+  },
+  "Softball Crystal with Laser Awards": {
+    "default": "CRY290"
+  },
+  "WOODEN SPOON AWARD": {
+    "default": "RFA-0471"
+  },
+  "COACH WHISTLE": {
+    "default": "RFA-2881-1"
+  },
+  "Premier Black Piano Finish Floating Acrylic Plaque": {
+    "default": "FPA21113A",
+    "8\"x10\"": "FPA2810",
+    "10 1/2\" x 13\"": "FPA21113",
+    "9\" x 12\"": "FPA2912"
+  },
+  "Small Black Piano Finish Floating Acrylic Plaque": {
+    "default": "FPA2810A"
+  },
+  "Medium Black Piano Finish Floating Acrylic Plaque": {
+    "default": "FPA2912A"
+  },
+  "Small Blue Velvet Stand-Off Acrylic Plaque": {
+    "default": "FAC1810"
+  },
+  "Large Blue Velvet Stand-Off Acrylic Plaque": {
+    "default": "FAC1912"
+  },
+  "Small Red Velvet Stand-Off Acrylic Plaque": {
+    "default": "FAC2810"
+  },
+  "Medium Rosewood Piano Finish Floating Acrylic Plaque": {
+    "default": "FPA1912A"
+  },
+  "Small Rosewood Piano Finish Floating Acrylic Plaque": {
+    "default": "FPA1810A"
+  },
+  "Large Rosewood Piano Finish Floating Acrylic Plaque": {
+    "default": "FPA11113A"
+  },
+  "Large Red Velvet Stand-Off Acrylic Plaque": {
+    "default": "FAC2912A"
+  },
+  "Crystal Gavel on a Black Crystal Base": {
+    "default": "CRY0047"
+  },
+  "Rounded Crystal with Decorative Edge": {
+    "default": "CRY1444"
+  },
+  "Crystal 3D Clear Apple": {
+    "default": "CRY1457S"
+  },
+  "Crystal Globe on Clear Crystal Tower Base": {
+    "default": "CRY0159"
+  },
+  "Crystal Apple with Flat Face": {
+    "default": "CRY01594"
+  },
+  "Crystal Slant Golf Tablet": {
+    "default": "CRY0182"
+  },
+  "Clear/Red Crystal Slant Heart": {
+    "default": "CRY23001RDM"
+  },
+  "Clear/Black Crystal Slant Oval": {
+    "default": "CRY23003BKM"
+  },
+  "Clear Blue Crystal Slant Oval": {
+    "default": "CRY23003BUM"
+  },
+  "Crystal Golf Dome": {
+    "default": "CRY3008"
+  },
+  "Crystal Apple": {
+    "default": "CRY3614L"
+  },
+  "Crystal 5-Post Rising Diamonds on a Black Crystal Base": {
+    "default": "CRY06924M"
+  },
+  "Crystal Facet Slant-Top Tower": {
+    "default": "CRY074"
+  },
+  "Crystal Globe on Silver Metal Teamwork Stand/Black Base": {
+    "default": "EX0001"
+  },
+  "Gold & Silver Metal Globe on Black Piano Finish Base": {
+    "default": "EX0003",
+    "8\"": "CRY888",
+    "10\"": "CRY889",
+    "12\"": "CRY890"
+  },
+  "Crystal Golf Wave on Black Base": {
+    "default": "CRY3380"
+  },
+  "Beveled Clear Rectangle Acrylic": {
+    "default": "BAC23"
+  },
+  "Acrylic CAM Award with Gold Base, Black Brass Plate (Medallion Sold Separately)": {
+    "default": "A1500"
+  },
+  "Flame Series Acrylic with Black and Silver Metal Base": {
+    "default": "A6907"
+  },
+  "Premium Series Acrylic on Mahogany Finish Base": {
+    "default": "A6804"
+  },
+  "Flame Jade Acrylic with Rosewood Piano Finish Base and Posts, Gold Metal Accents": {
+    "default": "A6802"
+  },
+  "Arch Series Jade Acrylic with Rosewood Piano Finish Base, Gold Metal Accents": {
+    "default": "A6575"
+  },
+  "Octagon Series Jade Acrylic with Rosewood Piano Finish Base, Gold Metal Accent": {
+    "default": "A6546"
+  },
+  "Diamond Series Jade Acrylic with Rosewood Piano Finish Base, Gold Metal Accents": {
+    "default": "A6542"
+  },
+  "Jade Glass Perpetual Award with 12 Individual Aluminum Blocks": {
+    "default": "G2 000"
+  },
+  "Jade Glass Book Award": {
+    "default": "G 2638"
+  },
+  "Etched Clear Glass Award with Star and Mountain Peak on Blue Glass Base": {
+    "default": "G 2883"
+  },
+  "Freestanding Glass Award with High Gloss Rosewood Accent and Silver Star": {
+    "default": "G 2792"
+  },
+  "Star Jade Glass Award": {
+    "default": "G 2757"
+  },
+  "Mahogany Finish Captain's Clock, Brass Clock Housing, 4 1/4\" Diameter Brass Disc": {
+    "default": "BC73"
+  },
+  "Rosewood Piano Finish Arched Table Clock w/Solid Brass Base, Plack Plate": {
+    "default": "BC858"
+  },
+  "Rosewood Piano Finish Clock, Diamond Spun Dial,Three Hand Movement, Black Plate": {
+    "default": "BC937"
+  },
+  "Hand Rubbed Mahogany Finish Box Clock, Metal Goldtone Knobs and Velour Lined Lid": {
+    "default": "BC948"
+  },
+  "RUNNING STAR SWIMMING": {
+    "default": "RST817"
+  },
+  "MOTION X MALE TRACK 3-D)": {
+    "default": "MX523"
+  },
+  "STAR SERIES TRACK": {
+    "default": "RF1816",
+    "6\"": "RF-1816"
+  },
+  "SUPER STAR SM TRACK F": {
+    "default": "RST323"
+  },
+  "VOLLEYBALL VICTORY": {
+    "default": "RFB2306C"
+  },
+  "VERONA ASSEMBLED CUP": {
+    "default": "DAK003-G"
+  },
+  "Rosewood Letter Opener": {
+    "default": "PS5678R"
+  },
+  "Rosewood Piano Finish Gavel": {
+    "default": "5120"
+  },
+  "Black/Silver Laser Leather Desktop Plaque with Chrome Plated Base": {
+    "default": "1609"
+  },
+  "Top Referral CAM Medallion": {
+    "default": "ZX1576"
+  },
+  "Sales of the Year Award CAM Medallion": {
+    "default": "ZX1582"
+  },
+  "Teamwork CAM Medallion": {
+    "default": "ZX1595"
+  },
+  "Employee of the Year CAM Medallion": {
+    "default": "ZX1571"
+  },
+  "Rising Star CAM Medallion": {
+    "default": "ZX1574"
+  },
+  "Top Listing CAM Medallion": {
+    "default": "ZX1575"
+  },
+  "Outstanding Manager CAM Medallion": {
+    "default": "ZX1557"
+  },
+  "Speaker Award CAM Medallion": {
+    "default": "ZX1565"
+  },
+  "Congratulations CAM Medallion": {
+    "default": "ZX1570"
+  },
+  "Sales Achievement CAM Medallion": {
+    "default": "ZX1550"
+  },
+  "Safety CAM Medallion": {
+    "default": "ZX1552"
+  },
+  "Leadership CAM Medallion": {
+    "default": "ZX1556"
+  },
+  "Black Piano Finish Plaque with Gold Scroll Frame & Black LaserFX Plate": {
+    "default": "P5479"
+  },
+  "American Walnut Plaque with Firefighter Relief and Black Brass Plate": {
+    "default": "P7",
+    "7\" x 9\"": "P2792",
+    "8\" x 10\"": "P2793"
+  },
+  "American Walnut Notch Corner Plaque w/Antique Bronze Scroll/Brushed Brass Plate": {
+    "default": "P863"
+  },
+  "Rosewood Piano Finish Plaque with Gold Sunburst Frame and Black LaseFX Plate": {
+    "default": "P5466"
+  },
+  "Black Piano Finish Plaque with Gold Sunburst Frame & Black LaserFX Plate": {
+    "default": "P5470"
+  },
+  "Rosewood Piano Finish Plaque with Gold Scroll Frame & Black LaserFX Plate": {
+    "default": "P5473"
+  },
+  "Plack Piano Finish Plaque, Antique Silver Frame Casting & Black Aluminum Plate": {
+    "default": "P3932"
+  },
+  "Rosewood Piano Finish Plaque w/Antique Bronze Cast Frame and Black Brass Plate": {
+    "default": "P3936"
+  },
+  "Rosewood Piano Finish Plaque with Antique Bronze Frame & Black LaserFX Plate": {
+    "default": "P4137"
+  },
+  "Rosewood Piano Finish Plaque w/Bronze Finish Cast Frame and Black Brass Plate": {
+    "default": "P3747"
+  },
+  "Rosewood Piano Finish Plaque, Antique Bronze Frame Casting, Black Brass Plate": {
+    "default": "P3823"
+  },
+  "Black Piano Finish Plaque, Antique Bronze Frame Casting, Black Brass Plate": {
+    "default": "P3825"
+  },
+  "Jade Rectangular Acrylic Paperweight": {
+    "default": "A3905JD"
+  },
+  "Peak Jade Acrylic Award with Aluminum Base": {
+    "default": "A6500"
+  },
+  "Flame Series Clear Acrylic on Black and Gold Metal Base": {
+    "default": "A6810"
+  },
+  "Gold Jewel Mirage Acrylic": {
+    "default": "MR41G"
+  },
+  "Blue Jewel Mirage Acrylic": {
+    "default": "MR41BU"
+  },
+  "Shield Series Clear Acrylic with Polished Score Lines and Blue Metallic Accent": {
+    "default": "A7165"
+  },
+  "Blue Acrylic Award with Etched and Color-Filled Star on Constellation Background": {
+    "default": "A7099"
+  },
+  "M FOOTBALL RUNNER": {
+    "default": "02-1301-00"
+  },
+  "FOOTBALL 110MM": {
+    "default": "CRY149"
+  },
+  "FOOTBALL UPRIGHT": {
+    "default": "CRY341"
+  },
+  "FOOTBALL M CRYSTAL WITH 3D": {
+    "default": "CRY1212"
+  },
+  "3D FOOTBALL THEME": {
+    "default": "RF113X"
+  },
+  "FANTASY FOOTBALL": {
+    "default": "RF139A"
+  },
+  "ICE HOCKEY FEMALE": {
+    "default": "RX3106K"
+  },
+  "SUPER STAR LG HOCKEY F": {
+    "default": "RST514"
+  },
+  "RADIANT SERIES HOCKEY M": {
+    "default": "RF1510B"
+  },
+  "ICE HOCKEY FORWARD F": {
+    "default": "RF1346SG"
+  },
+  "CRYSTAL GOLF BALL": {
+    "default": "CRY43"
+  },
+  "GOLF M CRYSTAL WITH 3D": {
+    "default": "CRY1213"
+  },
+  "M SWING SILVER WITH BLACK": {
+    "default": "G1553"
+  },
+  "GOLF FEMALE CRYSTAL WITH 3D": {
+    "default": "CRY1293"
+  },
+  "M DRIVER COPPER WITH BLACK": {
+    "default": "G1503"
+  },
+  "GOLF DRIVER MALE": {
+    "default": "G2683"
+  },
+  "IRON & BALL ON WOOD BASE": {
+    "default": "G3805"
+  },
+  "DRIVER & BALL ON WOOD BASE": {
+    "default": "G3905"
+  },
+  "MOTION X MALE GOLF": {
+    "default": "MX703",
+    "9.25\"": "MX803"
+  },
+  "MOTION X FEMALE GOLF": {
+    "default": "MX704"
+  },
+  "MOTION X OVAL MALE  GOLF": {
+    "default": "MX2003"
+  },
+  "MOTION X OVAL FEMALE  GOLF": {
+    "default": "MX2004"
+  },
+  "RESIN COMET SERIES GOLF": {
+    "default": "RCS130"
+  },
+  "RESIN DIAMOND PLATE GOLF": {
+    "default": "RDP11"
+  },
+  "GOLF BAG WITH GOLD TRIM": {
+    "default": "RF550SG"
+  },
+  "GOLF, MALE": {
+    "default": "RF553"
+  },
+  "GOLF BAG TROLLEY WITH GOLD": {
+    "default": "RF570SG"
+  },
+  "BILLBOARD SERIES LG GOLF": {
+    "default": "RST408",
+    "8\"": "RST407"
+  },
+  "VICTORY RESIN FOOTBALL": {
+    "default": "RV06A"
+  },
+  "RESIN V SERIES FOOTBALL": {
+    "default": "RG5006"
+  },
+  "BANNER FOOTBALL": {
+    "default": "RFS306",
+    "6\"": "RFS236-2",
+    "7\"": "RFS236-1"
+  },
+  "AG FOOTBALL RESIN": {
+    "default": "RF-7030-12-BM",
+    "14\"": "RF-703016"
+  },
+  "BRT GLD FOOTBALL": {
+    "default": "RF-7030-01"
+  },
+  "RESIN FANTASY FOOTBALL": {
+    "default": "RF2022"
+  },
+  "GOLD PLATED FOOTBALL": {
+    "default": "RF149C"
+  },
+  "Diamond Twist Art Glass with Black Glass Base/Plate Sold Separately": {
+    "default": "AGS13"
+  },
+  "Spire Twist with Black Glass Base/Plate Sold Separately": {
+    "default": "AGS14"
+  },
+  "Black & Gold Curve with Black Glass Base/Plate Sold Separately": {
+    "default": "AGS25"
+  },
+  "Red and Clear Apple Art Glass with Black Glass Base/Plate Sold Separately": {
+    "default": "AGS60"
+  },
+  "Egg Shaped Colored Art Glass/Black Glass Base w/Black Laserable Aluminum Plate": {
+    "default": "1610"
+  },
+  "Teardrop Art Glass on Black Glass Base w/Black Laserable Aluminum Plate": {
+    "default": "1625"
+  },
+  "Blue Egg Shaped Art Glass on Black Glass Base w/Black Laserable Aluminum Plate": {
+    "default": "1633"
+  },
+  "Disk Art Glass w/Blue and Ligh Green Accent and Black Laserable Aluminum Plate": {
+    "default": "2107"
+  },
+  "Globe w/Blue, White, Gold & Metallic Highlights/Black Laser Aluminum Plate": {
+    "default": "2123"
+  },
+  "Globe with Blue & White Sea Anemone Design with Black Laserable Aluminum Plate": {
+    "default": "2142"
+  },
+  "Blue Star Art Glass w/Gold Metallic Highlights & Black Laserable Aluminum Plate": {
+    "default": "2199"
+  },
+  "Blue and Black Teardrop Art Glass with Black Laserable Aluminum Plate": {
+    "default": "2220"
+  },
+  "Colorful Egg Shaped Art Glass with Black Laserable Aluminum Plate": {
+    "default": "2235"
+  },
+  "Red Teardrop Art Glass on Clear Glass Base/Black Laserable Aluminum Plate": {
+    "default": "2249"
+  },
+  "Red Egg Shaped Art Glass with Black Laserable Aluminum Plate": {
+    "default": "2255"
+  },
+  "Flame Art Glass on a Clear Glass Base with Black Laserable Aluminum Plate": {
+    "default": "2261"
+  },
+  "Frosted Glass Accent Arrow Art Glass with Black Laserable Aluminum Plate": {
+    "default": "2264"
+  },
+  "Blue and Green Teardrop Art Glass with Black Laserable Aluminum Plate": {
+    "default": "2266"
+  },
+  "Helix Multi-Color Art Glass/Clear Glass Base with Black Laserable Aluminum Plate": {
+    "default": "2270"
+  },
+  "Blue and Green Twist Art Glass with Black Laserable Aluminum Plate": {
+    "default": "2274"
+  },
+  "Multi-Colored Teardrop Art Glass wiwth Black Laserable Aluminum Plate": {
+    "default": "2277"
+  },
+  "Star Achiever Art Glass with Black Laserable Aluminum Plate": {
+    "default": "2282"
+  },
+  "Black and Red Helix Teardrop with Black Laserable Aluminum Plate": {
+    "default": "2285"
+  },
+  "Multi-Colored Teardrop Art Glass with Black Laserable Aluminum Plate": {
+    "default": "2311"
+  },
+  "Blue & Violet Art Glass with Black Laserable Aluminum Plate": {
+    "default": "2291"
+  },
+  "Rainbow Twist Art Glass/Clear Glass Base with Black Laserable Aluminum Plate": {
+    "default": "2293"
+  },
+  "Blue and White Disc Art Glass with Black Laserable Aluminum Plate": {
+    "default": "2294"
+  },
+  "Contemporary Sculpture w/Blue Accent Art Glass/Black Laserable Aluminum Plate": {
+    "default": "2297"
+  },
+  "Victory Art Glass on Clear Glass Base": {
+    "default": "2299"
+  },
+  "Teal/Green Teardrop with Gold Metallic Accent/Black Laser Aluminum Plate": {
+    "default": "2300"
+  },
+  "Blue and Green Helix Egg Shaped Art Glass with Black Laserable Aluminum Plate": {
+    "default": "2302"
+  },
+  "Twist Blue & Teal Art Glass w/Gold Metallic Accent & Black Laser Aluminum Plate": {
+    "default": "2308"
+  },
+  "Blue and Green Egg Shaped Art Glass with Black Laserable Aluminum Plate": {
+    "default": "2313"
+  },
+  "Modern Swan Design Art Glass with Black Laserable Aluminum Plate": {
+    "default": "2315"
+  },
+  "Diamond Series Blue Silkscreened Glass with Brushed Aluminum Post and Base": {
+    "default": "G 3010"
+  },
+  "Jade Glass Paperweight": {
+    "default": "GPW34J"
+  },
+  "Crystal Rectangle Paperweight": {
+    "default": "CRY3616"
+  },
+  "Crystal Apple on a Black Base": {
+    "default": "CRY1493M"
+  },
+  "Red Crystal Apple with Clear Base": {
+    "default": "CRY1554"
+  },
+  "Crystal Trophy with Silver Star, Prism-3ffect": {
+    "default": "K9079"
+  },
+  "Crystal Obelist with Prism-Effect Top and Black Base": {
+    "default": "K9090"
+  },
+  "Crystal Paperweight with Black Silkscreen": {
+    "default": "K9100"
+  },
+  "Crystal Trophy with Blue Globe": {
+    "default": "K9236"
+  },
+  "Crystal Obelisk": {
+    "default": "K9200"
+  },
+  "Red Crystal Star on Clear Crystal Base": {
+    "default": "K9212"
+  },
+  "Blue Crystal Star on Clear Crystal Base": {
+    "default": "K9214"
+  },
+  "Crystal Star Paperweight": {
+    "default": "K9251"
+  },
+  "Crystal Heart Ornament": {
+    "default": "K9305"
+  },
+  "Crystal Bell Ornament": {
+    "default": "K9314"
+  },
+  "Crystal Star Ornament": {
+    "default": "K9322"
+  },
+  "Crystal Diamond Ornament": {
+    "default": "K9337"
+  },
+  "American Walnut Plaque w/Frost Gold Back Plate & Sapphire Marble LaserFX Plate": {
+    "default": "P2717"
+  },
+  "Rosewood Piano Finish Plaques with Black Florentine Designer LaserFX Plates": {
+    "default": "P3770",
+    "7\" x 9\"": "P3756",
+    "8\" x 10.5\"": "P3757",
+    "9\" x 12\"": "P3758",
+    "10.5\" x 13\"": "P3744"
+  },
+  "Cherry Finish Plaque w/Black Brass Plate on a Gold Embossed Back Plate": {
+    "default": "P3554"
+  },
+  "Summit Series Jade Acrylic Diamond Award": {
+    "default": "A2150"
+  },
+  "Summit Series Jade Acrylic Rectangular Award": {
+    "default": "A5960"
+  },
+  "Arch Series Acrylic Featuring Blue Mirror Upright and Base with Convex Front": {
+    "default": "A6600"
+  },
+  "Premier Glass Football": {
+    "13.75 in": "abc",
+    "7.5 in": "efg"
+  },
+  "Rainbow Colored Twist Art Glass": {
+    "3.5*9 inches": "AG103"
+  },
+  "Blue Star Art Glass": {
+    "5*6.5 inches": "AG102"
+  },
+  "Contemporary Art Glass Sculpture with Blue Accent": {
+    "4*12 inches": "AG101"
+  },
+  "Blue and White Disc Art Glass": {
+    "5.5*7 inches": "AG104"
+  },
+  "Black and Red Helix Art Glass Award": {
+    "4*8 inches": "AG105"
+  },
+  "Helix-Shaped Multi-Color Art Glass": {
+    "4*10 inches": "AG106"
+  },
+  "Droplet-Shaped Blue and Green Art Glass": {
+    "4*8 inches": "AG107"
+  },
+  "Blue and Green Egg Shaped Art Glass": {
+    "3*6.25 inches": "AG108"
+  },
+  "Bevel Edge Circle Glass Award": {
+    "4.75*5.25 inches": "AG201",
+    "5.5*6 inches": "AG202",
+    "6.25*6.5 inches": "AG203"
+  },
+  "Full Color Self Standing Glass": {
+    "4*6 inches": "AG301",
+    "5*7 inches": "AG302",
+    "6*8 inches": "AG303",
+    "7*10 inches": "AG304"
+  },
+  "Beveled Glass Clock with Wood Accent": {
+    "5.5*6.5 inches": "BC965"
+  },
+  "Modern Desk Clock": {
+    "6*7.75 inches": "BC1025"
+  },
+  "Glass Clock with Blue Carbon Fiber Design": {
+    "5*6.5 inches": "BC1007"
+  },
+  "Egg shaped Art Glass with Blue and Green Helix Design": {
+    "2.5*6.5 inches": "AGBG01"
+  },
+  "Baseball/Softball BriteLazer Medal-Bronze": {
+    "2\"": "SBM003"
+  },
+  "Cast Metal Classic Achiever Figure on a Genuine Walnut Base/Black Brass Plate": {
+    "10 3/4\"": "1290",
+    "7 1/4\"": "1190"
+  },
+  "Cast Metal Classic Achiever on a Rosewood Piano Finish Base w/Black Brass Plate": {
+    "9'": "1520",
+    "13 1/2\"": "1535"
+  },
+  "Cherry Finish Plaque with Sapphire Marble/Gold Florentine LaserFX Plate": {
+    "8\" x 10\"": "P3517",
+    "9\" x 12\"": "P3518",
+    "7\" x 9\"": "P3516"
+  },
+  "Cherry Finish Plaque with Emerald Marble/Gold Florentine LaserFX Plate": {
+    "7\" x 9\"": "P3520",
+    "8\" x 10\"": "P3521",
+    "9\" x 12\"": "P3522"
+  },
+  "Cherry Finish Plaque with Ruby Marble/Gold Florentine LaserFX Plate": {
+    "7\" x 9\"": "P3524",
+    "8\" x 10\"": "P3525",
+    "9\" x 12\"": "P3526"
+  },
+  "Cherry Finish Plaque with Black/Gold Florentine LaserFX Plate": {
+    "7\" x 9\"": "P4540",
+    "8\" x 10\"": "P4541",
+    "9\" x 12\"": "P4542"
+  },
+  "Clear Crushed Ice Acrylic Paperweight": {
+    "3\" x 3\" x 3/4\"": "A3903JD"
+  },
+  "Cherry Finish Plaque with Black Cascading Gold Swirl Brass Plate": {
+    "11\" x 14\"": "P4262",
+    "8\" x 10\"": "P4260",
+    "9\" x 12\"": "P4261"
+  },
+  "Cherry Finish Plaque with Black/Gold Florentine Border LaserFX Plate": {
+    "7\" x 9\"": "P5231",
+    "8\" x 10\"": "P5232",
+    "9\" x 12\"": "P5233"
+  },
+  "Sapphire Marble/Gold Florentine LaserFX Plate on Natural Alder Wood Plaque": {
+    "7\" x 9\"": "P5250",
+    "8\" x 10\"": "P5251",
+    "9\" x 12\"": "P5252"
+  },
+  "Textured Black/Gold Florentine LaserFX Plate on Natural Alder Wood Plaque": {
+    "7\" x 9\"": "P5267",
+    "8\" x 10\"": "P5268",
+    "9\" x 12\"": "P5269"
+  },
+  "Acrylic Plate with Printed Stained Glass Border on Natural Alder Wood Plaque": {
+    "7\" x 9\"": "P5322",
+    "8\" x 10\"": "P5323",
+    "9\" x 12\"": "P5324"
+  },
+  "Acrylic Plate with Blue Border on Natural Alder Wood Plaque": {
+    "7\" x 9\"": "P5335",
+    "8\" x 10\"": "P5336"
+  },
+  "Blue Leatherette Frame Certificate Holder with Easel Back or Wall Hangers": {
+    "Black": "10 3/4\" x 13\"-Holds 8 1/2\" x 11\"",
+    "Blue": "10 3/4\" x 13\"-Holds 8 1/2\" x 11\""
+  },
+  "Solid Walnut Plaque with Sculptured Relief Eagle Casting and Black Brass Plate": {
+    "7\" x 9\"": "P1681",
+    "9\" x 12\"": "P1682"
+  },
+  "Antique Bronze Eagle Casting on Rosewood Piano Finish Plaque/Black Brass Plate": {
+    "8\" x 10 1/2\"": "P3753",
+    "10 1/2\" x 13\"": "P3754"
+  },
+  "Premier Rosewood Piano Finish Floating Acrylic Plaque": {
+    "9\" x 12\"": "FPA1912",
+    "8\"x10\"": "FPA1810"
+  },
+  "Clear Crescent Acrylic": {
+    "10\" x 7\"": "ACC710",
+    "6\" x 4\"": "ACC46",
+    "7\" x 5\"": "ACC57",
+    "8\" x 6\"": "ACC68"
+  },
+  "American Walnut Gavel with Brass Gavel Band": {
+    "7.5\"": "5116"
+  },
+  "Rosewood Piano Finish Gavel and Sounding Block": {
+    "4 1/2\" x 4 1/2\"": "740"
+  },
+  "Blue Sculpted Star Acrylic": {
+    "10\" x 2\"": "AST10BU",
+    "6\" x 2\"": "AST6BU",
+    "8\" x 2\"": "AST8BU"
+  },
+  "Gold Sculpted Star Acrylic": {
+    "10\" x 2\"": "AST10GD",
+    "6\" x 2\"": "AST6GD",
+    "8\" x 2\"": "AST8GD"
+  },
+  "American Walnut Plate Perpetual Plaque with Black Brass Plates": {
+    "9\" x 12\" 12 Plates": "P2531",
+    "11\" x 15\" 24 Plates": "P1552",
+    "14\" x 20\" 36 Plates": "P2763",
+    "14\" x 20\" 40 Plates": "P1554",
+    "14\" x 20\" 48 Plates": "P1555",
+    "14\" x 25\" 60 Plates": "P1556",
+    "14\" x 25\" 72 Plates": "P1557",
+    "20\" x 30\" 80 Plates": "P1558",
+    "20\" x 30\" 96 Plates": "P1559",
+    "20\" x 30\" 100 Plates": "P1560",
+    "20\" x 30\" 120 Plates": "P1561",
+    "20\" x 30\" 150 Plates": "P1562",
+    "28\" x 35\" 200 Plates": "P1563",
+    "28\" x 35\" 240 Plates": "P1564",
+    "28\" x 35\" 270 Plates": "P1565",
+    "12\" x 15\" 24 Plates": "P2762",
+    "16\" x 24\" 48 Plates": "P2764",
+    "16\" x 24\" 60 Plates": "P2765",
+    "15\" x 18\" 24 Plates": "P2552",
+    "18\" x 25\" 36 Plates": "P2553",
+    "18\" x 25\" 48 Plates": "P2554",
+    "11\" x 15\" 12 Plates": "P3945",
+    "15\" x 21\" 24 Plates": "P3937",
+    "22\" x 30\" 36 Plates": "P3939",
+    "22\" x 30\" 48 Plates": "P3940",
+    "22\" x 30\" 60 Plates": "P3941",
+    "14\" x 20\" 24 Plates": "P3946",
+    "14\" x 25\" 36 Plates": "P3947",
+    "20\" x 30\" 48 Plates": "P3948"
+  },
+  "Blue Facet Wedge Acrylic": {
+    "7\" x 1 1/4\"": "AWG7BU",
+    "8\" x 1 1/4\"": "AWG8BU",
+    "9\" x 1 1/4\"": "AWG9BU"
+  },
+  "Gold Facet Wedge Acrylic": {
+    "7\" x 1 1/4\"": "AWG7GD",
+    "8\" x 1 1/4\"": "AWG8GD",
+    "9\" x 1 1/4\"": "AWG9GD"
+  },
+  "American Walnut Plate Perpetual Plaque with Brushed Brass Plates": {
+    "9\" x 12\" 12 Plates": "P1571",
+    "11\" x 15\" 24 Plates": "P1572",
+    "14\" x 20\" 36 Plates": "P1573",
+    "14\" x 20\" 40 Plates": "P1574",
+    "14\" x 20\" 48 Plates": "P1575",
+    "14\" x 25\" 60 Plates": "P1576",
+    "14\" x 25\" 72 Plates": "P1577",
+    "20\" x 30\" 80 Plates": "P1578",
+    "20\" x 30\" 96 Plates": "P1579",
+    "20\" x 30\" 100 Plates": "P1580",
+    "20\" x 30\" 120 Plates": "P1581",
+    "20\" x 30\" 150 Plates": "P1582",
+    "28\" x 35\" 200 Plates": "P1583",
+    "28\" x 35\" 240 Plates": "P1584",
+    "28\" x 35\" 270 Plates": "P1585"
+  },
+  "American Walnut Plate Perpetual Plaque with Black Brass Header Plate": {
+    "11\" x 15\"": "P1697",
+    "9\" x 12\"": "P1696"
+  },
+  "American Walnut Plate Perpetual Plaque with Black Brass Plates/Gold Trim": {
+    "12\" x 18\" 40 Plates": "P170",
+    "14\" x 20\" 60 Plates": "P182",
+    "11\" x 15\" 24 Plates": "P185",
+    "12\" x 16\" 36 Plates": "P41",
+    "9 x 12 12 Plates": "P184"
+  },
+  "Rosewood Piano Plate Perpetual Plaque with Black Brass Plates": {
+    "9\" x 12\" 12 Plates": "P4500",
+    "11\" x 15\" 24 Plates": "P4501",
+    "15\" x 21\" 36 Plates": "P4502",
+    "15\" x 21\" 40 Plates": "P4503",
+    "15\" x 21\" 48 Plates": "P4504",
+    "15\" x 21\" 60 Plates": "P4505",
+    "22\" x 30\" 96 Plates": "P4508",
+    "22\" x 30\" 120 Plates": "P4509",
+    "22\" x 30\" 144 Plates": "P4510"
+  },
+  "Black Piano Finish Perpetual Plaque with Header and Perpetual Plates": {
+    "9\" x 12\" 12 Plates": "P5062",
+    "11\" x 14\" 24 Plates": "P5064"
+  },
+  "Walnut Plate Perpetual Plaque with Black Brass Plates": {
+    "9\" x 12\" 12 Plates": "P2301",
+    "11\" x 15\" 24 Plates": "P2302",
+    "15\" x 21\" 36 Plates": "P2303",
+    "15\" x 21\" 40 Plates": "P2304",
+    "15\" x 21\" 48 Plates": "P2305",
+    "15\" x 21\" 60 Plates": "P2307",
+    "22\" x 30\" 96 Plates": "P2310",
+    "22\" x 30\" 120 Plates": "P2311",
+    "22\" x 30\" 144 Plates": "P2312",
+    "22\" x 30\" 80 Plates": "P2309",
+    "22\" x 30\" 72 Plates": "P2308"
+  },
+  "Walnut Step-Edge Plate Perpetual Plaque with Black Brass Plate": {
+    "9\" x 12\"": "P3300",
+    "11\" x 15\"": "P3302"
+  },
+  "Walnut Step-Edge Plate Perpetual Plaque with Black Brass Plat": {
+    "9\" x 12\"": "P3304",
+    "12\" x 15\"": "P3306"
+  },
+  "Rosewood Piano Finish Perpetual Plaque with Black Brass Plates": {
+    "9\" x 12\" 12 Plates 1\" x 3.25\"": "P3760"
+  },
+  "Airflyte Premium Rosewood Piano Finish Plaque with Black/Gold Brass Plate": {
+    "7\" x 9\"": "P3911",
+    "8\" x 10.5\"": "P3912",
+    "9\" x 12\"": "P3913",
+    "11\" x 14\"": "P3804",
+    "10.5\" x 13\"": "P3914",
+    "11\" x 15\"": "P3838"
+  },
+  "Airflyte Premium Rosewood Piano Finish Plaque with Black/Gold LaserFX Plate": {
+    "7\" x 9\"": "P4526",
+    "8\" x 10.5\"": "P4527",
+    "9\" x 12\"": "P4528",
+    "11\" x 15\"": "P3833",
+    "11\" x 14\"": "P3809",
+    "10.5\" x 13\"": "P4522",
+    "8\" x 10\"": "P4156"
+  },
+  "Airflyte Premium Black Piano Finish Plaque with Black/Gold Brass Plate": {
+    "7\" x 9\"": "P3811",
+    "8\" x 10.5\"": "P3812",
+    "9\" x 12\"": "P3813",
+    "11\" x 14\"": "P3814"
+  },
+  "Black Piano Finish Airflyte Plaque with Black/Gold Florentine LaserFX Plate": {
+    "11\" x 14\"": "P3816",
+    "7\" x 9\"": "P3817",
+    "8\" x 10\"": "P3818",
+    "9\" x 12\"": "P3819"
+  },
+  "Rosewood Piano Finish Plaques, Sapphire Marble Florentine Designer LaserFX Plate": {
+    "10.5\" x 13\"": "P4143",
+    "7\" x 9\"": "P4140",
+    "8\" x 10\"": "P4141",
+    "9\" x 12\"": "P4142"
+  },
+  "Rosewood Piano Finish Plaques w/Ruby Marble Florentine Designer LaserFX Plate": {
+    "7\" x 9\"": "P4145",
+    "8\" x 10\"": "P4146",
+    "9\" x 12\"": "P4147",
+    "10.5\" x 13\"": "P4148"
+  },
+  "Rosewood Piano Finish Plaques w/Emerald Marble Florentine Designer LaserFX Plate": {
+    "7\" x 9\"": "P4150",
+    "8\" x 10\"": "P4151",
+    "9\" x 12\"": "P4152",
+    "10.5\" x 13\"": "P4153"
+  },
+  "Rosewood Piano Finish Plaque with Shooting Star Black/Gold LaserFX Plate": {
+    "7\" x 9\"": "P4185",
+    "8\" x 10.5\"": "P4186",
+    "9\" x 12\"": "P4187"
+  },
+  "Rosewood Piano Finish Plaque with Florentine Star Shower LaserFX Plate": {
+    "7\" x 9\"": "P4450",
+    "8\" x 10.5\"": "P4451",
+    "9\" x 12\"": "P4452"
+  },
+  "Textured Black/Silver Florentine Border Plate/on a Black Piano Finish Plaque": {
+    "7\" x 9\"": "P4547",
+    "8\" x 10\"": "P4548",
+    "9\" x 12\"": "P4549"
+  },
+  "Silver Florentine Border w/Textured Black Center on Rosewood Piano Finish Plaque": {
+    "7\" x 9\"": "P4561",
+    "8\" x 10.5\"": "P4562",
+    "9\" x 12\"": "P4563"
+  },
+  "Textured Black/Gold Florentine Border LaserFX Plate/Rosewood Piano Finish Plaque": {
+    "7\" x 9\"": "P5036",
+    "8\" x 10\"": "P5008",
+    "9\" x 12\"": "P5038",
+    "11\" x 14\"": "P5010",
+    "8\" x 10.5\"": "P5037",
+    "10.5\" x 13\"": "P5022",
+    "11\" x 15\"": "P5039"
+  },
+  "Black/Gold Leaf Design Florentine LaserFX Plate on Rosewood Piano Finish Plaque": {
+    "7\" x 9\"": "P5011",
+    "8\" x 10.5\"": "P5012",
+    "9\" x 12\"": "P5013",
+    "11\" x 15\"": "P5014"
+  },
+  "High Gloss Rosewood Plaque with Gold Florentine Border Black LaserFX Plate": {
+    "7\" x 9\"": "P5043",
+    "8\" x 10.5\"": "P5044",
+    "9\" x 12\"": "P5045",
+    "11\" x 15\"": "P5046"
+  },
+  "Textured Black/Silver Florentine Border Plate/on a Rosewood Piano Finish Plaque": {
+    "7\" x 9\"": "P5051",
+    "8\" x 10\"": "P5052",
+    "9\" x 12\"": "P5053"
+  },
+  "High Gloss Black Plaque with Gold Florentine Border Black LaserFX Plate": {
+    "7\" x 9\"": "P5077",
+    "8\" x 10.5\"": "P5078",
+    "9\" x 12\"": "P5079"
+  },
+  "Acrylic Plate with Red Border on a Black Piano Finish Plaque": {
+    "7\" x 9\"": "P5080",
+    "8\" x 10\"": "P5081",
+    "9\" x 12\"": "P5082"
+  },
+  "High Gloss Black Plaque with Silver Florentine Border Black Plate": {
+    "7\" x 9\"": "P5088",
+    "8\" x 10.5\"": "P5089",
+    "9\" x 12\"": "P5090"
+  },
+  "Sapphire/Gold Florentine Border LaserFX Plate/Rosewood Piano Finish Plaque": {
+    "7\" x 9\"": "P5093",
+    "8\" x 10\"": "P5094",
+    "9\" x 12\"": "P5095"
+  },
+  "Blue Marble/Silver Florentine Border Aluminum Plate/on a Black High Lustr Plaque": {
+    "7\" x 9\"": "P5347",
+    "8\" x 10\"": "P5349",
+    "9\" x 12\"": "P5348"
+  },
+  "Gray Marble/Silver Florentine Border Aluminum Plate/on a Black High Lustr Plaque": {
+    "7\" x 9\"": "P5351",
+    "8\" x 10\"": "P5352",
+    "9\" x 12\"": "P5353"
+  },
+  "Black with Gold Florentine Border LaserFX Plate on Black High Lustr Plaque": {
+    "7\" x 9\"": "P5355",
+    "8\" x 10\"": "P5356",
+    "9\" x 12\"": "P5357"
+  },
+  "Blue Marble/Silver Florentine Border Aluminum Plate/Rosewood High Lustr Plaque": {
+    "7\" x 9\"": "P5370",
+    "8\" x 10\"": "P5371",
+    "9\" x 12\"": "P5372"
+  },
+  "Gray Marble/Silver Florentine Border Aluminum Plate/Rosewood High Lustr Plaque": {
+    "7\" x 9\"": "P5374",
+    "8\" x 10\"": "P5375",
+    "9\" x 12\"": "P5376"
+  },
+  "Black with Gold Florentine Border LaserFX Plate on Rosewood High Lustr Plaque": {
+    "7\" x 9\"": "P5378",
+    "8\" x 10\"": "P5379",
+    "9\" x 12\"": "P5380"
+  },
+  "Rosewood High Gloss Plaque with Acrylic Engraving Plate": {
+    "7\" x 9\"": "P5423",
+    "8\" x 10\"": "P5424",
+    "9\" x 12\"": "P5425"
+  },
+  "Black High Gloss Plaque with Acrylic Engraving Plate": {
+    "7\" x 9\"": "P5437",
+    "8\" x 10\"": "P5438",
+    "9\" x 12\"": "P5439"
+  },
+  "High Gloss Rosewood Diamond Engraved and Color-Filled": {
+    "4.25\" x 7.875\" x 1.125\"": "1594",
+    "5.25\" x 8.875\" x 1.125\"": "1595",
+    "6.25\" x 10\" x 1.125\"": "1596"
+  },
+  "High Gloss Rosewood Diamond with Black and Silver Engraving Plate": {
+    "4.25\" x 7.875\" x 1.125\"": "1648",
+    "5.25\" x 8.875\" x 1.125\"": "1649",
+    "6.25\" x 10\" x 1.125\"": "1650"
+  },
+  "American Walnut Notched Plaque with Gold Casting Accents and Black/Gold Plate": {
+    "11\" x 15\"": "P2477",
+    "9\" x 12\"": "P2476"
+  },
+  "Band BriteLazer Medal": {
+    "2\"": "BL302S"
+  },
+  "Music BriteLazer Medal": {
+    "2\"": "BL302S-1"
+  },
+  "Orchestra BriteLazer Medal": {
+    "2\"": "BL312S"
+  },
+  "Music Galaxy Medal": {
+    "2 1/4\"": "GM108S"
+  },
+  "Music High Relief Medal": {
+    "2\"": "HR785S"
+  },
+  "Music Shield Award": {
+    "6\"": "SA606",
+    "7\"": "SA706",
+    "8\"": "SR211"
+  },
+  "Band Superstar Medal": {
+    "2\"": "SS501S"
+  },
+  "Music Superstar Medal": {
+    "2\"": "SS507S"
+  },
+  "Music Shooting Star Medal": {
+    "1 3/4\"": "ST16S",
+    "2 1/2\"": "ST66G"
+  },
+  "Spark Plug Resin": {
+    "6\"": "CRS101",
+    "8\"": "CRS102"
+  },
+  "Antique Silver Piston Resin": {
+    "7\"": "CRS103",
+    "11\"": "CRS104",
+    "9\"": "CRS105"
+  },
+  "Antique Gold Steering Wheel Resin": {
+    "7\"": "CRS106",
+    "10\"": "CRS107"
+  },
+  "Gas Pump Resin": {
+    "8 1/2\"": "GPR01",
+    "11 3/4\"": "GPR02"
+  },
+  "Motor Sports Sun Ray Award": {
+    "7\"": "SR112",
+    "8\"": "SR212"
+  },
+  "Racing Triumph Resin": {
+    "6 1/2\"": "TR161",
+    "5 1/2\"": "TR111"
+  },
+  "Baseball/Softball Astro Award": {
+    "10 3/4\"": "AA222",
+    "7\"": "AA202",
+    "8 3/4\"": "AA212"
+  },
+  "Baseball/Softball Aspire Resin": {
+    "6\"": "ASP101",
+    "8\"": "ASP201"
+  },
+  "Baseball Broadcast Resin": {
+    "6\"": "BCR101",
+    "7\"": "BCR201"
+  },
+  "Softball Banner Resin": {
+    "8 1/2\"": "BNN38",
+    "7\"": "BNN18"
+  },
+  "Baseball/Softball Cobra Award": {
+    "10 1/2\"": "CA242",
+    "12\"": "CA262",
+    "6 1/2\"": "CA192",
+    "7 1/2\"": "CA202",
+    "9\"": "CA222"
+  },
+  "Baseball/Softball Hurricane Resin": {
+    "6 1/2\"": "HC301",
+    "7 1/2\"": "HC321"
+  },
+  "Baseball/Softball Imperial Resin": {
+    "6\"": "PLR101",
+    "7 1/2\"": "PLR111",
+    "9 7/8\"": "PLR121"
+  },
+  "Baseball Encore Resin": {
+    "5 3/4\"": "REN101",
+    "8 1/2\"": "REN301",
+    "7\"": "REN201"
+  },
+  "Baseball/Softball Rock Star Resin": {
+    "7 1/2\"": "RKS201",
+    "9\"": "RKS211"
+  },
+  "Softball Ribbon Resin": {
+    "5 1/2\"": "RR505",
+    "7\"": "RR705"
+  },
+  "Baseball/Softball Shield Award": {
+    "6\"": "SA601",
+    "7\"": "SA701"
+  },
+  "Baseball/Softball Sun Ray Resin": {
+    "7\"": "SR101",
+    "8\"": "SR201"
+  },
+  "Baseball/Softball Triumph Award": {
+    "5 1/2\"": "TR101",
+    "6 1/2\"": "TR151"
+  },
+  "Softball Varsity Sport Resin": {
+    "5 1/2\"": "VSR107",
+    "7\"": "VSR207"
+  },
+  "Basketball Astro Award": {
+    "7\"": "AA203",
+    "8 3/4\"": "AA213",
+    "10 3/4\"": "AA223"
+  },
+  "Basketball Aspire Resin": {
+    "6\"": "ASP102",
+    "8\"": "ASP202"
+  },
+  "Basketball Broadcast Resin": {
+    "6\"": "BCR102",
+    "7\"": "BCR202"
+  },
+  "Basketball Banner Resin": {
+    "7\"": "BNN12",
+    "8 1/2\"": "BNN32"
+  },
+  "Basketball Cobra Award": {
+    "10 1/2\"": "CA243",
+    "12\"": "CA263",
+    "6 1/2\"": "CA193",
+    "7 1/2\"": "CA203",
+    "9\"": "CA223"
+  },
+  "Basketball Hurricane Resin": {
+    "6 1/2\"": "HC302",
+    "7 1/2\"": "HC322"
+  },
+  "Basketball Imperial Resin": {
+    "6\"": "PLR102",
+    "7 7/8\"": "PLR112",
+    "9 7/8\"": "PLR122"
+  },
+  "Basketball Encore Resin": {
+    "5 3/4\"": "REN102",
+    "7\"": "REN202",
+    "8 1/2\"": "REN302"
+  },
+  "Basketball Rockstar Award": {
+    "7 1/2\"": "RKS202",
+    "9\"": "RKS212"
+  },
+  "Basketball Ribbon Resin": {
+    "7\"": "RR702",
+    "5 1/2\"": "RR502"
+  },
+  "Basketball Shield Award": {
+    "7\"": "SA702",
+    "6\"": "SA602"
+  },
+  "Basketball Sun Ray Resin": {
+    "7\"": "SR102",
+    "8\"": "SR202"
+  },
+  "Basketball Triumph Resin": {
+    "5 1/2\"": "TR102",
+    "6 1/2\"": "TR152"
+  },
+  "Basketball Varsity Sport Resin": {
+    "5 1/2\"": "VSR102",
+    "7\"": "VSR202"
+  },
+  "Acrylic Paperweight": {
+    "4\" x 2 1/2\"": "APW24JD"
+  },
+  "Acrylic Paperweight (Square)": {
+    "3\" x 3\"": "APW33JD"
+  },
+  "Acrylic Paperweight (Rectangle)": {
+    "4 1/2\" x 3 1/2\"": "APW33JD-1"
+  },
+  "Bowling Broadcast Resin": {
+    "6\"": "BCR103",
+    "7\"": "BCR203"
+  },
+  "Bowling Banner Resin": {
+    "8 1/2\"": "BNN33",
+    "7\"": "BNN13"
+  },
+  "Bowling Shield Award": {
+    "6\"": "SA603",
+    "7\"": "SA703"
+  },
+  "Bowling Sun Ray Award": {
+    "8\"": "SR203",
+    "7\"": "SR103"
+  },
+  "Bowling Triumph Resin": {
+    "5 1/2\"": "TR103",
+    "6 1/2\"": "TR153"
+  },
+  "Bowling Varsity Sport Resin": {
+    "5 1/2\"": "VSR103",
+    "7\"": "VSR203"
+  },
+  "Bowling BriteLazer Medal": {
+    "2\"": "BL204S"
+  },
+  "Bowling Galaxy Medal": {
+    "2 1/4\"": "GM113S"
+  },
+  "Bowling High Relief Medal": {
+    "2\"": "HR715S"
+  },
+  "Volleyball Varsity Sport Resin": {
+    "5 1/2\"": "VSR109",
+    "7\"": "VSR209"
+  },
+  "Volleyball Triumph Resin": {
+    "5 1/2\"": "TR116",
+    "6 1/2\"": "TR166"
+  },
+  "Volleyball Sun Ray Award": {
+    "7\"": "SR119",
+    "8\"": "SR219"
+  },
+  "Volleyball Shield Award": {
+    "7\"": "SA709",
+    "6\"": "SA609"
+  },
+  "Volleyball BriteLazer Medal": {
+    "2\"": "BL220S"
+  },
+  "Volleyball Galaxy Medal": {
+    "2 1/4\"": "GM117S"
+  },
+  "Volleyball High Relief Medal": {
+    "2\"": "HR765S"
+  },
+  "Volleyball MidNite Star Medal": {
+    "2\"": "MS711S"
+  },
+  "Volleyball Starbrite Medal": {
+    "2\"": "SB160S"
+  },
+  "Volleyball Superstar Medal": {
+    "2\"": "SS408S"
+  },
+  "Volleyball Millennium Medal": {
+    "1 3/4\"": "STM1215S"
+  },
+  "Volleyball Shooting Star Medal": {
+    "1 3/4\"": "ST22S",
+    "2 1/2\"": "ST72S"
+  },
+  "Volleyball Ten Star Medal": {
+    "2 1/4\"": "TS417S"
+  },
+  "Volleyball 3-D Medal": {
+    "2\"": "3D216S"
+  },
+  "Swimming Shield Award": {
+    "6\"": "SA608",
+    "8\"": "SA708"
+  },
+  "Swimming Sun Ray Award": {
+    "7\"": "SR115",
+    "8\"": "SR215"
+  },
+  "Swimming Triumph Resin": {
+    "5 1/2\"": "TR113",
+    "6 1/2\"": "TR163"
+  },
+  "Swimming BriteLazer Medal": {
+    "2\"": "BL216S"
+  },
+  "Swimming Galaxy Medal": {
+    "2 1/4\"": "GM115S"
+  },
+  "Swimming High Relief Medal": {
+    "2\"": "HR750S"
+  },
+  "Swimming MidNite Star Medal": {
+    "2\"": "MS708S"
+  },
+  "Swimming Millennium Medal": {
+    "1 3/4\"": "STM1202S"
+  },
+  "Swimming Shooting Star Medal": {
+    "1 3/4\"": "ST21S",
+    "2 1/2\"": "ST71S"
+  },
+  "Swimming Ten Star Medal": {
+    "2 1/4\"": "TS412S"
+  },
+  "Swimming 3-D Medal": {
+    "2\"": "3D211S"
+  },
+  "Ballpoint Pen": {
+    "5 3/8\"": "LP203R"
+  },
+  "Laserable Leatherette Pen": {
+    "5 5/16\"": "LP465"
+  },
+  "Gloss Ballpoint Pen": {
+    "5 1/2\"": "LP504A",
+    "5 3/8\"": "LP803"
+  },
+  "Gloss Ballpoint Pen with Rubber Gripper": {
+    "5 3/8\"": "LP823"
+  },
+  "Gloss Ballpoint Pen with Stylus": {
+    "5 1/8\"": "LP833"
+  },
+  "Green Marble Brass Pen": {
+    "5 1/4\"": "PS6730EM"
+  },
+  "Baseball/Softball BriteLazer Medal": {
+    "2\"": "BL202S"
+  },
+  "Baseball/Softball Galaxy Medal": {
+    "2 1/4\"": "GM101S"
+  },
+  "Baseball/Softball High Relief Medal": {
+    "2\"": "HR705S"
+  },
+  "Baseball/Softball Midnight Star Medal": {
+    "2\"": "MS701S"
+  },
+  "Baseball/Softball Starbrite Medal": {
+    "2\"": "SB151S",
+    "2 3/4\"": "SB251S"
+  },
+  "Baseball/Softball Superstar Medal": {
+    "2\"": "SS401S"
+  },
+  "Baseball/Softball Millennium Medal": {
+    "1 3/4\"": "STM1203S"
+  },
+  "Baseball/Softball Shooting Star Medal": {
+    "1 3/4\"": "ST11S",
+    "2 1/2\"": "ST61S"
+  },
+  "Baseball/Softball Ten Star Medal": {
+    "2 1/4\"": "TS401S"
+  },
+  "Football Astro Resin": {
+    "10 3/4\"": "AA204",
+    "7\"": "AA214",
+    "8 3/4\"": "AA224"
+  },
+  "Baseball/Softball Victory Medal": {
+    "2\"": "VM101C"
+  },
+  "Basketball BriteLazer Medal": {
+    "2\"": "BL203S"
+  },
+  "Football Aspire Resin": {
+    "6\"": "ASP103",
+    "8\"": "ASP203"
+  },
+  "Basketball Galaxy Medal": {
+    "2 1/4\"": "GM102S"
+  },
+  "Football Broadcast Resin": {
+    "6\"": "BCR105",
+    "7\"": "BCR205"
+  },
+  "Football Banner Resin": {
+    "7\"": "BNN15",
+    "8 1/8\"": "BNN35"
+  },
+  "Basketball High Relief Medal": {
+    "2\"": "HR710S"
+  },
+  "Football Blaze Award": {
+    "7\"": "BZ03"
+  },
+  "Basketball MidNite Star Medal": {
+    "2\"": "MS702S"
+  },
+  "Basketball Starbrite Medal": {
+    "2\"": "SB152S",
+    "2 3/4\"": "SB252S"
+  },
+  "Football Cobra Award": {
+    "10 1/2\"": "CA244",
+    "12\"": "CA264",
+    "6 1/2\"": "CA194",
+    "7 1/2\"": "CA204",
+    "9\"": "CA224"
+  },
+  "Basketball Superstar Medal": {
+    "2\"": "SS402S"
+  },
+  "Antique Gold Football Resin": {
+    "10 1/4\"": "FTB101",
+    "15\"": "FTB102"
+  },
+  "Antique Silver Football Resin": {
+    "10 1/4\"": "FTB201",
+    "15\"": "FTB202"
+  },
+  "Basketball Millennium Medal": {
+    "1 3/4\"": "STM1207S"
+  },
+  "Basketball Shooting Star Medal": {
+    "1 3/4\"": "ST12S",
+    "2 1/2\"": "ST62S"
+  },
+  "Basketball Ten Star Medal": {
+    "2 1/4\"": "TS402S"
+  },
+  "Fantasy Football Man In Chair": {
+    "6\"": "FTB301",
+    "9\"": "FTB302"
+  },
+  "Football Hurricane Resin": {
+    "6 1/2\"": "HC303",
+    "7 1/2\"": "HC323"
+  },
+  "Basketball Victory Medal": {
+    "2\"": "VM102S"
+  },
+  "Football Resin": {
+    "7 3/4\"": "JDS19"
+  },
+  "Basketball 3-D Medal": {
+    "2\"": "3D202S"
+  },
+  "Football Jazz Star Resin": {
+    "5 1/2\"": "JSR105"
+  },
+  "Football Little Pals Resin": {
+    "5\"": "LPR05"
+  },
+  "Football Imperial Resin": {
+    "6\"": "PLR103",
+    "7 7/8\"": "PLR113",
+    "9 7/8\"": "PLR123"
+  },
+  "Football Encore Resin": {
+    "6\"": "REN103",
+    "7\"": "REN203",
+    "8 1/2\"": "REN303"
+  },
+  "Football Rock Star Resin": {
+    "7 1/2\"": "RKS204",
+    "9\"": "RKS214"
+  },
+  "Football Ribbon Resin": {
+    "5 1/2\"": "RR503",
+    "7\"": "RR703"
+  },
+  "Bowling Starbrite Medal": {
+    "2\"": "SB153S",
+    "2 3/4\"": "SB253S"
+  },
+  "Football Shield Award": {
+    "6\"": "SA605",
+    "7\"": "SA705"
+  },
+  "Football Sun Ray Award": {
+    "7\"": "SR105",
+    "8\"": "SR205"
+  },
+  "Fantasy Football Looser Toilet Resin": {
+    "6\"": "TLT01"
+  },
+  "Football Triad Resin": {
+    "5 1/2\"": "TRD105"
+  },
+  "Football Triumph Resin": {
+    "5 1/2\"": "TR105",
+    "6 1/2\"": "TR155"
+  },
+  "Football Varsity Sport Resin": {
+    "5 1/2\"": "VSR104",
+    "7\"": "VSR204"
+  },
+  "Hockey Banner Resin": {
+    "7\"": "BNN16",
+    "8 1/2\"": "BNN36"
+  },
+  "Hockey Jazz Star Resin": {
+    "5 1/2\"": "JSR106"
+  },
+  "Hockey Little Pals Resin": {
+    "5\"": "LPR07"
+  },
+  "Hockey Sun Ray Award": {
+    "7\"": "SR107",
+    "8\"": "SR207"
+  },
+  "Hockey Triad Resin": {
+    "5 1/2\"": "TRD106"
+  },
+  "Hockey Triumph Resin": {
+    "5 1/2\"": "TR107",
+    "6 1/2\"": "TR157"
+  },
+  "Crystal Cup with Gold Handles and Stem": {
+    "10\"": "CRY039XL",
+    "7 1/4\"": "CRY039L",
+    "8 1/2\"": "CRY039M"
+  },
+  "Crystal Cup on Black Pedestal Base": {
+    "10 3/4\"": "CRY051S",
+    "12 3/4\"": "CRY051M",
+    "14\"": "CRY051L",
+    "6 1/2\"": "CRY071",
+    "7 3/4\"": "CRY072",
+    "9\"": "CRY073"
+  },
+  "Crystal Cup with Silver Handles and Stem": {
+    "11 1/4\"": "CRY052L",
+    "8\"": "CRY052S",
+    "9 1/2\"": "CRY052M"
+  },
+  "Crystal Cup with Silver Metal Handles": {
+    "10\"": "CRY062L",
+    "8\"": "CRY062M"
+  },
+  "Crystal Plate with Base": {
+    "7 3/4\"": "CRY1221",
+    "8 1/2\"": "CRY1222"
+  },
+  "Clear Crystal Cup with Black Pedestal Base": {
+    "11\"": "CRY6302M",
+    "12\"": "CRY6302L"
+  },
+  "Bowling Ten Star Medal": {
+    "2 1/4\"": "TS403S"
+  },
+  "Bowling 3-D Medal": {
+    "2\"": "3D204S"
+  },
+  "Cheer BriteLazer Medal": {
+    "2\"": "BL205S"
+  },
+  "Competitive Cheer BriteLazer Medal": {
+    "2\"": "BL206S"
+  },
+  "Gymnastics BriteLazer Medal": {
+    "2\"": "BL221S"
+  },
+  "Track Triumph Resin": {
+    "5 1/2\"": "TR115",
+    "6 1/2\"": "TR165"
+  },
+  "Wrestling Shield Award": {
+    "6\"": "SA610",
+    "7\"": "SA710"
+  },
+  "Martial Arts Sun Ray Award": {
+    "8\"": "SR210",
+    "7\"": "SR110"
+  },
+  "Tennis Sun Ray Award": {
+    "7\"": "SR116",
+    "8\"": "SR216"
+  },
+  "Pickleball Triumph Resin": {
+    "6 1/2\"": "TR160"
+  },
+  "Tennis Triumph Resin": {
+    "5 1/4\"": "TR114",
+    "6 1/2\"": "TR164"
+  },
+  "Tennis Victory Star Resin": {
+    "5 1/2\"": "VSR108",
+    "7\"": "VSR208"
+  },
+  "Cheer High Relief Medal": {
+    "2\"": "HR775S"
+  },
+  "Female Gymnastics High Relief Medal": {
+    "2\"": "HR790S"
+  },
+  "Male Gymnastics High Relief Medal": {
+    "2\"": "HR795S"
+  },
+  "Cheer MidNite Star Medal": {
+    "2\"": "MS703S"
+  },
+  "Gymnastics Millennium Medal": {
+    "1 3/4\"": "STM1214S"
+  },
+  "Cheer Millennium Medal": {
+    "1 3/4\"": "STM1222S"
+  },
+  "Cheer Shooting Star Medal": {
+    "1 3/4\"": "ST19S",
+    "2 1/2\"": "ST69S"
+  },
+  "Cheer Ten Star Medal": {
+    "2 1/4\"": "TS404S"
+  },
+  "Gymnastics Ten Star Medal": {
+    "2 1/4\"": "TS407S"
+  },
+  "Cheer Victory Medal": {
+    "2\"": "VM103S"
+  },
+  "Cheer 3-D Medal": {
+    "2\"": "3D205S"
+  },
+  "Football Starbrite Medal": {
+    "2\"": "SB155S",
+    "2 3/4\"": "SB255S"
+  },
+  "Football Galaxy Medal": {
+    "2 1/4\"": "GM104S"
+  },
+  "Football High Relief Medal": {
+    "2\"": "HR720S"
+  },
+  "Football MidNite Star Medal": {
+    "2\"": "MS704S"
+  },
+  "Football Superstar Medal": {
+    "2\"": "SS404S"
+  },
+  "Football Millennium Medal": {
+    "1 3/4\"": "STM1208S"
+  },
+  "Football Shooting Star Medal": {
+    "1 3/4\"": "ST09S",
+    "2 1/2\"": "ST59S"
+  },
+  "Football Ten Star Medal": {
+    "2 1/4\"": "TS405S"
+  },
+  "Football Victory Medal": {
+    "2\"": "VM104S"
+  },
+  "Golf BriteLazer Medal": {
+    "2\"": "BL210S"
+  },
+  "Golf Galaxy Medal": {
+    "2 1/4\"": "GM105B"
+  },
+  "Golf High Relief Medal": {
+    "2\"": "HR725S"
+  },
+  "Golf Millennium Medal": {
+    "1 3/4\"": "STM1209S"
+  },
+  "Golf Ten Star Medal": {
+    "2 1/4\"": "TS406S"
+  },
+  "Golf Victory Medal": {
+    "2\"": "VM105S"
+  },
+  "Golf 3-D Medal": {
+    "2\"": "3D207S"
+  },
+  "Cheer Broadcast Resin": {
+    "6\"": "BCR104",
+    "7\"": "BCR204"
+  },
+  "Cheer Banner Resin": {
+    "8 1/2\"": "BNN34",
+    "7\"": "BNN14"
+  },
+  "Cheer Shield Award": {
+    "6\"": "SA604",
+    "7\"": "SA704"
+  },
+  "Cheer Sun Ray Resin": {
+    "8\"": "SR204",
+    "7\"": "SR104"
+  },
+  "Cheer Triumph Resin": {
+    "5 1/2\"": "TR104",
+    "6 1/2\"": "TR154"
+  },
+  "Male Bronze Golf Resin": {
+    "8 3/4\"": "GSN03",
+    "9 1/2\"": "GSN04",
+    "9 3/4\"": "GSN02",
+    "9\"": "GSN01",
+    "13\"": "GSN22",
+    "15\"": "GSN23",
+    "13 1/4\"": "GSN24"
+  },
+  "Female Bronze Golf Resin": {
+    "9\"": "GSN11",
+    "9 1/2\"": "GSN14",
+    "13\"": "GSN31",
+    "13 1/4\"": "GSN34"
+  },
+  "Golf Sun Ray Award": {
+    "7\"": "SR106",
+    "8\"": "SR206"
+  },
+  "Golf Triumph Sport Resin": {
+    "5 1/2\"": "TR106",
+    "6 1/2\"": "TR156"
+  },
+  "Golf Varsity Sport Resin": {
+    "7\"": "VSR205",
+    "5 1/2\"": "VSR105"
+  },
+  "Soccer Astro Resin": {
+    "10 3/4\"": "AA221",
+    "7\"": "AA201",
+    "8 3/4\"": "AA211"
+  },
+  "Soccer Aspire Resin": {
+    "6\"": "ASP104",
+    "8\"": "ASP204"
+  },
+  "Soccer Broadcast Resin": {
+    "6\"": "BCR106",
+    "7\"": "BCR206"
+  },
+  "Soccer Banner Resin": {
+    "8 1/2\"": "BNN37",
+    "7\"": "BNN17"
+  },
+  "Soccer Champion Award": {
+    "7 1/2\"": "CA101",
+    "8 1/2\"": "CA121",
+    "10\"": "CA141"
+  },
+  "Soccer Cobra Award": {
+    "10 1/2\"": "CA241",
+    "12\"": "CA261",
+    "6 1/2\"": "CA191",
+    "7 1/2\"": "CA201",
+    "9\"": "CA221"
+  },
+  "Soccer Hurricane Resin": {
+    "6 1/2\"": "HC304",
+    "7 1/2\"": "HC324"
+  },
+  "Soccer Imperial Resin": {
+    "6\"": "PLR104",
+    "7 7/8\"": "PLR114",
+    "9 7/8\"": "PLR124"
+  },
+  "Soccer Encore Resin": {
+    "5 3/4\"": "REN104",
+    "7\"": "REN204",
+    "8 1/2\"": "REN304"
+  },
+  "Soccer Rock Star Award": {
+    "9\"": "RKS213",
+    "7 1/2\"": "RKS203"
+  },
+  "Soccer Ribbon Resin": {
+    "5 1/4\"": "RR504",
+    "7\"": "RR704"
+  },
+  "Soccer Shield Award": {
+    "6\"": "SA607",
+    "7\"": "SA707"
+  },
+  "Soccer Sun Ray Award": {
+    "7\"": "SR113",
+    "8\"": "SR213"
+  },
+  "Soccer Triumph Resin": {
+    "6 1/2\"": "TR162",
+    "5 1/2\"": "TR112"
+  },
+  "Soccer Varsity Sport Resin": {
+    "5 1/2\"": "VSR106",
+    "7\"": "VSR206"
+  },
+  "EAGLE ON BASE": {
+    "17\"": "PLAQ17",
+    "14\"": "AE400"
+  },
+  "RESIN EAGLE SILVER": {
+    "10\"": "RFB080",
+    "14''": "RFB081",
+    "19''": "RFB082"
+  },
+  "SMALL EAGLE": {
+    "10 1/4\"": "RFB110"
+  },
+  "EAGLE SOARING": {
+    "12 1/2\"": "RFB137"
+  },
+  "Hockey BriteLazer Medal": {
+    "2\"": "BL212S"
+  },
+  "MEDIUM EAGLE": {
+    "16\"": "RFB149",
+    "12\"": "RFB111"
+  },
+  "RESIN EAGLE SMALL": {
+    "4 1/2\"": "RFB159"
+  },
+  "Hockey Galaxy Medal": {
+    "2 1/4\"": "GM106S"
+  },
+  "RESIN EAGLE WITH FLAG SMALL": {
+    "10\"": "RFB165"
+  },
+  "EAGLE HEAD SMALL": {
+    "8\"": "RFB535"
+  },
+  "Hockey High Relief Medal": {
+    "2\"": "HR730S"
+  },
+  "EAGLE ON FLAG WITH GLASS": {
+    "10\"": "RFB805"
+  },
+  "MEDIUM BRONZE EAGLE": {
+    "14\"": "RFB810"
+  },
+  "Hockey MidNite Star Medal": {
+    "2\"": "MS705S"
+  },
+  "Hockey Millennium Medal": {
+    "1 3/4\"": "STM1230S"
+  },
+  "Hockey Shooting Star Medal": {
+    "1 3/4\"": "ST20S",
+    "2 1/2\"": "ST70S"
+  },
+  "Hockey Ten Star Medal": {
+    "2 1/4\"": "TS408S"
+  },
+  "Gold Plastic Cup": {
+    "11\"": "CPC201G",
+    "13\"": "CPC202G",
+    "14 3/4\"": "CPC203G",
+    "16 3/4\"": "CPC204G"
+  },
+  "BriteLaser Insert Holder Medal": {
+    "2 3/4": "BL224S"
+  },
+  "Stars 2\" Insert Holder Medal": {
+    "2 1/2\"": "HR903S"
+  },
+  "Wreath 2\" Insert Holder Medal": {
+    "2 1/2\"": "HR905S",
+    "2 3/4\"": "HR912S"
+  },
+  "2\" Insert Holdler Medal": {
+    "2 3/4\"": "HR914S"
+  },
+  "Gold Metal Cup": {
+    "6 1/2\"": "CMC101G",
+    "7 1/2\"": "CMC102G",
+    "8 1/2\"": "CMC103G",
+    "9 3/4\"": "CMC302G",
+    "10\"": "CMC281G",
+    "11 1/2\"": "CMC282G",
+    "13\"": "CMC712G",
+    "14 1/2\"": "CMC305G",
+    "15 1/2\"": "CMC285G",
+    "12\"": "CMC320G",
+    "13 1/4\"": "CMC304G",
+    "8 3/4\"": "CMC301G",
+    "15\"": "EC206G",
+    "16 3/4\"": "CMC714G",
+    "11\"": "CMC711G",
+    "14\"": "CMC703G",
+    "15 3/4\"": "CMC704G",
+    "17 1/2\"": "CMC705G",
+    "22\"": "CMC934G",
+    "24 3/4\"": "CMC935G",
+    "26 1/2\"": "CMC936G",
+    "21\"": "CMC938G",
+    "23 1/2\"": "CMC939G",
+    "25 1/4\"": "CMC940G",
+    "10 3/4\"": "EC202G",
+    "11 1/4\"": "EC203G",
+    "13 1/2\"": "EC205G",
+    "9 5/8\"": "EC201G"
+  },
+  "Silver Metal Cup": {
+    "6 1/2\"": "CMC101S",
+    "7 1/2\"": "CMC102S",
+    "8 1/2\"": "CMC103S",
+    "9 3/4\"": "CMC302S",
+    "10\"": "CMC281S",
+    "11 1/2\"": "CMC282S",
+    "13\"": "CMC712S",
+    "14 1/2\"": "CMC305S",
+    "8 3/4\"": "CMC301S",
+    "15 1/2\"": "CMC285S",
+    "12\"": "CMC320S",
+    "13 1/4\"": "CMC304S",
+    "15\"": "CMC713S",
+    "16 3/4\"": "CMC714S",
+    "11\"": "EC401S",
+    "14 3/4\"": "CMC703S",
+    "14\"": "CMC704S",
+    "17 1/2\"": "CMC705S",
+    "22\"": "CMC934S",
+    "24 3/4\"": "CMC935S",
+    "26 1/2\"": "CMC936S",
+    "21\"": "CMC938S",
+    "23 1/2\"": "CMC939S",
+    "25 1/4\"": "CMC940S",
+    "12 1/2\"": "EC402S",
+    "13 3/4\"": "EC403S",
+    "15 1/4\"": "EC404S"
+  },
+  "Gold/Silver Metal Cup": {
+    "10 1/4\"": "CMC154",
+    "7\"": "CMC151",
+    "8 3/4\"": "CMC153",
+    "8\"": "CMC152",
+    "12 1/4\"": "CMC331",
+    "12 3/4\"": "CMC332",
+    "14\"": "CMC333",
+    "15\"": "CMC334",
+    "16\"": "CMC335",
+    "17 3/4\"": "CMC336",
+    "12\"": "CMC351",
+    "14 1/4\"k": "CMC352",
+    "16 3/4\"": "CMC353",
+    "18 3/4\"": "CMC354"
+  },
+  "Star 2\" Insert Holder Medal": {
+    "2 5/8\"": "HR915S",
+    "2 3/4\"": "HR925S"
+  },
+  "Half Wreath 2\" Insert Holder Medal": {
+    "2 3/4\"": "HR916S"
+  },
+  "Galaxy 2\" Insert Holder Medal": {
+    "2 3/8\"": "HR917S"
+  },
+  "3-Star 2\" Insert Holder Medal": {
+    "2 3/4\"": "HR918S"
+  },
+  "Leaf 2\" Insert Holder Medal": {
+    "2 3/4\"": "HR921S"
+  },
+  "Square Star 2\" Insert Holder Medal": {
+    "2 1/8\"": "HR929S"
+  },
+  "Martial Arts BriteLazer Medal": {
+    "2\"": "BL213S"
+  },
+  "Wrestling BriteLazer Medal": {
+    "2\"": "BL222S"
+  },
+  "Martial Arts Galaxy Medal": {
+    "2 1/4\"": "GM111S"
+  },
+  "Wrestling Galaxy Medal": {
+    "2 1/4\"": "GM118S"
+  },
+  "Martial Arts High Relief Medal": {
+    "2\"": "HR735S"
+  },
+  "Silver/Gold Metal Cup": {
+    "10 3/4\"": "CMC311",
+    "12\"": "CMC312",
+    "13 1/2\"": "CMC294",
+    "15\"": "CMC603",
+    "16 1/2\"": "CMC296",
+    "9 3/4\"": "CMC291",
+    "13 1/4\"": "CMC602",
+    "16\"": "CMC314",
+    "17 1/2\"": "CMC316",
+    "11''": "CMC601",
+    "17\"": "CMC604",
+    "19\"": "CMC605"
+  },
+  "Wrestling High Relief Medal": {
+    "2\"": "HR770S"
+  },
+  "Wrestling MidNite Star Medal": {
+    "2\"": "MS712S"
+  },
+  "Male Wrestling Starbrite Medal": {
+    "2\"": "SB161S",
+    "2 3/4\"": "SB261S"
+  },
+  "Female Wrestling Starbrite Medal": {
+    "2\"": "SB166S",
+    "2 3/4\"": "SB266S"
+  },
+  "Wrestling Millennium Medal": {
+    "1 3/4\"": "STM1216S"
+  },
+  "Martial Arts Millennium Medal": {
+    "1 3/4\"": "STM1223S"
+  },
+  "Wrestling Shooting Star Medal": {
+    "1 3/4\"": "ST15S",
+    "2 1/2\"": "ST65S"
+  },
+  "Martial Arts Shooting Star Medal": {
+    "1 3/4\"": "ST17S",
+    "2 1/2\"": "ST67S"
+  },
+  "Silver/Gold Textured Metal Cup": {
+    "11 3/4\"": "CMC340",
+    "13 1/4\"": "CMC341",
+    "15\"": "CMC342"
+  },
+  "Martial Arts Ten Star Medal": {
+    "2 1/4\"": "TS410S"
+  },
+  "Wrestling Ten Star Medal": {
+    "2 1/4\"": "TS418S"
+  },
+  "Wrestling Victory Medal": {
+    "2\"": "VM110S"
+  },
+  "Martial Arts 3-D Medal": {
+    "2\"": "3D209S"
+  },
+  "Wrestling 3-D Medal": {
+    "2\"": "3D217S"
+  },
+  "Tennis BriteLazer Medal": {
+    "2\"": "BL217S"
+  },
+  "Tennis Galaxy Relief Medal": {
+    "2 1/4\"": "GM116S"
+  },
+  "Silver/Gold Star Metal Cup": {
+    "11\"": "CMC808",
+    "14\"": "CMC809",
+    "17 3/4\"": "CMC810"
+  },
+  "Tennis High Relief Medal": {
+    "2\"": "HR755S"
+  },
+  "Pickleball Starbright Medal": {
+    "2\"": "SB167S",
+    "2 3/4\"": "SB267S"
+  },
+  "Gold Metal Flag Cup": {
+    "15 1/2\"": "CMC813G",
+    "18\"": "CMC814G",
+    "19 1/2\"": "CMC815G"
+  },
+  "Silver Metal Flag Cup": {
+    "15 1/2\"": "CMC813S",
+    "18\"": "CMC814S",
+    "19 1/2\"": "CMC815S"
+  },
+  "Tennis Millennium Medal": {
+    "1 3/4\"": "STM1218S"
+  },
+  "Tennis Ten Star Relief Medal": {
+    "2 1/4\"": "TS413S"
+  },
+  "Tennis 3-D Medal": {
+    "2\"": "3D212S"
+  },
+  "Participant BriteLazer Medal": {
+    "2\"": "BL313S"
+  },
+  "Sportsmanship BriteLazer Medal": {
+    "2\"": "BL319S"
+  },
+  "1st Place High Relief Medal": {
+    "2\"": "HR803S"
+  },
+  "1st Place MidNite Star Medal": {
+    "2\"": "MS715S"
+  },
+  "1st Place Starbrite Medal": {
+    "2\"": "SB163",
+    "2 3/4\"": "SB263"
+  },
+  "Gold Zinc Cup": {
+    "6 3/4\"": "CZC601G",
+    "8 3/4\"": "CZC603G",
+    "11\"": "CZC605G",
+    "12 3/4\"": "CZC607G",
+    "16 3/4\"": "CZC609G",
+    "18 1/4\"": "CZC610G"
+  },
+  "Silver Zinc Cup": {
+    "6 3/4\"": "CZC601S",
+    "8 3/4\"": "CZC603S",
+    "11\"": "CZC605S",
+    "12 3/4\"": "CZC607S",
+    "16 3/4\"": "CZC609S",
+    "18 1/4\"": "CZC610S"
+  },
+  "Gold Banner Easy Cup": {
+    "10 1/2\"": "EC301G",
+    "11\"": "EC302G",
+    "12 1/4\"": "EC303G",
+    "13 3/4\"": "EC304G",
+    "15\"": "EC305G"
+  },
+  "Silver Banner Easy Cup": {
+    "10 1/2\"": "EC301S",
+    "11\"": "EC302S",
+    "12 1/4\"": "EC303S",
+    "13 3/4\"": "EC304S",
+    "15\"": "EC305S"
+  },
+  "1st Place Super Star Medal": {
+    "2\"": "SS410"
+  },
+  "Participant Superstar Medal": {
+    "2\"": "SS508S"
+  },
+  "1st Place Ten Star Medal": {
+    "2 1/4\"": "TS421S"
+  },
+  "Participant Ten Star Medal": {
+    "2 1/4\"": "TS510S"
+  },
+  "Crystal Star Column on Black Pedestal Base": {
+    "10\"": "CRY010L",
+    "9 1/4\"": "CRY010S"
+  },
+  "Participant 3-D Medal": {
+    "2\"": "3D306S"
+  },
+  "Large Crystal Frosted Star Column on Black Pedestal Base": {
+    "10\"": "CRY031L"
+  },
+  "Racing BriteLazer Medal": {
+    "2\"": "BL214S"
+  },
+  "Medium Crystal Frosted Star Column on Black Pedestal Base": {
+    "8 3/4\"": "CRY031S",
+    "9\"": "CRY031M"
+  },
+  "Crystal 3D Star on Black Base": {
+    "6\"": "CRY050M"
+  },
+  "Small Rectangle Crystal with Silver Stars on Black Pedestal Base": {
+    "7\"": "CRY139"
+  },
+  "Small Round Crystal with Silver Star on Black Pedestal Base": {
+    "6 1/4\"": "CRY141"
+  },
+  "Large Round Crystal with Silver Star on Black Pedestal Base": {
+    "7 1/4\"": "CRY142"
+  },
+  "Clear/Black Crystal Award with Silver Metal Oval Star": {
+    "10\"": "CRY172S",
+    "11\"": "CRY172M",
+    "12\"": "CRY172L"
+  },
+  "Blue Crystal Star on Clear Pedestal Base": {
+    "8\"": "CRY242"
+  },
+  "Small Clear Crystal Star Column": {
+    "10\"": "CRY259",
+    "9\"": "CRY258"
+  },
+  "Clear Crystal Star on Black Pedestal Base": {
+    "6 1/4\"": "CRY312"
+  },
+  "Crystal Rising Star with Clear Base": {
+    "10\"": "CRY4002",
+    "11 3/4\"": "CRY4003",
+    "9\"": "CRY4001"
+  },
+  "Crystal Rising Star with Black Base": {
+    "10\"": "CRY4122",
+    "11 3/4\"": "CRY4133",
+    "9\"": "CRY4111"
+  },
+  "Crystal Outline Star on Black Base": {
+    "16 3/4\"": "CRY7105M",
+    "9 1/2\"": "CRY7105L"
+  },
+  "Crystal Star": {
+    "5\" x 5\"": "CRY7128M"
+  },
+  "Silver and Black Star Glass": {
+    "5 1/2\"": "STG11",
+    "6 1/4\"": "STG12",
+    "6 3/4\"": "STG13"
+  },
+  "Clear Glass Star on Black Base": {
+    "5 3/4\" x 5 1/2\"": "STG21",
+    "6 3/4\" x 6 1/2\"": "STG22",
+    "7 3/4\" x 7 1/2\"": "STG23"
+  },
+  "Blue Halo Acrylic with Base": {
+    "7\"": "HAL101BU",
+    "8\"": "HAL102BU"
+  },
+  "Blue Octagon Point Impress Acrylic": {
+    "5\" x 7\"": "IMP165BU",
+    "5\" x 8\"": "IMP166BU",
+    "5\" x 9\"": "IMP167BU"
+  },
+  "Hand Rubbed Mahogany Finish Book Clock, Diamond Spun Dial, 3 Hand Movement": {
+    "5 3/8\" x 4 1/4\" x 1 7/8\"": "BC57",
+    "9\" x 6 3/4\" x 2 1/4\"": "BC69"
+  },
+  "Small Blue Oval Impress Acrylic": {
+    "5\" x 7 3/4\"": "IMP601BU"
+  },
+  "Large Blue Oval Impress Acrylic": {
+    "5\" x 8 3/4\"": "IMP602BU"
+  },
+  "Clear Acrylic Circle with Clear Base": {
+    "4\"": "ACL40ABS45R",
+    "5\"": "ACL50ABS55R",
+    "6\"": "ACL60ABS65R"
+  },
+  "Small Gold Halo Acrylic with Base": {
+    "7\"": "HAL101G"
+  },
+  "Large Gold Halo Acrylic with Base": {
+    "8\"": "HAL102G"
+  },
+  "American Walnut Round Face Quartz Clock with Black Plate": {
+    "8\" x 10\"": "BC247",
+    "9\" x 12\"": "BC248"
+  },
+  "Small Gold Octagon Point Impress Acrylic": {
+    "5\" x 7\"": "IMP165G"
+  },
+  "American Walnut Square Face Quartz Clock with Black Plate": {
+    "8\" x 10\"": "BC257",
+    "9\" x 12\"": "BC258"
+  },
+  "Medium Gold Octagon Point Impress Acrylic": {
+    "5\" x 8\"": "IMP166G"
+  },
+  "Large Gold Octagon Point Impress Acrylic": {
+    "5\" x 9\"": "IMP167G"
+  },
+  "Small Gold Oval Impress Acrylic": {
+    "5\" x 7 3/4\"": "IMP601G"
+  },
+  "Round Facet Crystal on Black Pedestal Base": {
+    "5\" x 1 1/8\" thick": "CRY001L",
+    "6\" x 1 1/8\" thick": "CRY001M",
+    "7\" x 1 1/8\" thick": "CRY001S",
+    "4\"": "CRY134",
+    "5 1/4\"": "CRY135"
+  },
+  "Large Gold Oval Impress Acrylic": {
+    "5\" x 8 3/4\"": "IMP602G"
+  },
+  "Obelisk Crystal on Black Pedestal Base": {
+    "12\"": "CRY003L",
+    "10\"": "CRY003M",
+    "8\"": "CRY003S"
+  },
+  "Small Round Cosmic Acrylic with Silver Base": {
+    "7 1/4\"": "CMA11"
+  },
+  "Large Round Cosmic Acrylic with Silver Base": {
+    "8 1/2\"": "CMA12"
+  },
+  "Octagon Slant-Top Crystal on Black Pedestal Base": {
+    "10 3/4\"": "CRY004L",
+    "9 3/4\"": "CRY004S"
+  },
+  "Clear Crystal Round with Rectangle Facets on Black Crystal Base": {
+    "6 1/2\"": "CRY014L",
+    "6\"": "CRY014M",
+    "5 1/2\"": "CRY014S"
+  },
+  "Small Silver Octagon Point Impress Acrylic": {
+    "5\" x 7\"": "IMP165S"
+  },
+  "Medium Silver Octagon Point Impress Acrylic": {
+    "5\" x 8\"": "IMP166S"
+  },
+  "Rectangle Crystal on Black Pedestal Base": {
+    "8\"": "CRY017L",
+    "6 3/4\"": "CRY017M",
+    "6\"": "CRY017S"
+  },
+  "Large Silver Octagon Point Impress Acrylic": {
+    "5\" x 9\"": "IMP167S"
+  },
+  "Oval Facet Crystal on Black Pedestal Base": {
+    "9\"": "CRY019L",
+    "7 1/2\"": "CRY019S"
+  },
+  "Small Silver Oval Impress Acrylic": {
+    "5\" x 7 3/4\"": "IMP601S"
+  },
+  "Obelisk Facet Crystal on Black Pedestal Base": {
+    "11\"": "CRY033L",
+    "9 1/2\"": "CRY033S"
+  },
+  "Silver Oval Impress Acrylic": {
+    "5\" x 8 3/4\"": "IMP602S"
+  },
+  "Black Edge Crystal on Black Base": {
+    "9\"": "CRY034L",
+    "8\"": "CRY034M",
+    "7\"": "CRY034S"
+  },
+  "Clear Crystal Rectangle on Black Base": {
+    "8\"": "CRY057L",
+    "7\"": "CRY057M"
+  },
+  "Clear Acrylic Star Award": {
+    "5\" x 5\"": "STA6C"
+  },
+  "Clear Crystal Facet Rectangle on Black Base": {
+    "10\"": "CRY063L",
+    "8 3/4\"": "CRY063M",
+    "7 1/2\"": "CRY063S"
+  },
+  "Jade Acrylic Star Award": {
+    "5\" x 5\"": "STA6J"
+  },
+  "Clear Crystal Self-Standing Rectangle on Black Base": {
+    "9 1/2\"": "CRY064L",
+    "8 1/4\"": "CRY064M"
+  },
+  "Crystal Rectangle on Clear Base": {
+    "6 1/4\"": "CRY110",
+    "7 1/4\"": "CRY111",
+    "8\"": "CRY112"
+  },
+  "Blue Edge Crystal Wave on Clear Base": {
+    "7 1/4\"": "CRY155",
+    "8 1/4\"": "CRY156",
+    "9 3/4\"": "CRY157"
+  },
+  "Clear Acrylic Star Obelisk": {
+    "4 3/4\" x 8\"": "STA8C"
+  },
+  "Jade Acrylic Star Obelisk": {
+    "4 3/4\" x 8\"": "STA8J"
+  },
+  "Clear Acrylic Star Page Award": {
+    "7 1/4\" x 5 1/4\"": "STA7C"
+  },
+  "Blue Star Column Acrylic": {
+    "6 3/4\"": "SCM1BU",
+    "7 1/2\"": "SCM2BU",
+    "8 1/2\"": "SCM3BU"
+  },
+  "Clear Crystal Triangle on Black Crystal Pedestal Base": {
+    "6 1/2\"": "CRY168L",
+    "7 3/4\"": "CRY168M"
+  },
+  "Round Facet Crystal on Black & Clear Round Base": {
+    "6\"": "CRY19001BKM",
+    "5\"": "CRY19001BKS",
+    "7\"": "CRY19001BKL"
+  },
+  "Round Facet Crystal on Blue & Clear Round Base": {
+    "7\"": "CRY19001BUL",
+    "6\"": "CRY19001BUM",
+    "5\"": "CRY19001BUS"
+  },
+  "Large Crystal Arch with Blue Base": {
+    "10 1/2\"": "CRY2009L",
+    "9 3/4\"": "CRY2009M",
+    "7 3/4\"": "CRY2009S"
+  },
+  "Crystal Peak with Blue Base": {
+    "9 3/4\"": "CRY20010L",
+    "9\"": "CRY20010M",
+    "7 3/4\"": "CRY20010S"
+  },
+  "Crystal Fan with Black Base": {
+    "8\"": "CRY20024M",
+    "7 1/4\"": "CRY20024S",
+    "8 3/4\"": "CRY20024L"
+  },
+  "Crystal Cube": {
+    "1 1/2\" x 1 1/2\"": "CRY048S",
+    "2 1/2\"": "CRY048L",
+    "2\" x 2\"": "CRY1855",
+    "3 1/2\" x 3 1/2\"": "CRY048XXL",
+    "3\" x 3\"": "CRY1888",
+    "4\" x 4\"": "CRY048XXXL",
+    "2 1/2\" x 2 1/2\"": "CRY1865"
+  },
+  "Clear Crystal Cube on Black Pedestal Base": {
+    "4 1/2\"": "CRY6619S",
+    "6\"": "CRY6619L"
+  },
+  "Diamond Crystal on Black Pedestal Base": {
+    "10\"": "CRY005L",
+    "8\"": "CRY005S",
+    "9\"": "CRY005M"
+  },
+  "Clear Round Crystal on Clear Diamond Base": {
+    "7 1/2\"": "CRY056L",
+    "6 1/2\"": "CRY056M"
+  },
+  "Crystal Diamond on Clear Pedestal Base": {
+    "8 1/2\"": "CRY102",
+    "10\"": "CRY103",
+    "9\"": "CRY136",
+    "10 1/2\"": "CRY137",
+    "7\"": "CRY138"
+  },
+  "Small Blue Star Impress Acrylic": {
+    "5\" x 7\"": "IMP701BU"
+  },
+  "Medium Blue Star Impress Acrylic": {
+    "5\" x 8\"": "IMP702BU"
+  },
+  "Large Blue Star Impress Acrylic": {
+    "5\" x 9\"": "IMP703BU"
+  },
+  "Clear Star Acrylic with Brass Base": {
+    "Blank is 3\" x 6\"": "PSR36CPIB3R",
+    "Blank is 3\" x 7\"": "PSR37CPIB3R"
+  },
+  "Gold Double Star Column Acrylic": {
+    "5\" x 9 1/2\"": "ASC29"
+  },
+  "Large Gold Single Star Column Acrylic": {
+    "3 3/4\" x 11": "ASC11"
+  },
+  "Crystal Diamond Tower": {
+    "7 3/4\"": "CRY1506M",
+    "9 3/4\"": "CRY1506L"
+  },
+  "Gold Single Star Column Acrylic": {
+    "3 3/4\" x 7\"": "ASC7",
+    "3 3/4\" x 9\"": "ASC9"
+  },
+  "Gold Star Column Acrylic": {
+    "6 3/4\"": "SCM1G",
+    "7 1/2\"": "SCM2G",
+    "8 1/2\"": "SCM3G"
+  },
+  "Small Gold Star Column Acrylic with Clear Plaque": {
+    "7\"": "ASC57"
+  },
+  "Diamond Crystal on Black & Clear Round Base": {
+    "9 1/2\"": "CRY19005BKM",
+    "8 1/4\"": "CRY19005BKS",
+    "10 1/4\"": "CRY19005BKL"
+  },
+  "Medium Gold Star Column Acrylic with Clear Plaque": {
+    "8\"": "ASC58"
+  },
+  "Diamond Crystal on Blue & Clear Round Base": {
+    "10 1/4\"": "CRY19005BUL",
+    "9 1/2\"": "CRY19005BUM",
+    "8 1/4\"": "CRY19005BUS"
+  },
+  "Large Gold Star Column Acrylic with Clear Plaque": {
+    "9\"": "ASC59"
+  },
+  "Small Gold Star Impress Acrylic": {
+    "5\" x 7\"": "IMP701G"
+  },
+  "Crystal Diamond on Blue Pedestal Base": {
+    "9 3/4\"": "CRY2008L",
+    "8 3/4\"": "CRY2008M",
+    "7 3/4\"": "CRY2008S"
+  },
+  "Medium Gold Star Impress Acrylic": {
+    "5\" x 8\"": "IMP702G"
+  },
+  "Large Gold Star Impress Acrylic": {
+    "5\" x 9\"": "IMP703G"
+  },
+  "Crystal Diamond Top Pillar": {
+    "6\"": "CRY3106M",
+    "7\"": "CRY3106L"
+  },
+  "Small Jade Star Acrylic with Black Base": {
+    "3\" x 6\"": "PSR36JPIB4R",
+    "3\" x 7\"": "PSR37JPIB4R"
+  },
+  "Diamond Crystal on Blue Pedestal Base": {
+    "9\"": "CRY505M",
+    "8\"": "CRY505S",
+    "10\"": "CRY505L"
+  },
+  "Silver Star Column Acrylic": {
+    "6 3/4\"": "SCM1S",
+    "7 1/2\"": "SCM2S",
+    "8 1/2\"": "SCM3S"
+  },
+  "Crystal Globe on Black Base": {
+    "3\"": "CRY037",
+    "5 1/2\"": "CRY038"
+  },
+  "Small Silver Star Impress Acrylic": {
+    "5\" x 7\"": "IMP701S"
+  },
+  "Medium Silver Star Impress Acrylic": {
+    "5\" x 8\"": "IMP702S"
+  },
+  "Crystal Globe Paperweight": {
+    "3\"": "CRY065",
+    "4\"": "CRY066"
+  },
+  "Large Silver Star Impress Acrylic": {
+    "5\" x 9\"": "IMP703S"
+  },
+  "Clear Crystal Rectangle with Globe Etching": {
+    "7 3/4\"": "CRY067M",
+    "6 1/2\"": "CRY067S",
+    "5\"": "CRY6524S",
+    "6\"": "CRY6524M",
+    "7\"": "CRY6524L",
+    "8\"": "CRY6524XL"
+  },
+  "Crystal Globe on Clear Base": {
+    "4 1/2\"": "CRY114",
+    "5 1/2\"": "CRY115",
+    "3 1/2\"": "CRY113"
+  },
+  "Clear Single Star Column Acrylic with Clear Base": {
+    "3 1/4\" x 5\"": "ASC5"
+  },
+  "Jade Star Page Acrylic": {
+    "7 1/4\" x 5 1/4\"": "STA7J"
+  },
+  "Blue Crystal Globe on Clear Crystal Base": {
+    "5\"": "CRY6532M",
+    "6 1/2\"": "CRY6532L"
+  },
+  "Clear Acrylic Diamond with Walnut Base": {
+    "4\" x 4\"": "CADWB11"
+  },
+  "Small Black Diamond Ice Unite Acrylic": {
+    "4 1/2\" x 6 1/2\"": "UNT10BK"
+  },
+  "Large Black Diamond Ice Unite Acrylic": {
+    "4 1/2\" x 7 1/2\"": "UNT11BK"
+  },
+  "Clear Crystal Oblong Golf Award on Black Crystal Base": {
+    "6 1/2\"": "CRY013S",
+    "6\"": "CRY013M",
+    "7 1/4\"": "CRY013L"
+  },
+  "Round Facet Crystal with Golf Ball on Black Pedestal Base": {
+    "5 1/2\"": "CRY026S",
+    "6 1/2\"": "CRY026L"
+  },
+  "Clear Crystal 3D Golf Spire on Black Pedestal Base": {
+    "10 1/4\"": "CRY054",
+    "11 1/2\"": "CRY054L"
+  },
+  "Small Black Marble Arch Acrylic with White Base": {
+    "6\"": "PMA36BKMPIB2R"
+  },
+  "Silver Metal Golf Figure on Black Crystal Pedestal": {
+    "8 1/2\"": "CRY145S",
+    "9 1/2\"": "CRY145M"
+  },
+  "Large Black Marble Arch Acrylic with White Base": {
+    "3\" x 7\"": "PMA37BKMPIB2R"
+  },
+  "Clear/Black Crystal Golf Award with Silver Metal Oval Figure": {
+    "11\"": "CRY146M",
+    "10\"": "CRY146S",
+    "12\"": "CRY146L"
+  },
+  "Large Black Marbleized Acrylic": {
+    "4\" x 7\"": "MBL47BKM"
+  },
+  "Small Black Marbleized Acrylic Award": {
+    "4\" x 6\"": "MBL46BKM"
+  },
+  "Small Blue Acrylic Floating Diamond": {
+    "9 1/2\"": "AFD10BU"
+  },
+  "Crystal Golf Ball on Clear Pedestal Base": {
+    "7 3/4\"": "CRY151"
+  },
+  "Clear/Black Crystal Standup with 3D Golfer": {
+    "11 1/4\"": "CRY167L",
+    "9 1/2\"": "CRY167M"
+  },
+  "Clear Crystal with Inset Crystal Golf Ball on Clear Base": {
+    "7 1/4\"": "CRY180",
+    "8\"": "CRY181"
+  },
+  "Clear Crystal Tablet with Inset Golf Ball on Black Pedestal Base": {
+    "9\"": "CRY307"
+  },
+  "Crystal Golf Ball Paperweight": {
+    "2 3/8\"": "CRY7107S",
+    "3 1/8\"": "CRY7107M"
+  },
+  "Clear Octagon Slant-Top Crystal Tower": {
+    "6\"": "CRY132",
+    "7 1/2\"": "CRY133"
+  },
+  "Crystal Facet Triangle": {
+    "7\" x 10\"": "CRY1425L",
+    "6\" x 8\"": "CRY1425M"
+  },
+  "Crystal Facet Fan": {
+    "8\" x 6\"": "CRY1438CM",
+    "9\" x 7\"": "CRY1438CL"
+  },
+  "Crystal Facet Wedge": {
+    "6 1/2\" x 8 3/4\"": "CRY1452M",
+    "6\" x 7 3/4\"": "CRY01452S",
+    "7\" x 10\"": "CRY01452L",
+    "6 1/2\" 8 3/4\"": "CRY01452M"
+  },
+  "Clear Crystal Block": {
+    "2\" x 4\"": "CRY1810",
+    "2\" x 4 3/4\"": "CRY1812"
+  },
+  "Crystal Peak": {
+    "8 1/4\"": "CRY20002M",
+    "7\"": "CRY20002S",
+    "9\"": "CRY2002L",
+    "9'": "CRY20002L"
+  },
+  "Crystal Wedge": {
+    "5 1/2\" x 8\"": "CRY20003L",
+    "5\" x 7\"": "CRY20003M",
+    "4\" x 6\"": "CRY20003S"
+  },
+  "Crystal Semi Truck": {
+    "10\" x 3\"": "CRY3500L",
+    "7\" x 2 1/4\"": "CRY3500M"
+  },
+  "Crystal Triangle Front Pillar": {
+    "7\"": "CRY3502L",
+    "6\"": "CRY3502M"
+  },
+  "Crystal Cylinder": {
+    "6 1/2\"": "CRY3701M",
+    "5 1/2\"": "CRY3701S",
+    "7 1/2\"": "CRY3701L"
+  },
+  "Crystal Facet Wave": {
+    "7 3/4\"": "CRY7049KL",
+    "7\"": "CRY7049KM"
+  },
+  "Crystal Pyramid": {
+    "3 1/8\" x 3 1/8\" x 3 1/8\"": "CRY7109M",
+    "2 3/8\" x 2 3/8\" x 2 3/8\"": "CRY7109S"
+  },
+  "Clear Crystal Facet Slant-Top Tower": {
+    "12\"": "CRY74"
+  },
+  "Clear Crystal Facet Block": {
+    "5\" x 3\"": "CRY76",
+    "6\" x 3 1/2\"": "CRY77",
+    "7\" x 4 1/4\"": "CRY78"
+  },
+  "Clear Crystal Octagon Tower": {
+    "10\"": "CRY89",
+    "12\"": "CRY90",
+    "5\"": "CRY79",
+    "6 1/4\"": "CRY80",
+    "8\"": "CRY88"
+  },
+  "Full Color Glass Plaque (Sublimatable) with Decorative Post": {
+    "5\" x 7\"": "G3056",
+    "7\" x 9\"": "G3083"
+  },
+  "American Walnut Plaque with Black/Gold Border Brass Plate": {
+    "10 1/2\" x 13\"": "P1092",
+    "5\" x 7\"": "P1088",
+    "7\" x 8\"": "P1089",
+    "8\" x 10 1/2\"": "P1090",
+    "9\" x 12\"": "P1091"
+  },
+  "American Walnut Plaque with Florentine Black/Gold Border Design LaserFX Plate": {
+    "7\" x 8\"": "P1397",
+    "8\" x 10 1/2\"": "P1398",
+    "9\" x 12\"": "P1399"
+  },
+  "American Walnut Precision Elliptical Edge Plaque w/Brass Printed Border Plate": {
+    "10 1/2\" x 13\"": "P1616",
+    "5\" x 7\"": "P1611",
+    "7\" x 8\"": "P1612",
+    "7\" x 9\"": "P1613",
+    "8\" x 10 1/2\"": "P1614",
+    "9\" x 12\"": "P1615"
+  },
+  "American Walnut Shield Plaque with Black/Gold Plate (Sheffield Series)": {
+    "10\" x 12\"": "P36",
+    "7 1/4\" x 9\"": "P34",
+    "8 1/2\" x 10 1/2\"": "P35"
+  },
+  "American Walnut Plaque w/Textured Black Florentine Black Border LaserFX Plate": {
+    "10 1/2\" x 13\"": "P3163",
+    "7\" x 8\"": "P3160",
+    "8\" x 10 1/2\"": "P3151",
+    "9\" x 12\"": "P3152",
+    "7\" x 9\"": "P3150",
+    "11\" x 14\"": "P3153"
+  },
+  "American Walnut Step Edge Plaque with Sapphire Marble LaserFX Plate": {
+    "10 1/2\" x 13\"": "P3126",
+    "7\" x 9\"": "P2947",
+    "8\" x 10\"": "P2948",
+    "9\" x 12\"": "P2949"
+  },
+  "American Walnut Plaque with Black Textured Florentine Border LaserFX Plate": {
+    "11\" x 14\"": "P2926",
+    "7\" x 9\"": "P2923",
+    "8\" x 10 1/2\"": "P2924",
+    "9\" x 12\"": "P2925"
+  },
+  "American Walnut Plaque with Black/Gold Printed Border Brass Plate": {
+    "7\" x 9\"": "P2913",
+    "8\" x 10 1/2\"": "P2914",
+    "9\" x 12\"": "P2915"
+  },
+  "American Walnut Framed Plaque w/Gold Trim & Black Velour Back, Black Brass Plate": {
+    "12\" x 14\"": "P1983",
+    "13\" x 16\"": "P1984"
+  },
+  "American Walnut Plaque with Black Printed Border Brass Plate": {
+    "7 1/2\" x 8 1/2\"": "P1801",
+    "8 1/2\" x 10\"": "P1802",
+    "9 1/2\" x 11 1/2\"": "P1803"
+  },
+  "American Walnut Routed Plaque w/Black Brass Plate and 2 1/2\" Black Brass Disc": {
+    "10\" x 12\"": "P1703",
+    "12\" x 14\"": "P1704",
+    "7\" x 9\"": "P1701",
+    "8\" x 10 1/2\"": "P1702"
+  },
+  "American Walnut Plaque with Black Brass Printed Border Plate": {
+    "11\" x 15\"": "P1649",
+    "7\" x 8\"": "P1646",
+    "8\" x 10 1/2\"": "P1647",
+    "9\" x 12\"": "P1648"
+  },
+  "American Walnut Notched Plaque with a Black Printed Border Brass Plate": {
+    "11\" x 15\"": "P1644",
+    "7\" x 8\"": "P1641",
+    "8\" x 10 1/2\"": "P1642",
+    "9\" x 12\"": "P1643"
+  },
+  "American Walnut Elliptical Edge Plaque w/Black/Gold Florentine LaserFX Plate": {
+    "5\" x 7\"": "P1621",
+    "7\" x 8\"": "P1622",
+    "7\" x 9\"": "P1623",
+    "8\" x 10 1/2\"": "P1624",
+    "9\" x 12\"": "P1625"
+  },
+  "American Walnut Plaque with Gold Border Black LaserFX Plate": {
+    "11\" x 15\"": "P5144",
+    "7\" x 8\"": "P5141",
+    "8\" x 10 1/2\"": "P5114",
+    "9\" x 12\"": "P5115",
+    "10 1/2\" x 13\"": "P5116",
+    "7\" x 9\"": "P5113"
+  },
+  "Walnut Stained Piano Finish Premium Plaque w/Black/Gold Florentine LaserFX Plate": {
+    "7\" x 9\"": "P4300",
+    "8\" x 10 1/2\"": "P4301",
+    "9\" x 12\"": "P4302"
+  },
+  "Walnut Finished Piano Plaque with Sapphire Marble/Gold Florentine LaserFX Plate": {
+    "7\" x 9\"": "P4210",
+    "8\" x 10 1/2\"": "P4211",
+    "9\" x 12\"": "P4212"
+  },
+  "Coventry Series American Walnut Plaque with Sapphire Marble LaserFX Plate": {
+    "7\" x 8\"": "P3462",
+    "8\" x 10 1/2\"": "P3463",
+    "9\" x 12\"": "P3464"
+  },
+  "American Walnut Plaque with Ruby Marble LaserFX Plate": {
+    "7\" x 8\"": "P3478",
+    "8\" x 10 1/2\"": "P3479",
+    "9\" x 12\"": "P3480"
+  },
+  "Walnut Stained Piano Finish Plaque with Florentine Border Black LaserFX Plate": {
+    "7\" x 9\"": "P4120",
+    "8\" x 10 1/2\"": "P4121",
+    "9\" x 12\"": "P4122"
+  },
+  "Walnut Stain Piano Premium Plaque, Sapphire Marble/Gold Florentine LaserFX Plate": {
+    "7\" x 9\"": "P4200",
+    "8\" x 10 1/2\"": "P4201",
+    "9\" x 12\"": "P4202"
+  },
+  "Walnut Stained Piano Plaque with Sapphire Marble/Gold Florentine LaserFX Plate": {
+    "7\" x 9\"": "P4120-2",
+    "8\" x 10 1/2\"": "P4121-2",
+    "9\" x 12\"": "P4122-2"
+  },
+  "Soccer BriteLazer Medal": {
+    "2\"": "BL215S"
+  },
+  "Soccer Galaxy Medal": {
+    "2 1/4\"": "GM109S"
+  },
+  "Soccer High Relief Soccer Medal": {
+    "2\"": "HR745S"
+  },
+  "Soccer MidNite Star Medal": {
+    "2\"": "MS707S"
+  },
+  "Soccer Starbrite Medal": {
+    "2\"": "SB157S",
+    "2 3/4\"": "SB257S"
+  },
+  "Small Diamond Cosmic Glass with Silver Base": {
+    "7 1/4\"": "CMG21"
+  },
+  "Soccer Superstar Medal": {
+    "2\"": "SS405S"
+  },
+  "Soccer Millennium Medal": {
+    "1 3/4\"": "STM1228S"
+  },
+  "Soccer Shooting Star Medal": {
+    "1 3/4\"": "ST08S",
+    "2 1/2\"": "ST58S"
+  },
+  "Soccer Ten Star Medal": {
+    "2 1/4\"": "TS411S"
+  },
+  "Soccer Victory Medal": {
+    "2\"": "VM108S"
+  },
+  "Soccer 3-D Medal": {
+    "2\"": "3D210S"
+  },
+  "Torch Galaxy Medal": {
+    "2 1/4\"": "GM110S"
+  },
+  "Cross Country BriteLazer Medal": {
+    "2\"": "BL207S"
+  },
+  "Track & Field BriteLazer Medal": {
+    "2\"": "BL208S"
+  },
+  "Track BriteLaser Medal": {
+    "2\"": "BL218S"
+  },
+  "Track Galaxy Medal": {
+    "2 1/4\"": "GM112S"
+  },
+  "Cross Country Galaxy Medal": {
+    "2 1/4\"": "GM114S"
+  },
+  "Track High Relief Medal": {
+    "2\"": "HR760S"
+  },
+  "Cross Country High Relief Medal": {
+    "2\"": "HR780S"
+  },
+  "Track MidNite Star Medal": {
+    "2\"": "MS710S"
+  },
+  "Cross Country Starbrite Medal": {
+    "2\"": "SB154S",
+    "2 3/4\"": "SB254S"
+  },
+  "Track Starbrite Medal": {
+    "2\"": "SB159S",
+    "2 3/4\"": "SB259S"
+  },
+  "Cross Country Superstar Medal": {
+    "2\"": "SS403S"
+  },
+  "Track Superstar Medal": {
+    "2\"": "SS407S"
+  },
+  "Track Millennium Medal": {
+    "1 3/4\"": "STM1201S"
+  },
+  "Cross Country Millennium Medal": {
+    "1 3/4\"": "STM1225S"
+  },
+  "Track Shooting Star Medal": {
+    "2\"": "ST13S",
+    "2 1/2\"": "ST63S"
+  },
+  "Track Ten Star Medal": {
+    "2 1/4\"": "TS414S"
+  },
+  "Track & Field Ten Star Medal": {
+    "2 1/4\"": "TS415S"
+  },
+  "Cross Country Ten Star Medal": {
+    "2 1/4\"": "TS419S"
+  },
+  "Track Victory Medal": {
+    "2\"": "VM109S"
+  },
+  "Track 3-D Medal": {
+    "2\"": "3D213S"
+  },
+  "Track & Field 3-D Medal": {
+    "2\"": "3D214S"
+  },
+  "Triathlon 3-D Medal": {
+    "2\"": "3D215S"
+  },
+  "26.2 (Marathon) 3-D Medal": {
+    "2\"": "3D218S"
+  },
+  "13.1 (Half marathon) 3-D Medal": {
+    "2\"": "3D219S"
+  },
+  "10K 3-D Medal": {
+    "2\"": "3D220S"
+  },
+  "5K 3-D Medal": {
+    "2\"": "3D221S"
+  },
+  "Achievement High Relief Medal": {
+    "2\"": "HR700S"
+  },
+  "Torch High Relief Medal": {
+    "2\"": "HR800S"
+  },
+  "Torch MidNite Star Medal": {
+    "2\"": "MS709S"
+  },
+  "Torch Starbrite Medal": {
+    "2\"": "SB158S",
+    "2 3/4\"": "SB258S"
+  },
+  "Torch Superstar Medal": {
+    "2\"": "SS406S"
+  },
+  "Torch Millennium Medal": {
+    "1 3/4\"": "STM1200S"
+  },
+  "Torch Shooting Star Medal": {
+    "1 3/4\"": "ST14S"
+  },
+  "Torch Ten Star Medal": {
+    "2 1/4\"": "TS416S"
+  },
+  "RESIN BOWLING BALL AND PINS": {
+    "5 25\"": "RF3662A",
+    "6 25\"": "RF3662B"
+  },
+  "BILLBOARD SERIES": {
+    "6 5\"": "RST227",
+    "8 5\"": "RST427"
+  },
+  "RUNNING STAR BOWLING F": {
+    "5.5\"": "RST628",
+    "7.5\"": "RST828"
+  },
+  "Football LINEMAN": {
+    "4.25\"": "02-1300-00",
+    "6\"": "02-1300-02",
+    "8\"": "02-1300-01"
+  },
+  "RESIN FOOTBALL": {
+    "10.5\"": "RF110D",
+    "5.5\"": "RF110A",
+    "7.25\"": "RF110B",
+    "9\"": "RF110C"
+  },
+  "FOOTBALL QB RESIN": {
+    "13\"": "RFB021",
+    "15.75\"": "RF20345",
+    "16.5\"": "RF20344A"
+  },
+  "RESIN FOOTBALL GOLD LARGE": {
+    "12\"": "RG3106A"
+  },
+  "SUPER STAR SM FOOTBALL M": {
+    "24\"": "RST910",
+    "6.5\"": "RST310",
+    "8.5\"": "RST510"
+  },
+  "ICE HOCKEY, MALE": {
+    "6\"": "RFCR101AA"
+  },
+  "ASSEMBLED CUP GOLD, PLASTIC CUP PLASTIC STEM MARBLE BASE)": {
+    "10.5\"": "AMC28-B"
+  },
+  "ASSEMBLED CUP GOLD SILVER, PLASTIC CUP PLASTIC STEM MARBLE BASE": {
+    "12\"": "AMC30",
+    "13\"": "AMC31"
+  },
+  "ASSEMBLED CUP GOLDBLUE-Plastic Cup on a MArble Base": {
+    "13.25\"": "AMC33B-A"
+  },
+  "ASSEMBLED CUP GOLD - BLUE, PLASTIC CUPS MARBLE BASE": {
+    "12.25\"": "AMC33B-B"
+  },
+  "ASSEMBLED CUP GOLD - BLACK, PLASTIC CUPS MARBLE BASE": {
+    "13.25\"": "AMC33K-A"
+  },
+  "RESIN CHECKMATE SOCCER": {
+    "6.5\"": "RF1919"
+  },
+  "SOCCERBALL RISING STAR": {
+    "5\"": "RF2250A",
+    "6\"": "RF2250B",
+    "7\"": "RF2250C"
+  },
+  "TWIN STARS SOCCER": {
+    "5\"": "RF2513A",
+    "6\"": "RF2513B"
+  },
+  "SATURN RESIN SERIES SOCCER": {
+    "6\"": "RF2618"
+  },
+  "ULTRA ACTION SPORT SOCCER": {
+    "6.5\"": "RF2718",
+    "8\"": "RF2758"
+  },
+  "SOCCER RES PLATE": {
+    "6.75\"": "RF-2760"
+  },
+  "MALE SOCCER STAR": {
+    "6\"": "RF-3860"
+  },
+  "FEMALE SOCCER STAR": {
+    "6\"": "RF-3865"
+  },
+  "DELTA RESIN SOCCER": {
+    "6.25\"": "RF6013"
+  },
+  "SILVER ALLSTAR FUTBOL": {
+    "6.25\"": "RF7009"
+  },
+  "BM": {
+    "14.75\"": "RF-7060-"
+  },
+  "SOCCER MALE": {
+    "13.5\"": "RFB003"
+  },
+  "MALE SOCCER KICK": {
+    "9.5\"": "RFB-52528"
+  },
+  "FEMALE SOCCER KICK": {
+    "9.5\"": "RFB-52574"
+  },
+  "MALE SOCCER ON BASE": {
+    "6\"": "RFG70"
+  },
+  "RESIN PLATE SOCCER MALE": {
+    "7.5\"": "RFH518"
+  },
+  "RESIN PLATE SOCCER FEMALE": {
+    "7.5\"": "RFH519"
+  },
+  "FLAME SERIES SOCCER": {
+    "7.25\"": "RFL13B"
+  },
+  "STAR SWEEP SOCCER": {
+    "6\"": "RFS118"
+  },
+  "BANNER SERIES SOCCER": {
+    "6\"": "RFS243",
+    "7\"": "RFS313"
+  },
+  "RESIN V SERIES SOCCER": {
+    "20\"": "RG6013"
+  },
+  "SOCCER IMPACT SERIES": {
+    "6\"": "RIC854"
+  },
+  "SOCCER PLATE FEMALE": {
+    "6.5\"": "ROP1364B",
+    "8.5\"": "ROP1367B"
+  },
+  "STAR BURST RESIN SOCCER": {
+    "5.5\"": "RS18"
+  },
+  "BILLBOARD SERIES SM SOCCER": {
+    "6.5\"": "RST218"
+  },
+  "SUPER STAR SM SOCCER F": {
+    "6.5\"": "RST319"
+  },
+  "BILLBOARD SERIES LG SOCCER": {
+    "8.5\"": "RST419"
+  },
+  "RUNNING STAR SOCCER M": {
+    "7.5\"": "RST818"
+  },
+  "VICTORY RESIN SOCCER": {
+    "6.75\"": "RV13A",
+    "8.25\"": "RV13B",
+    "9.25\"": "RV13C"
+  },
+  "SOCCER BALL, WHITE WITH BLACK": {
+    "12\"": "RX822K"
+  },
+  "3D SPORT STARS SOCCER": {
+    "6.25\"": "SSR13"
+  },
+  "WP SCULPTURE SOCCER": {
+    "10.25\"": "STS13C",
+    "12\"": "STS13D",
+    "6\"": "STS13A",
+    "8.5\"": "STS13B"
+  },
+  "WP SCULP SOCCER": {
+    "10.25\"": "STS33E",
+    "7.75\"": "STS33C",
+    "7\"": "STS33B",
+    "8.5\"": "STS33D"
+  },
+  "SOCCER VICTORY AWARD": {
+    "10.5\"": "02-1309-00",
+    "12\"": "02-1309-01",
+    "13\"": "02-1309-02"
+  },
+  "EAGLE LANDING": {
+    "10\"": "PLAQ10",
+    "12\"": "PLAQ112",
+    "14\"": "PLAQ14"
+  },
+  "EAGLE WITH SPREAD": {
+    "10\"": "PLAQ100",
+    "14\"": "PLAQ114",
+    "7.2\"": "PLAQ72"
+  },
+  "EAGLE SWOOPING ON BASE": {
+    "191.2\"": "PLAQ1912",
+    "251.2\"": "PLAQ2512"
+  },
+  "EAGLE IN FLIGHT ON WOOD": {
+    "12\"": "PLAQ12"
+  },
+  "EAGLE WITH AMERICAN FLAG": {
+    "10.2\"": "PLAQ102"
+  },
+  "EAGLE WITH 2 AMERICAN FLAG": {
+    "11''": "PLAQ110"
+  },
+  "BRZ METAL EAGLE": {
+    "8\"": "PLAQ08",
+    "11\"": "PLAQ11",
+    "6\"": "PLAQ06",
+    "83.4\"": "PLAQ83"
+  },
+  "MOTION X OVAL EAGLE": {
+    "71.4\"": "PLAQ714"
+  },
+  "3-D SMALL OVAL BASEBALL": {
+    "7”x5 1/2": "3D201"
+  },
+  "LARGE OVAL BASEBALL": {
+    "8 1/2”x7”": "3D401"
+  },
+  "ASSEM MOTION TROPHY BASEBALL": {
+    "14''": "ATR101"
+  },
+  "ASSEMBLED TROPHY BASEBALL": {
+    "10\"": "ATR301"
+  },
+  "ASSM TROPHY BASEBALL M": {
+    "10\"": "ATR401A",
+    "11\"": "ATR401B"
+  },
+  "BASEBALL": {
+    "5.5 X 7.25\"": "BT751",
+    "8\"": "CRY147"
+  },
+  "SOFTBALL": {
+    "5.5 X 7.25\"": "BT752"
+  },
+  "BRZ BASEBALL": {
+    "8.25\"": "L-319-28"
+  },
+  "LITTLE BUDDY BASEBALL": {
+    "4\"": "LBR01"
+  },
+  "LITTLE BUDDY SOFTBALL": {
+    "4\"": "LBR02"
+  },
+  "MY LIL STAR BASEBALL": {
+    "5\"": "LSR01"
+  },
+  "BASEBALL VICTORY": {
+    "6\"": "MF5301"
+  },
+  "RIBBON FIG BASEBALL": {
+    "5\"": "MF5501"
+  },
+  "MOTION X MALE BASEBALL": {
+    "5\"": "MX501",
+    "8.75\"": "MX801",
+    "9.75\"": "MX901"
+  },
+  "(MOTION X FEMALE SOFTBALL": {
+    "5\"": "MX502"
+  },
+  "MOTION X MALE T-BALL": {
+    "5\"": "MX519",
+    "7\"": "MX719"
+  },
+  "MOTION X FEMALE T-BALL": {
+    "5\"": "MX520",
+    "7\"": "MX720"
+  },
+  "MOTION X OVAL M BASEBALL": {
+    "7.25\"": "MX2001"
+  },
+  "MOTION X OVAL F SOFTBALL": {
+    "7.25\"": "MX2002"
+  },
+  "RESIN COMET SERIES BASEBALL": {
+    "5.25\"": "RCS101"
+  },
+  "RESIN COMET SERIES SOFTBALL": {
+    "5.25\"": "RCS102"
+  },
+  "RESIN DIAMOND PLATE BASE": {
+    "7.5\"": "RDP01"
+  },
+  "BASEBALL-PITCHER-RESIN": {
+    "8\"": "RF1401SN"
+  },
+  "RADIANT SERIES BSBL": {
+    "5.5\"": "RF1501A"
+  },
+  "WREATH SPORT BALL BASE": {
+    "6\"": "RF1730"
+  },
+  "WREATH SPORT BALL SOFT": {
+    "6\"": "RF1739"
+  },
+  "STAR SERIES BASEBALL": {
+    "6\"": "RF1801"
+  },
+  "RESIN CHECKMATE BASEBALL": {
+    "6.5\"": "RF1901"
+  },
+  "RESIN CHECKMATE SOFTBALL": {
+    "6.5\"": "RF1902"
+  },
+  "BASEBALL BAT DOWN, MALE": {
+    "9.5\"": "RF2341SG"
+  },
+  "BASEBALL BAT DOWN, FEMALE": {
+    "9.5\"": "RF2346SG",
+    "6.5\"": "RX3026K"
+  },
+  "8TWIN STARS BASEBALL": {
+    "5.25\"": "RF2501A"
+  },
+  "SATURN RESIN SERIES BASE": {
+    "6\"": "RF2601"
+  },
+  "GENERIC SATURN RESIN BASEBALL": {
+    "6\"": "RF2631"
+  },
+  "BASEBALL RESIN PLATE": {
+    "6.25\"": "RF-2700"
+  },
+  "ULTRA ACTION SPORT BASEBALL": {
+    "6.5\"": "RF2701"
+  },
+  "(ULTRA ACTION SPORT SOFTBALL": {
+    "6.5\"": "RF2702"
+  },
+  "SOFTBALL RES PLATE": {
+    "6.25\"": "RF-2705"
+  },
+  "ULTRA ACTION SPORT SOFTBALL": {
+    "8\"": "RF2742"
+  },
+  "BASEBALL,M, BURSTER PLATE": {
+    "4.5\"": "RF-3600",
+    "6.25\"": "RF-3700"
+  },
+  "SOFTBALL,F, BURSTER PLATE": {
+    "6.75\"": "RF-3701"
+  },
+  "MALE BASEBALL STAR": {
+    "6\"": "RF-3800"
+  },
+  "FEMALE BASEBALL STAR": {
+    "6\"": "RF-3805"
+  },
+  "DELTA RESIN BASEBALL": {
+    "6\"": "RF6001"
+  },
+  "ANT GOLD BASEBALL GLOVE": {
+    "6.25\"": "RF-7000-12-BM"
+  },
+  "SILVER ALLSTAR BASEBALL": {
+    "6.25\"": "RF7001"
+  },
+  "SPORTS FRAME BASEBAL": {
+    "7.25\"": "RF8601"
+  },
+  "BASEBALL PITCHER RESIN": {
+    "14.5\"": "RF20346"
+  },
+  "BASEBALL CATCHER RESIN": {
+    "8.75\"": "RF20350"
+  },
+  "BASEBALL MALE LARGE": {
+    "15\"": "RFB020"
+  },
+  "BASEBALL PEDESTAL": {
+    "10.5\"": "RFB028"
+  },
+  "BASEBALL PITCHER": {
+    "8.5\"": "RFB041"
+  },
+  "RESIN BASEBALL WITH GLASS": {
+    "7.25\"": "RFB308"
+  },
+  "BASEBALL BATTER": {
+    "17\"": "RFB325"
+  },
+  "WINNERS CUP RESIN BASEBALL": {
+    "5.25\"": "RFC01"
+  },
+  "WINNERS CUP RESIN SOFTBALL": {
+    "5.25\"": "RFC02"
+  },
+  "RESIN PLATE BASEBALL MALE": {
+    "7.5\"": "RFH501"
+  },
+  "FLAME SERIES BASEBALL": {
+    "7.25\"": "RFL02B"
+  },
+  "SOFTBALL STAR RESIN": {
+    "6\"": "RFM362"
+  },
+  "STAR SWEEP BASEBALL": {
+    "6\"": "RFS101"
+  },
+  "BANNER BASEBALL": {
+    "6\"": "RFS231"
+  },
+  "BANNER SERIES BASEBALL": {
+    "7\"": "RFS301"
+  },
+  "RESIN BASEBALL PAINTED": {
+    "6\"": "RG1002"
+  },
+  "RESIN BASEBALL GLOVE": {
+    "6\"": "RG1005"
+  },
+  "RESIN SOFTBALL GLOVE": {
+    "6\"": "RG1055"
+  },
+  "BASEBALL IMPACT SERIES": {
+    "6\"": "RIC860"
+  },
+  "(STAR BURST RESIN BASEBALL": {
+    "5.5\"": "RS01"
+  },
+  "STAR BURST RESIN SOFTBALL": {
+    "5.5\"": "RS02 9"
+  },
+  "RUNNING STAR SOFTBALL": {
+    "5.5\"": "RST602",
+    "7.5\"": "RST802"
+  },
+  "VICTORY RESIN BASEBALL": {
+    "6.75\"": "RV01A",
+    "8.25\"": "RV01B",
+    "9.25\"": "RV01C"
+  },
+  "VICTORY RESIN SOFTBALL": {
+    "6.75\"": "RV02A",
+    "8.25\"": "RV02B",
+    "9.25\"": "RV02C"
+  },
+  "3D SPORT STARS BASEBALL": {
+    "6.25\"": "SSR01"
+  },
+  "FOUR STAR BASEBALL": {
+    "6\"": "STS101"
+  },
+  "SHIELD BASEBALL": {
+    "7\"": "STS201",
+    "9\"": "STS251"
+  },
+  "GOLD STAR BASEBALL": {
+    "6\"": "STS301"
+  },
+  "BASEBALL CRYSTAL WITH 3D": {
+    "4.5\"": "CRY1210"
+  },
+  "BASEBALL CRYSTAL WITH LASER": {
+    "8.75\"": "CRY210"
+  },
+  "BASKETBALL HANDS": {
+    "13\"": "02-1307-01",
+    "17\"": "02-1307-02",
+    "9.25\"": "02-1307-00"
+  },
+  "3-D LARGE OVAL BASKETBALL": {
+    "8.25\"": "3D403"
+  },
+  "BASKETBALL ON BASE": {
+    "15\"": "1141",
+    "17.75\"": "1146"
+  },
+  "BASKETBALL S-BL": {
+    "14.5\"": "AMC330-C",
+    "15.5\"": "AMC330-B",
+    "16.25\"": "AMC330-A"
+  },
+  "SSEM MOTION TROPHY BSKT": {
+    "14\"": "ATR103"
+  },
+  "ASSEMBLED TROPHY BASKETB": {
+    "10\"": "ATR304"
+  },
+  "ASSM TROPHY BSKTBL M": {
+    "10\"": "ATR403A",
+    "11\"": "ATR403B"
+  },
+  "ASSM TROPHY BSKTBL F": {
+    "10\"": "ATR404A",
+    "11\"": "ATR404B"
+  },
+  "BASKETBALL": {
+    "10.25\"": "CRY148"
+  },
+  "BASKETBALL CRYSTAL WITH LASER": {
+    "8.75\"": "CRY211"
+  },
+  "BSKTBALL M CRYSTAL WITH 3D": {
+    "4.5\"": "CRY1211"
+  },
+  "CERAMIC BSKTBALL": {
+    "15\"": "CSB120",
+    "16\"": "CSB121",
+    "19.5\"": "CSB122"
+  },
+  "BSKTBALL M VICTORY": {
+    "6\"": "MF5303"
+  },
+  "RIBBON FIG BASKETBAL": {
+    "5\"": "MF5502"
+  },
+  "MOTION X MALE BASKETBALL": {
+    "7\"": "MX708",
+    "8.75\"": "MX707"
+  },
+  "MOTION X FEMALE BASKETBALL": {
+    "7.5\"": "MX808",
+    "9.5\"": "MX807"
+  },
+  "RESIN COMET SERIES BASKETBALL": {
+    "5.75\"": "RCS103"
+  },
+  "RESIN DIAMOND PLATE BASKETBAL": {
+    "7.5\"": "RDP03"
+  },
+  "BSKTBALL ON NET": {
+    "11\"": "RF104D",
+    "7\"": "RF104A",
+    "8\"": "RF104B",
+    "9.5\"": "RF104C"
+  },
+  "FEMALE BASKETBALL DRIBBLER": {
+    "7.75\"": "RF-1115",
+    "8\"": "RF-1110"
+  },
+  "RADIANT SERIES BASKETBALL": {
+    "5.5\"": "RF1502A",
+    "6.5\"": "RF1502B"
+  },
+  "STAR SERIES BASKETBALL": {
+    "6\"": "RF1802"
+  },
+  "MALE ACHIEVEMENT GOLD": {
+    "8.5\"": "CRY20A"
+  },
+  "MALE ACHIEVEMENT SILVER": {
+    "8.5\"": "CRY20SA"
+  },
+  "GOLFER MALE": {
+    "15\"": "RFB034",
+    "18\"": "RFB035",
+    "21\"": "RFB036",
+    "11\"": "RFB053",
+    "10\"": "RFB069",
+    "12\"": "RFB073",
+    "14\"": "RFB071"
+  },
+  "GOLFER DRIVE M": {
+    "13\"": "RFB046",
+    "16\"": "RFB047",
+    "20\"": "RFB048"
+  },
+  "RESIN GOLFER M": {
+    "10\"": "RFB252",
+    "14\"": "RFB253",
+    "17\"": "RFB254",
+    "21\"": "RFB255"
+  },
+  "RESIN-GOLFER-COMIC": {
+    "3.5\"": "RFB256"
+  },
+  "RESIN GOLF BAG WITH CLUB": {
+    "3\"": "RFB307"
+  },
+  "GOLF RESIN": {
+    "10\"": "RFFJ6718"
+  },
+  "CLASSIC GOLFER": {
+    "15\"": "RFG150"
+  },
+  "COMIC GOLFER": {
+    "5.5\"": "RFG825"
+  },
+  "COMIC GOLFER MALE": {
+    "5.5\"": "RFG826"
+  },
+  "COMIC GOLFER FEMALE": {
+    "5.5\"": "RFG827"
+  },
+  "HOLE IN ONE": {
+    "5.5\"": "RFG828",
+    "6\"": "T301"
+  },
+  "DRIVER": {
+    "5.5\"": "RFG829"
+  },
+  "PUTTER": {
+    "5.5\"": "RFG830"
+  },
+  "WEDGE": {
+    "4.5\"": "RFG831"
+  },
+  "RESIN PLATE GOLF MALE": {
+    "7.5\"": "RFH511"
+  },
+  "RESIN PLATE GOLF FEMALE": {
+    "6.25\"": "RFH512"
+  },
+  "GOLFER WITH TROLLEY, MALE": {
+    "9\"": "RFMP101B"
+  },
+  "GOLFER WITH CADDIE, MALE": {
+    "9.5\"": "RFMP111B"
+  },
+  "GOLF IMPACT SERIES": {
+    "6\"": "RIC851"
+  },
+  "GOLFER STANDING, MALE": {
+    "9\"": "RJ262B"
+  },
+  "LONGEST DRIVE OVAL": {
+    "5.5\"": "ROV1101"
+  },
+  "MALE GOLF SWING OVAL": {
+    "6.5\"": "ROV1109"
+  },
+  "BEST PUTTS OVAL": {
+    "5.5\"": "ROV1202"
+  },
+  "NEAREST THE PIN OVAL": {
+    "5.5\"": "ROV1800"
+  },
+  "GOLF NEAREST THE PIN": {
+    "5\"": "RS1071SG"
+  },
+  "GOLF LONGEST DRIVE": {
+    "5\"": "RS1074SG"
+  },
+  "CLOCK WITH GOLF BAG": {
+    "10.5\"": "RSCT1072SG"
+  },
+  "BILLBOARD SERIES SM GOLF": {
+    "6.5\"": "RST207"
+  },
+  "RUNNING STAR LONGEST DRIVE": {
+    "6.5\"": "RST844"
+  },
+  "RUNNING STAR CLOSEST": {
+    "6.5\"": "RST845"
+  },
+  "RUNNING STAR LONGEST PUT": {
+    "6.5\"": "RST846"
+  },
+  "VICTORY RESIN GOLF": {
+    "8.25\"": "RV07B",
+    "9.25\"": "RV07C"
+  },
+  "GOLFER WITH PUTTER, MALE": {
+    "10\"": "RX583B"
+  },
+  "GOLF CART RESIN": {
+    "6.5\"": "RX1520SG"
+  },
+  "GOLF CADDIE WITH BAG": {
+    "9.5\"": "RX1571SG"
+  },
+  "GOLF MALE": {
+    "7\"": "TR753"
+  },
+  "BRZ WRESTLING MALE": {
+    "8.75\"": "WREST0875"
+  },
+  "SLV WRESTLING MALE": {
+    "8.75\"": "WREST875"
+  },
+  "WRESTLING 6 X": {
+    "7.25\"": "WREST725"
+  },
+  "WRESTLING CRYSTAL WITH 3D": {
+    "4.5\"": "CRY1219"
+  },
+  "MOTION X MALE WRESTLING": {
+    "5\"": "WREST05",
+    "6.5\"": "WREST65"
+  },
+  "MOTION X OVAL WRESTLING": {
+    "6\"": "WREST06"
+  },
+  "RESIN HAND SHAKE GOLD": {
+    "6\"": "RESG06"
+  },
+  "STAR GOLD USA RESIN": {
+    "6\"": "SGUR06"
+  },
+  "MALE WRESTLING": {
+    "7.5\"": "RF-1190",
+    "9.5\"": "RF2921SGA"
+  },
+  "ULTRA ACTION SPORT WREST": {
+    "6.5\"": "RF2728A"
+  },
+  "MALE DBL WRESTLING": {
+    "9\"": "RF2931SGA"
+  },
+  "DOUBLE WRESTLER M": {
+    "10\"": "RFB017A"
+  },
+  "RESIN PLATE WRESTLING": {
+    "7.5\"": "RFH534A"
+  },
+  "RESIN SPINNER WRESTLING": {
+    "6.5\"": "RFH9670A"
+  },
+  "BILLBOARD SERIES SM WRES": {
+    "6.5\"": "RST234A"
+  },
+  "SUPER STAR SM WRESTLING": {
+    "6.5\"": "RST334A"
+  },
+  "BILLBOARD SERIES LG WRES": {
+    "8.5\"": "RST434A"
+  },
+  "SUPER STAR LG WRESTLING": {
+    "8.5\"": "RST534A"
+  },
+  "VOLLEYBALL M CRYSTAL WITH 3D": {
+    "4.5\"": "CRY1218A"
+  },
+  "VOLLEYBALL F CRYSTAL WITH 3D": {
+    "4.5\"": "CRY1298"
+  },
+  "RADIANT SERIES VOLLEYBALL M": {
+    "6.5\"": "RF1517B"
+  },
+  "STAR SERIES VOLLEYBALL": {
+    "6.5\"": "RF1817"
+  },
+  "ULTRA ACTION SPORT VLLYBALL": {
+    "6.5\"": "RF2724"
+  },
+  "ULTRA ACTION SPORT VALLYBALL": {
+    "6.5\"": "RF2725"
+  },
+  "STAR BURST RESIN VOLLEYBALL": {
+    "6.5\"": "RS25"
+  },
+  "ULTRA ACTION SPT TRACK M": {
+    "6.5\"": "RF2722"
+  },
+  "ULTRA ACTION SPT TRACK F": {
+    "6.5\"": "RF2723"
+  },
+  "DELTA RESIN TRACK": {
+    "6.5\"": "RF6016"
+  },
+  "BILLBOARD SERIES SM TRACK": {
+    "6.5\"": "RST223"
+  },
+  "SUPER STAR SM TRACK M": {
+    "6.5\"": "RST322"
+  },
+  "BILLBOARD SERIES LG TRACK": {
+    "8\"": "RST522"
+  },
+  "SUPER STAR LG TRACK F": {
+    "8\"": "RST523"
+  },
+  "MOTION X MALE TRACK 3-D": {
+    "5\"": "MX 523"
+  },
+  "MOTION X FEMALE TRACK": {
+    "5\"": "MX524"
+  },
+  "RESIN CHECKMATE TRACK M": {
+    "6.5\"": "RF1922"
+  },
+  "RESIN CHECKMATE TRACK F": {
+    "6.5\"": "RF1923"
+  },
+  "SATURN RESIN SERIES TRACK": {
+    "6\"": "RF2623"
+  },
+  "MALE FOOTBALL RUNNER": {
+    "8\"": "RF-1130A"
+  },
+  "DELTA RESIN FOOTBALL": {
+    "6.25\"": "RF6006A"
+  },
+  "FULL COLOR FOOTBAL": {
+    "14\"": "RF-7030A"
+  },
+  "SPORTS FRAME FOOTBALL": {
+    "3.5\"": "RF8606A"
+  },
+  "FOOTBALL RUNNER RESIN": {
+    "15.75\"": "RF20345A",
+    "9\"": "RFB-52607"
+  },
+  "FOOTBALL MALE LARGE": {
+    "13\"": "RFB021A"
+  },
+  "RESIN FOOTBALL WITH GLASS": {
+    "7\"": "RFB297"
+  },
+  "FOOTBALL QUARTERBACK": {
+    "17\"": "RFB326"
+  },
+  "FOOTBALL VICTORY": {
+    "11\"": "RFB23073",
+    "7.5\"": "RFB23071",
+    "9\"": "RFB23072"
+  },
+  "FOOTBALL RUNNER": {
+    "15.25\"": "RFB-52608"
+  },
+  "NOVA FOOTBALL THEME": {
+    "5.75\"": "RFD2306"
+  },
+  "FLAME SERIES FOOTBALL": {
+    "7.25\"": "RFL06B"
+  },
+  "RESIN FOOTBALL PAINTED": {
+    "12\"": "RG3006A"
+  },
+  "RESIN FOOTBALL SILVER LARGE": {
+    "12\"": "RG3206A"
+  },
+  "FOOTBALL IMPACT SERIES": {
+    "6\"": "RIC853A"
+  },
+  "SUPER STAR SM FOOTBALL": {
+    "6.5\"": "RST310A"
+  },
+  "HIGH BRONZE BELL": {
+    "9\"": "AT11A"
+  },
+  "BRONZE PLATED FIREMAN": {
+    "12\"": "AT13A"
+  },
+  "FIREMAN": {
+    "5.5'' X 7.25'": "BT795A",
+    "12\"": "RFB059A"
+  },
+  "CRYSTAL MALTESE CROSS": {
+    "7.25\"": "CRY468A"
+  },
+  "ESIN FIRE HYDRANT": {
+    "9.75\"": "FD30A"
+  },
+  "STANDING PATROL WITH RIFLE": {
+    "13\"": "MIL198"
+  },
+  "STANDING WITH FIELD PHONE": {
+    "14\"": "MIL202"
+  },
+  "KNEELING WITH RIFLE DOWN": {
+    "10\"": "MIL204"
+  },
+  "FIREMAN WITH GOLD TRIM": {
+    "9\"": "RF981SGA"
+  },
+  "FIREMAN RESIN": {
+    "13\"": "RF-1129"
+  },
+  "POLICEMAN TRIBUTE STATUE": {
+    "13\"": "RF-1155"
+  },
+  "FIREFIGHTER RESIN PLATE": {
+    "6.75\"": "RF-2755"
+  },
+  "POLICEMAN": {
+    "12\"": "RFB058A"
+  },
+  "FIREMAN WITH CHILD": {
+    "11.5\"": "RFB064A"
+  },
+  "POLICE & CHILD": {
+    "12.5\"": "RFB104A"
+  },
+  "US NAVY M": {
+    "11.5\"": "RFB132A"
+  },
+  "US AIR FORCE M": {
+    "11.5\"": "RFB133A"
+  },
+  "US ARMY M": {
+    "11.5\"": "RFB134A"
+  },
+  "US MARINE M": {
+    "10\"": "RFB135A"
+  },
+  "POLICEMAN WITH GLASS": {
+    "8\"": "RFB153A"
+  },
+  "FIREMAN WITH GLASS": {
+    "8\"": "RFB154A"
+  },
+  "RESIN PLATE FIREMAN": {
+    "7.5\"": "RFH535A"
+  },
+  "RESIN PLATE MILITARY": {
+    "7.5\"": "RFH541A"
+  },
+  "RESIN PLATE POLICE": {
+    "7.5\"": "RFH543A"
+  },
+  "RESIN PLATE LAW ENFORCEMENT": {
+    "7.5\"": "RFH544A"
+  },
+  "FLAME SERIES FIREMAN": {
+    "7.25\"": "RFL35BA"
+  },
+  "SUPER STAR LG FIREMAN": {
+    "8.5\"": "RST540A"
+  },
+  "LACROSSE M": {
+    "5.5'' X 7.25'": "BT788"
+  },
+  "LACROSSE F": {
+    "5.5'' X 7.25''": "BT789"
+  },
+  "MOTION X FEMALE LACROSSE": {
+    "7\"": "MX738"
+  },
+  "MOTION X MALE LACROSSE": {
+    "7\"": "MX739"
+  },
+  "MOTION X OVAL LACROSSE F": {
+    "7.25\"": "MX2038"
+  },
+  "MOTION X OVAL LACROSSE M": {
+    "7.25\"": "MX2039"
+  },
+  "MALE LACROSSE PLAYER": {
+    "9.25\"": "RF-1152"
+  },
+  "FEMALE LACROSSE PLAYER": {
+    "9\"": "RF-1153"
+  },
+  "GENERIC LACROSSE": {
+    "5\"": "RF4010SG"
+  },
+  "MALE LACROSSE SHOOTER": {
+    "8\"": "RF4011SG"
+  },
+  "FEMALE LACROSSE SHOOTER": {
+    "7.5\"": "RF4021SG"
+  },
+  "(SUPER STAR SM LACROSSE M": {
+    "6.5\"": "RST340"
+  },
+  "SUPER STAR SM LACROSSE F": {
+    "6.5\"": "RST341"
+  },
+  "RUNNING STAR LACROSSE": {
+    "7.5\"": "RST841"
+  },
+  "LANDING EAGLE ON WOOD BASE": {
+    "12\"": "AE420"
+  },
+  "LARGE BRONZE EAGLE": {
+    "19\"": "RFB820"
+  },
+  "EAGLE ON ROCK WITH GLASS": {
+    "9 1\\,2'": "RFB806"
+  },
+  "EAGLE HEAD MEDIUM": {
+    "9\"": "RFB536"
+  },
+  "EAGLE HEAD LARGE": {
+    "10\"": "RFB537"
+  },
+  "RESIN EAGLE WITH FLAG LARGE": {
+    "15 1\\,2'": "RFB166"
+  },
+  "RESIN EAGLE MEDIUM": {
+    "9 1\\,2''": "RFB160"
+  },
+  "RESIN EAGLE LARGE": {
+    "12\"": "RFB161"
+  },
+  "RESIN TWO EAGLE HEADS": {
+    "10\"": "RFB152A"
+  },
+  "LARGE EAGLE": {
+    "19 1\\,2''": "RFB150"
+  },
+  "(EAGLE WITH FLAG": {
+    "12\"": "RFB138"
+  },
+  "MERCURY EAGLE": {
+    "11\"": "RF-2025",
+    "8\"": "RF-2025S"
+  },
+  "CRYSTAL EAGLE ON RISER": {
+    "10.5\"": "CRY187A"
+  },
+  "EAGLE HEAD TOWER": {
+    "10.5\"": "CRY320A"
+  },
+  "RUNNING STAR EAGLE": {
+    "7\"": "RST800A"
+  },
+  "LIGHT BULB": {
+    "8\"": "CRY25"
+  },
+  "ASPIRATION ACHIEVEMENT": {
+    "9.25\"": "CRY26"
+  },
+  "OBELISK - SMALL": {
+    "12\"": "CRY99"
+  },
+  "OBELISK - MEDIUM": {
+    "13\"": "CRY100"
+  },
+  "OBELISK - LARGE": {
+    "14.5\"": "CRY101"
+  },
+  "TOWER - LARGE": {
+    "24\"": "CRY121A"
+  },
+  "LIGHT BULB- 3D BRAIN": {
+    "8\"": "CRY467"
+  },
+  "LIGHT BULB- YELLOW": {
+    "8\"": "CRY667"
+  },
+  "STAR & RIBBONS SILVER": {
+    "12.25\"": "JB023",
+    "13.25\"": "JB024"
+  },
+  "FULL COLOR APPLE RESIN": {
+    "4.75\"": "RF1350"
+  },
+  "FULL COLOR LIGHTBULB RESIN": {
+    "5.25\"": "RF-1355"
+  },
+  "FULL COLOR ROCKET SHIP": {
+    "5.5\"": "RF-1358"
+  },
+  "FULL COLOR VINTAGE MICROPHONE": {
+    "5.75\"": "RF-1362"
+  },
+  "BBQ SMOKER": {
+    "5\"": "RF-1366"
+  },
+  "CHEF HAT RESIN": {
+    "5\"": "RF-1373"
+  },
+  "BOMB RESIN": {
+    "5\"": "RF-1375"
+  },
+  "CHILI POT RESIN": {
+    "5\"": "RF-1377"
+  },
+  "BRIGHT GOLD DOLLAR SIGN": {
+    "5\"": "RF-1378"
+  },
+  "Small Full Color Diamond Acrylic": {
+    "5\" x 7\"": "SAC032"
+  },
+  "Large Full Color Diamond Acrylic": {
+    "5 3/4\" x 8\"": "SAC033"
+  },
+  "Small Full Color Rectangle Acrylic": {
+    "4\" x 6\"": "SAC021"
+  },
+  "Medium Full Color Rectangle Acrylic": {
+    "5\" x 7\"": "SAC022"
+  },
+  "Large Full Color Rectangle Acrylic": {
+    "6\" x 8\"": "SAC023"
+  },
+  "Small Full Color Round Acrylic": {
+    "4\" x 3 1/2\"": "SAC011"
+  },
+  "Medium Full Color Round Acrylic": {
+    "5\" x 4 1/2\"": "SAC012"
+  },
+  "Large Full Color Round Acrylic": {
+    "6\" x 5 1/2\"": "SAC013"
+  },
+  "Small Clear Magnetic Acrylic": {
+    "4\" x 6\"": "MAC401"
+  },
+  "Medium Clear Magnetic Acrylic": {
+    "5\" x 7\"": "MAC402"
+  },
+  "Large Clear Magnetic Acrylic": {
+    "6\" x 8\"": "MAC403"
+  },
+  "Small Clear/Black Magnetic Acrylic": {
+    "4\" x 6\"": "MAG101"
+  },
+  "Medium Clear/Black Magnetic Acrylic": {
+    "5\" x 7\"": "MAG102"
+  },
+  "Large Clear/Black Magnetic Acrylic": {
+    "6\" x 8\"": "MAG103"
+  },
+  "Small Pink Ribbon Acrylic": {
+    "7\"": "RBA101PK"
+  },
+  "Large Pink Ribbon Acrylic": {
+    "8\"": "RBA102PK"
+  },
+  "Small Black Acrylic Round": {
+    "3 1/2\"": "ACR4BK"
+  },
+  "Medium Black Acrylic Round": {
+    "14 1/2\"": "ACR5BK"
+  },
+  "Large Black Acrylic Round": {
+    "5 1/2\"": "ACR6BK"
+  },
+  "Small Black Lunar Acrylic": {
+    "8 1/2\"": "LNA14BK"
+  },
+  "Large Black Lunar Acrylic": {
+    "9 1/2\"": "LNA24BK"
+  },
+  "Small Black Sunburst Acrylic": {
+    "5 1/2\"": "SNB10BK"
+  },
+  "Medium Black Sunburst Acrylic": {
+    "6 1/4\"": "SNB11BK"
+  },
+  "Large Black Sunburst Acrylic": {
+    "7 1/4\"": "SNB12BK"
+  },
+  "Small Black/Blue Luminary Circle Acrylic": {
+    "5 1/2\"": "LCR5BKB"
+  },
+  "Large Black/Blue Luminary Circle Acrylic": {
+    "6 1/4\"": "LCR6BKB"
+  },
+  "Small Black/Blue Luminary Oval Acrylic": {
+    "7\"": "LOV7BKB"
+  },
+  "Large Black/Blue Luminary Oval Acrylic": {
+    "8\"": "LOV8BKB"
+  },
+  "Small Black/Blue Luminary Surge Acrylic": {
+    "7\"": "LSU7BKB"
+  },
+  "Large Black/Blue Luminary Surge Acrylic": {
+    "8\"": "LSU8BKB"
+  },
+  "Small Black/Clear Luminary Circle Acrylic": {
+    "5 1/2\"": "LCR5BKC"
+  },
+  "Large Black/Clear Luminary Circle Acrylic": {
+    "6 1/4\"": "LCR6BKC"
+  },
+  "Black/Clear Luminary Oval Acrylic": {
+    "7\"": "LOV7BKC",
+    "8\"": "LOV8BKC"
+  },
+  "Black/Clear Luminary Surge Acrylic": {
+    "7\"": "LSU7BKC",
+    "8\"": "LSU8BKC"
+  },
+  "Black/Gold Luminary Circle Acrylic": {
+    "5 1/2\"": "LCR5BKG"
+  },
+  "Gold Luminary Oval Acrylic": {
+    "7\"": "LOV7BKG",
+    "8\"": "LOV8BKG"
+  },
+  "Gold Luminary Surge Acrylic": {
+    "7\"": "LSU7BKG",
+    "8\"": "LSU8BKG"
+  },
+  "Small Blue Acrylic Round": {
+    "3 1/2\"": "ACR4BU"
+  },
+  "Medium Blue Acrylic Round": {
+    "4 1/2\"": "ACR5BU"
+  },
+  "Large Blue Acrylic Round": {
+    "5 1/2\"": "ACR6BU"
+  },
+  "Blue Arch Vapor Acrylic": {
+    "7\"": "VPA121",
+    "8\"": "VPA122"
+  },
+  "Blue Fan Halo Acrylic": {
+    "7\"": "HAL301BU",
+    "8\"": "HAL302BU"
+  },
+  "Blue Lunar Acrylic": {
+    "8 1/2\"": "LNA12BU",
+    "9 1/2\"": "LNA22BU"
+  },
+  "Blue Marble Acrylic Round": {
+    "3 1/2\"": "ACR4BM",
+    "4 1/2\"": "ACR5BM",
+    "5 1/2\"": "ACR6BM"
+  },
+  "Blue Marble Aurora Acrylic": {
+    "3 1/2\"": "ARR4BM",
+    "4 1/2\"": "ARR5BM",
+    "5 1/2\"": "ARR6BM"
+  },
+  "Blue Marble Octagon Acrylic": {
+    "5\"": "OCT5BM",
+    "6\"": "OCT6BM",
+    "7\"": "OCT7BM"
+  },
+  "Blue Marquis Acrylic": {
+    "6\" x 8\"": "MAQ68BU",
+    "7\" x 9\"": "MAQ79BU"
+  },
+  "Blue Octagon Acrylic": {
+    "5\"": "OCT5BU",
+    "6\"": "OCT6BU",
+    "7\"": "OCT7BU",
+    "5\" x 1\"": "OCT05BU",
+    "6\" x 1\"": "OCT06BU",
+    "7\" x 1\"": "OCT07BU"
+  },
+  "Blue Oval Halo Acrylic": {
+    "7\"": "HAL201BU",
+    "8\"": "HAL202BU"
+  },
+  "Blue Round Acrylic": {
+    "5 3/8\" x 5\"": "SAS601BU",
+    "6 1/2\" x 6\"": "SAS602BU"
+  },
+  "Blue Round Halo Acrylic": {
+    "5 3/8\"": "HAL401BU",
+    "6 3/8\"": "HAL402BU"
+  },
+  "Blue Round Vapor Acrylic": {
+    "5\"": "VPA101",
+    "6\"": "VPA102"
+  },
+  "Blue Sunburst Acrylic": {
+    "5 1/2\"": "SNB10BU",
+    "6 1/4\"": "SNB11BU",
+    "7 1/4\"": "SNB12BU"
+  },
+  "Large Diamond Black Piano Finish Floating Acrylic Standup with Silver Base": {
+    "7 3/4\" x 10\"": "FSA210"
+  },
+  "Small Diamond Black Piano Finish Floating Acrylic Standup with Silver Base": {
+    "5 3/4\" x 8 1/2\"": "FSA285"
+  },
+  "Large Diamond Rosewood Piano Finish Floating Acrylic Standup with Gold Base": {
+    "7 3/4\" x 10\"": "FSA110"
+  },
+  "Small Diamond Rosewood Piano Finish Floating Acrylic Standup with Gold Base": {
+    "5 3/4\" x 8 1/2\"": "FSA185"
+  },
+  "Large Round Black Piano Finish Floating Acrylic Standup with Silver Base": {
+    "9 1/4\" x 10\"": "FSA410"
+  },
+  "Small Round Black Piano Finish Floating Acrylic Standup with Silver Base": {
+    "7 3/4\" x 8 1/2\"": "FSA485"
+  },
+  "Large Round Rosewood Piano Finish Floating Acrylic Standup with Gold Base": {
+    "9 1/4\" x 10\"": "FSA310"
+  },
+  "Small Round Rosewood Piano Finish Floating Acrylic Standup with Gold Base": {
+    "7 3/4\" x 8 1/2\"": "FSA385"
+  },
+  "Small Diamond Prestige Acrylic": {
+    "6 1/2\" x 8 1/2\"": "PTA41"
+  },
+  "Large Diamond Prestige Acrylic": {
+    "7 3/4\" x 9 1/2\"": "PTA43"
+  },
+  "Small Rectangle Prestige Acrylic": {
+    "6 1/2\" x 7 3/4\"": "PTA21"
+  },
+  "Medium Rectangle Prestige Acrylic": {
+    "7 1/8\" x 8 3/4\"": "PTA22"
+  },
+  "Large Rectangle Prestige Acrylic": {
+    "7 3/4\" x 9 3/4\"": "PTA23"
+  },
+  "Medium Clear Royal Crown Acrylic": {
+    "6 3/4\" x 10\"": "RCA10"
+  },
+  "Large Clear Royal Crown Acrylic": {
+    "6 3/4\" x 11\"": "RCA11"
+  },
+  "Small Clear Royal Crown Acrylic": {
+    "6 3/4\" X 9": "RCA9"
+  },
+  "Autumn Harvest Acrylic Art Plaque": {
+    "6 1/2\" x 8 1/2\"": "PLX804A",
+    "7 3/4\" x 9 3/4\"": "PLX804B",
+    "8 3/4\" x 11 3/4\"": "PLX804C"
+  },
+  "Gold/Blue Acrylic Art Plaque": {
+    "6 1/2\" x 8 1/2\"": "PLX800A",
+    "7 3/4\" x 9 3/4\"": "PLX800B",
+    "8 3/4\" x 11 3/4\"": "PLX800C"
+  },
+  "Gold/Burgundy Acrylic Art Plaque": {
+    "6 1/2\" x 8 1/2\"": "PLX801A",
+    "7 3/4\" x 9 3/4\"": "PLX801B",
+    "8 3/4\" x 11 3/4\"": "PLX801C"
+  },
+  "Black Marble Clear Plaque": {
+    "7\" x 9\"": "CPQ7BKM",
+    "8\" x 10\"": "CPQ8BKM",
+    "9\" x 11\"": "CPQ9BKM"
+  },
+  "Blue Marble Clear Plaque": {
+    "7\" x 9\"": "CPQ7BM",
+    "8\" x 10\"": "CPQ8BM",
+    "9\" x 11\"": "CPQ9BM"
+  },
+  "Green Marble Clear Plaque": {
+    "7\" x 9\"": "CPQ7GM",
+    "8\" x 10\"": "CPQ8GM",
+    "9\" x 11\"": "CPQ9GM"
+  },
+  "Red Marble Clear Plaque": {
+    "7\" x 9\"": "CPQ7RM",
+    "8\" x 10\"": "CPQ8RM",
+    "9\" x 11\"": "CPQ9RM"
+  },
+  "Solid Black Clear Plaque": {
+    "7\" x 9\"": "CPQ7SBK",
+    "8\" x 10\"": "CPQ8SBK",
+    "9\" x 11\"": "CPQ9SBK"
+  },
+  "Black Marble Border Clear Plaque": {
+    "7\" x 9\"": "BDR7BKM",
+    "8\" x 10\"": "BDR8BKM",
+    "9\" x 11\"": "BDR9BKM"
+  },
+  "Blue Marble Border Clear Plaque": {
+    "7\" x 9\"": "BDR7BM",
+    "8\" x 10\"": "BDR8BM",
+    "9\" x 11\"": "BDR9BM"
+  },
+  "Green Marble Border Clear Plaque": {
+    "7\" x 9\"": "BDR7GM",
+    "8\" x 10\"": "BDR8GM",
+    "9\" x 11\"": "BDR9GM"
+  },
+  "Purple Marble Border Clear Plaque": {
+    "7\" x 9\"": "BDR7PM",
+    "8\" x 10\"": "BDR8PM",
+    "9\" x 11\"": "BDR9PM"
+  },
+  "Red Marble Border Clear Plaque": {
+    "7\" x 9\"": "BDR7RM",
+    "8\" x 10\"": "BDR8RM",
+    "9\" x 11\"": "BDR9RM"
+  },
+  "Solid Black Border Clear Plaque": {
+    "7\" x 9\"": "BDR7SBK",
+    "8\" x 10\"": "BDR8SBK",
+    "9\" x 11\"": "BDR9SBK"
+  },
+  "Stars and Stripes Marble Border Clear Plaque": {
+    "7\" x 9\"": "BDR7SS",
+    "8\" x 10\"": "BDR8SS",
+    "9\" x 11\"": "BDR9SS"
+  },
+  "Cherry Finish Plaque with Blue Marble Acrylic Plaque Plate": {
+    "7\" x 9\"": "CPP5BMCFP9R",
+    "8\" x 10\"": "CPP6BMCFP10R",
+    "9\" x 12\"": "CPP7BMCFP12R"
+  },
+  "Genuine Red Alder Plaque with Purple Marble Acrylic Plaque Plate": {
+    "9\" x 12\"": "CPP7PMGRA912R",
+    "7\" x 9\"": "CPP5PMGRA79R",
+    "8\" x 10\"": "CPP6PMGRA810R"
+  },
+  "Genuine Walnut Plaque with Red Marble Acrylic Plaque Plate": {
+    "9\" x 12\"": "CPP7RMGW9X12R",
+    "7\" x 9\"": "CPP5RMGW7X9R",
+    "8\" x 10\"": "CPP6RMGW8X10R"
+  },
+  "Solid Matte Black Plaque with Black Marble Acrylic Plaque Plate": {
+    "9\" x 12\"": "CPP7BKMSPB912R",
+    "7\" x 9\"": "CPP5BKMSBP79R",
+    "8\" x 10\"": "CPP6BKMSBP810R"
+  },
+  "Walnut Finish Plaque with Green Marble Acrylic Plaque Plate": {
+    "9\" x 12\"": "CPP7GMECW9X12R",
+    "7\" x 9\"": "CPP5GMECW7X9R",
+    "8\" x 10\"": "CPP6GMECW8X10R"
+  },
+  "Blue Marble Shooting Star Acrylic Plaque": {
+    "7\" x 9\"": "SSP79BM",
+    "8\" x 10\"": "SSP810BM",
+    "9\" x 11\"": "SSP911BM"
+  },
+  "Green Marble Shooting Star Acrylic Plaque": {
+    "7\" x 9\"": "SSP79GM",
+    "8\" x 10\"": "SSP810GM",
+    "9\" x 11\"": "SSP911GM"
+  },
+  "Red Marble Shooting Star Acrylic Plaque": {
+    "7\" x 9\"": "SSP79RM",
+    "8\" x 10\"": "SSP810RM",
+    "9\" x 11\"": "SSP911RM"
+  },
+  "Medium Burgandy Sunburst Acrylic": {
+    "6 1/4\"": "SNB11BUR"
+  },
+  "Small Burgundy Sunburst Acrylic": {
+    "5 1/2\"": "SNB10BUR"
+  },
+  "Large Burgundy Sunburst Acrylic": {
+    "7 1/4\"": "SNB12BUR"
+  },
+  "Clear Round Acrylic": {
+    "4\" x 3 1/2\" x 1\"": "BAC011",
+    "5\" x 4 1/2\" x 1\"": "BAC012",
+    "6\" x 5 1/2\" x 1\"": "BAC013"
+  },
+  "Gold Acrylic Round": {
+    "3 1/2\"": "ACR4GD",
+    "4 1/2\"": "ACR5GD",
+    "5 1/2\"": "ACR6GD"
+  },
+  "Gold Fan Halo Acrylic": {
+    "7\"": "HAL301G",
+    "8\"": "HAL302G"
+  },
+  "Gold Lunar Acrylic": {
+    "8 1/2\"": "LNA11GD",
+    "9 1/2\"": "LNA21GD"
+  },
+  "Gold Marquis Acrylic": {
+    "6\" x 8\"": "MAQ68GD",
+    "7\" x 9\"": "MAQ79GD"
+  },
+  "Blue Arch Impress Acrylic": {
+    "5 1/2\" x 8 1/4\"": "IMP851BU",
+    "5 1/2\" x 9 1/4\"": "IMP852BU"
+  },
+  "Silver Mirage Impress Acrylic": {
+    "5\" x 6\"": "IMP501S",
+    "5\" x 7\"": "IMP502S",
+    "5\" x 8\"": "IMP503S"
+  },
+  "Silver Jewel Post Impress Acrylic": {
+    "7\" x 7\"": "IMP135S",
+    "7\" x 8\"": "IMP136S"
+  },
+  "Medium Silver Jewell Impress Acrylic": {
+    "3 1/2\" x 6 1/2\"": "IMP151S"
+  },
+  "Silver Fusion Diamond Impress Acrylic with Black Glass Base": {
+    "5\" x 7\"": "IMP116S",
+    "5\" x 8\"": "IMP117S",
+    "5\" x 9\"": "IMP118S"
+  },
+  "Silver Frosted Impress Acrylic": {
+    "5\" x 6\"": "IMP401S",
+    "5\" x 7\"": "IMP402S",
+    "5\" x 8\"": "IMP403S"
+  },
+  "Silver Frosted Base Diamond Impress Acrylic": {
+    "4 3/4\" x 6\"": "IMP171S",
+    "4 3/4\" x 7\"": "IMP172S",
+    "4 3/4\" x 8\"": "IMP173S"
+  },
+  "Silver Flame Impress Acrylic": {
+    "5 1/2\" x 8 1/4\"": "IMP901S",
+    "5 1/2\" x 9 1/4\"": "IMP902S"
+  },
+  "Silver Faceted Impress Acrylic": {
+    "6\" x 8\"": "IMP101S",
+    "6\" x 9\"": "IMP102S"
+  },
+  "Silver Diamond Impress Acrylic": {
+    "5 1/4\" x 6 3/4\"": "IMP301S",
+    "5 1/4\" x 7 3/4\"": "IMP302S",
+    "5 1/4\" x 8 3/4\"": "IMP303S"
+  },
+  "Silver Clipped Corners Impress Acrylic": {
+    "3 1/2\" x 5 1/2\"": "IMP145S",
+    "3 1/2\" x 6 1/2\"": "IMP146S"
+  },
+  "Silver Beveled Post Impress Acrylic": {
+    "7\" x 7\"": "IMP140S",
+    "7\" x 8\"": "IMP141S"
+  },
+  "Silver Beveled Impress Acrylic": {
+    "5\" x 6\"": "IMP201S",
+    "5\" x 7\"": "IMP202S",
+    "5\" x 8\"": "IMP203S"
+  },
+  "Silver Arrow Point Impress Acrylic": {
+    "5\" x 7\"": "IMP160S",
+    "5\" x 8\"": "IMP161S",
+    "5\" x 9\"": "IMP162S"
+  },
+  "Silver Arch Impress Acrylic": {
+    "5 1/2\" x 8 1/4\"": "IMP851S",
+    "5 1/2\" x 9 1/4\"": "IMP852S"
+  },
+  "Red Marbleized Acrylic Award": {
+    "4\" x 6\"": "MBL46RM",
+    "4\" x 7\"": "MBL47RM"
+  },
+  "Red Marble Arch Acrylic with Brass Base": {
+    "3\" x 6\"": "PMA36RMPIB3R",
+    "3\" x 7\"": "PMA37RMPIB3"
+  },
+  "Purple Marbelized Acrylic Award": {
+    "4\" x 6\"": "MBL46PM",
+    "4\" x 7\"": "MBL47PM"
+  },
+  "Extra Large Clear Acrylic Diamond Jewel": {
+    "5\" x 5\"": "DJB5C"
+  },
+  "Extra Large Jade Acrylic Diamond Jewel": {
+    "5\" x 5\"": "DJB5J"
+  },
+  "Jade Triangle Acrylic with Black Base": {
+    "4 1/2\" x 6\"": "JAT36PIB1R",
+    "5\" x 7\"": "JAT37PIB1R"
+  },
+  "Jade Peak Acrylic with Gold Base": {
+    "3\" x 6\"": "JAK36PIB5R",
+    "3\" x 7\"": "JAK37PIB5R"
+  },
+  "Jade Frosted Clip Corner Acrylic with Black Base": {
+    "3\" x 6\"": "PFC36JPIB1R",
+    "3\" x 7\"": "PFC37JPIB1R"
+  },
+  "Jade Frosted Arrow Acrylic with Black Base": {
+    "3\" x 6\"": "PFA36JPIB1R",
+    "3\" x 7\"": "PFA37JPIB1R"
+  },
+  "Jade Diamond Acrylic": {
+    "3 1/2\" x 3 1/2\"": "DJB2J",
+    "4 1/2\" x 4 1/2\"": "DJB3J",
+    "4\" x 4\"": "DJB4J"
+  },
+  "Jade Clip Corner Acrylic with Brass Base": {
+    "3\" x 6\"": "JAC36PIB3R",
+    "3\" x 7\"": "JAC37PIB3R"
+  },
+  "Jade Acrylic White Cap": {
+    "4 1/2\" x 7\"": "WCP7J",
+    "4\" x 6\"": "WCP6J",
+    "5\" x 8\"": "WCP8J"
+  },
+  "Jade Acrylic Waterfall": {
+    "5 3/4\" x 8\"": "WTR8J",
+    "5\" x 7\"": "WTR7J",
+    "6 1/2\" x 9\"": "WTR9J"
+  },
+  "Jade Acrylic Cracked Ice": {
+    "3 1/2\" x 4 1/2\"": "CIA2J",
+    "4 1/2\" x 5 1/2\"": "CIA3J",
+    "5 1/2\" x 6 1/2\"": "CIA4J"
+  },
+  "Male GRADUATION": {
+    "8.75\"": "02-1318-00"
+  },
+  "1 Pole Rectabgle": {
+    "12\"": "1P-A-R12",
+    "13\"": "1P-A-R13",
+    "14\"": "1P-A-R14"
+  },
+  "Pole Regtangular": {
+    "14\"": "1P-B-R14",
+    "15\"": "1P-B-R15",
+    "16\"": "1P-B-R16"
+  },
+  "Pole Round": {
+    "14\"": "1P-C-R14",
+    "15\"": "1P-C-R15",
+    "16\"": "1P-C-R16"
+  },
+  "Pole Round with Trim": {
+    "14\"": "(1P-D-C14",
+    "15\"": "1P-D-C15",
+    "16\"": "1P-D-C16"
+  },
+  "Pole Round with Trim2": {
+    "14\"": "1P-E-C14",
+    "15\"": "1P-E-C15",
+    "16\"": "1P-E-C16"
+  },
+  "Pole Trophy": {
+    "18\"": "2P-F-18",
+    "20\"": "2P-F-20",
+    "22\"": "2P-F-22"
+  },
+  "Banners & Signs": {
+    "2\" x 2\"": "BS111"
+  },
+  "Banner 3″ Height by 2-14″ width": {
+    "3\" x 2\"": "BS222",
+    "3\" x 3\"": "BS223",
+    "3\" x 10\"": "BS2210",
+    "3\" x 11\"": "BS2211",
+    "3\" x 12\"": "BS2212",
+    "3\" x 4\"": "BS224",
+    "3\" x 5\"": "BS225",
+    "3\" x 6\"": "BS226",
+    "3\" x 7\"": "BS227",
+    "3\" x 8\"": "BS228",
+    "3\" x 9\"": "BS229"
+  },
+  "Banner 4″ Height by 2-14″ width": {
+    "4\" x 2\"": "BS441",
+    "4\" x 3\"": "BS442",
+    "4\" x 4\"": "BS443",
+    "4\" x 10\"": "BS4410",
+    "4\" x 11\"": "BS4411",
+    "4\" x 12\"": "BS4412",
+    "4\" x 5\"": "BS445",
+    "4\" x 6\"": "BS446",
+    "4\" x 7\"": "BS447",
+    "4\" x 8\"": "BS448",
+    "4\" x 9\"": "BS449"
+  },
+  "Banner 5″ Height by 2-14″ width": {
+    "5\" x 2\"": "BS551",
+    "5\" x 3\"": "BS552",
+    "5\" x 4\"": "BS553",
+    "5\" x 5\"": "BS554",
+    "5\" x 10\"": "BS5510",
+    "5\" x 11\"": "BS5511",
+    "5\" x 12\"": "BS5512",
+    "5\" x 6\"": "BS556",
+    "5\" x 7\"": "BS557",
+    "5\" x 8\"": "BS558",
+    "5\" x 9\"": "BS559"
+  },
+  "Banner 6″ Height by 2-14″ width": {
+    "6\" x 2\"": "BS661",
+    "6\" x 3\"": "BS662",
+    "6\" x 4\"": "BS663",
+    "6\" x 5\"": "BS664",
+    "6\" x 6\"": "BS665",
+    "6\" x 10\"": "BS6610",
+    "6\" x 11\"": "BS6611",
+    "6\" x 12\"": "BS6612",
+    "6\" x 7\"": "BS667",
+    "6\" x 8\"": "BS668",
+    "6\" x 9\"": "BS669"
+  },
+  "Banner 7″ Height by 2-14″ width": {
+    "7\" x 2\"": "BS771",
+    "7\" x 3\"": "BS772",
+    "7\" x 4\"": "BS773",
+    "7\" x 5\"": "BS774",
+    "7\" x 6\"": "BS775",
+    "7\" x 7\"": "BS776",
+    "7\" x 10\"": "BS7710",
+    "7\" x 11\"": "BS7711",
+    "7\" x 12\"": "BS7712",
+    "7\" x 8\"": "BS778",
+    "7\" x 9\"": "BS779"
+  },
+  "Banner 8″ Height by 2-14″ width": {
+    "8\" x 2\"": "BS881",
+    "8\" x 3\"": "BS882",
+    "8\" x 4\"": "BS883",
+    "8\" x 5\"": "BS884",
+    "8\" x 6\"": "BS885",
+    "8\" x 7\"": "BS886",
+    "8\" x 8\"": "BS887",
+    "8\" x 10\"": "BS8810",
+    "8\" x 11\"": "BS8811",
+    "8\" x 12\"": "BS8812",
+    "8\" x 9\"": "BS889"
+  },
+  "Banner 9″ Height by 2-14″ width": {
+    "9\" x 2\"": "BS991",
+    "9\" x 3\"": "BS992",
+    "9\" x 4\"": "BS993",
+    "9\" x 5\"": "BS994",
+    "9\" x 6\"": "BS995",
+    "9\" x 7\"": "BS996",
+    "9\" x 8\"": "BS997",
+    "9\" x 9\"": "BS998",
+    "9\" x 10\"": "BS9910",
+    "9\" x 11\"": "BS9911",
+    "9\" x 12\"": "BS9912"
+  },
+  "Banner 10″ Height by 2-14″ width": {
+    "10\" x 9\"": "BS108",
+    "10\" x 10\"": "BS109",
+    "10\" x 2\"": "BS101",
+    "10\" x 3\"": "BS102",
+    "10\" x 4\"": "BS103",
+    "10\" x 5\"": "BS104",
+    "10\" x 6\"": "BS105",
+    "10\" x 7\"": "BS106",
+    "10\" x 8\"": "BS107",
+    "10\" x 11\"": "BS1011",
+    "10\" x 12\"": "BS1012"
+  },
+  "Crystal Round Facet on a Black Crystal Base": {
+    "5\"": "CRY0001S",
+    "6\"": "CRY0001M",
+    "7\"": "CRY0001L"
+  },
+  "Crystal Obelisk on a Black Crystal Base": {
+    "8\"": "CRY0003S",
+    "10\"": "CRY0003M",
+    "12\"": "CRY0003L"
+  },
+  "Crystal Octagon Slant-Top Tower on Black Crystal Base": {
+    "9 3/4\"": "CRY0004S",
+    "10 3/4\"": "CRY0004L"
+  },
+  "Crystal Diamond on a Black Crystal Base": {
+    "8\"": "CRY0005S",
+    "9\"": "CRY0005M",
+    "10\"": "CRY0005L"
+  },
+  "Crystal Round with Rectangle Facet on Black Crystal Base": {
+    "5 1/2\"": "CRY0014S",
+    "6\"": "CRY0014M",
+    "6 1/2\"": "CRY0014L"
+  },
+  "Crystal Faceted Obelisk on a Black Crystal Base": {
+    "9 1/2\"": "CRY0033S",
+    "11\"": "CRY0033L"
+  },
+  "Crystal 3D Golf Spire on a Black Crystal Base": {
+    "10 1/4\"": "CRY0054S",
+    "11 1/2\"": "CRY0054L"
+  },
+  "Crystal Facet Rectangle on a Black Crystal Base": {
+    "7\"": "CRY0057M",
+    "8\"": "CRY0057L"
+  },
+  "Crystal Award on Black Base": {
+    "8 1/4\"": "CRY0064M",
+    "9 1/2\"": "CRY0064L"
+  },
+  "Crystal Diamond on a Clear Crystal Base": {
+    "8 1/2\"": "CRY1002",
+    "10\"": "CRY1003",
+    "10 3/4\"": "CRY1004",
+    "7\"": "CRY0138",
+    "9\"": "CRY0136",
+    "10 1/2\"": "CRY0137"
+  },
+  "Crystal Facet Rectangle on a Clear Crystal Base": {
+    "6 1/4\"": "CRY1100",
+    "7 1/4\"": "CRY1111",
+    "8\"": "CRY1112"
+  },
+  "Clear Crystal Globe on a Clear Crystal Base": {
+    "3 1/2\"": "CRY1113",
+    "4 1/2\"": "CRY1114",
+    "5 1/2\"": "CRY1115"
+  },
+  "Crystal Octagon Tower": {
+    "6\"": "CRY0132",
+    "7 1/2\"": "CRY0133",
+    "5\"": "CRY799",
+    "6 1/4\"": "CRY800",
+    "8\"": "CRY811"
+  },
+  "Silver Metal Golfer Silhouette on a Crystal Golf Ball & Base": {
+    "10\"": "CRY0146S",
+    "11\"": "CRY0146M"
+  },
+  "Crystal with Blue Edge on a Clear Crystal Base": {
+    "7 1/4\"": "CRY0155",
+    "8 1/4\"": "CRY0156",
+    "9 3/4\"": "CRY0157"
+  },
+  "Black Diamond Ice Unite Acrylic": {
+    "4 1/2\" x 7 1/2\"": "U NT11BK"
+  },
+  "Crystal Triangle on a Black Crystal Base": {
+    "6 1/2\"": "CRY0168M",
+    "7 3/4\"": "CRY0168L"
+  },
+  "Crystal Facet Block Award": {
+    "5\" x 3\"": "CRY766",
+    "6\" x 3 1/2\"": "CRY777",
+    "7\" x 4 1/4\"": "CRY788"
+  },
+  "Crystal Cube on Black Crystal Base": {
+    "4 1/2\"": "CRY06619S",
+    "6\"": "CRY06619L"
+  },
+  "Crystal Rectangle with Etched Globe": {
+    "5\"": "CRY06524S",
+    "6\"": "CRY06524M",
+    "7\"": "CRY06524L"
+  },
+  "Crystal Octagon Facet on a Clear Crystal Base": {
+    "6\"": "CRY062",
+    "7 1/4\"": "CRY063",
+    "8\"": "CRY064"
+  },
+  "Crystal with Blue Edge on a Blue Crystal Base": {
+    "7\"": "CRY0534S",
+    "8\"": "CRY0534M",
+    "9\"": "CRY0534L"
+  },
+  "Crystal Faceted Obelisk on a Blue Crystal Base": {
+    "9 1/2\"": "CRY0533S",
+    "11\"": "CRY0533L"
+  },
+  "Crystal Diamond on a Blue Crystal Base": {
+    "8\"": "CRY5005S",
+    "9\"": "CRY5005M",
+    "10\"": "CRY5005L"
+  },
+  "Crystal Round Facet on a Blue Crystal Base": {
+    "5\"": "CRY5001S",
+    "6\"": "CRY5001M",
+    "7\"": "CRY5001L"
+  },
+  "Crystal Medium 3D Rising Peak": {
+    "10\"": "CRY23010M",
+    "11\"": "CRY23010L"
+  },
+  "Crystal Arch with Blue Base": {
+    "8 3/4\"": "CRY20009S",
+    "9 3/4\"": "CRY20009M",
+    "10 1/2\"": "CRY0001L-1"
+  },
+  "Diamond Crystal with Blue/Clear Base": {
+    "6 1/4\"": "CRY190005BUS",
+    "9 1/2\"": "CRY190005BUM",
+    "10 1/4\"": "CRY190005BUL"
+  },
+  "Round Crystal with Blue/Clear Base": {
+    "5\"": "CRY190001BUS",
+    "6\"": "CRY190001BUM",
+    "7\"": "CRY190001BUL"
+  },
+  "Round Crystal with Black/Clear Base": {
+    "5\"": "CRY190001BKS",
+    "6\"": "CRY190001BKM",
+    "7\"": "CRY190001BKL"
+  },
+  "Banner 11″ Height by 2-14″ width": {
+    "11\" x 2\"": "BS1102",
+    "11\" x 3\"": "BS1103",
+    "11\" x 10\"": "BS11010",
+    "11\" x 4\"": "BS1104",
+    "11\" x 5\"": "BS1105",
+    "11\" x 6\"": "BS1106",
+    "11\" x 7\"": "BS1107",
+    "11\" x 8\"": "BS1108",
+    "11\" x 9\"": "BS1109",
+    "11\" x 11\"": "BS11011",
+    "11\" x 12\"": "BS11012"
+  },
+  "Banner 12\" Height by 2-14\" width": {
+    "12\" x 2\"": "BS1202",
+    "12\" x 3\"": "BS1203",
+    "12\" x 4\"": "BS1204",
+    "12\" x 5\"": "BS1205",
+    "12\" x 6\"": "BS1206",
+    "12\" x 7\"": "BS1207",
+    "12\" x 8\"": "BS1208",
+    "12\" x 9\"": "BS1209",
+    "12\" x 10\"": "BS12010",
+    "12\" x 11\"": "BS12011",
+    "12\" x 12\"": "BS12012"
+  },
+  "Banner 13″ Height by 2-14″ width": {
+    "13\" x 2\"": "BS1302",
+    "13\" x 3\"": "BS1303",
+    "13\" x 4\"": "BS1304",
+    "13\" x 5\"": "BS1305",
+    "13\" x 6\"": "BS1306",
+    "13\" x 7\"": "BS1307",
+    "13\" x 8\"": "BS1308",
+    "13\" x 9\"": "BS1309",
+    "13\" x 10\"": "BS13010",
+    "13\" x 11\"": "BS13011",
+    "13\" x 12\"": "BS13012"
+  },
+  "Banner 14\" Height by 2-14\" width": {
+    "14\" x 2\"": "BS1402",
+    "14\" x 3\"": "BS1403",
+    "14\" x 4\"": "BS1404",
+    "14\" x 5\"": "BS1405",
+    "14\" x 6\"": "BS1406",
+    "14\" x 7\"": "BS1407",
+    "14\" x 8\"": "BS1408",
+    "14\" x 9\"": "BS1409",
+    "14\" x 10\"": "BS14010",
+    "14\" x 11\"": "BS14011",
+    "14\" x 12\"": "BS14012"
+  },
+  "Flame Series Clear Acrylic with Blue Accented Bevels": {
+    "4 1/4\" x 8 7/8\" x 1\"": "A6748",
+    "5 1/4\" x 8 7/8\" x 1\"": "A6749",
+    "6 1/4\" x 9 7/8\" x 1\"": "A6750"
+  },
+  "Flame Series Clear Acrylic with Black Silkscreened Back": {
+    "4 1/4\" x 8 7/8\" x 1\"": "A6754",
+    "5 1/4\" x 8 7/8\" x 1\"": "A6755",
+    "6 1/4\" x 9 7/8\" x 1\"": "A6756"
+  },
+  "Freestanding Acrylic with Blue Background and Carved Jewel Accents": {
+    "4\" x 6\" x 1\"": "A7014",
+    "5\" x 7\" x 1\"": "A7015",
+    "6\" x 8\" x 1\"": "A7016"
+  },
+  "Mirage Acrylic": {
+    "6\" x 8\" x 1\"": "MR34RD"
+  },
+  "Mirage Acrylic 2": {
+    "3 1/2\" x 5\" x 1\"": "MR31RD"
+  },
+  "Mirage Acrylic 3": {
+    "4 1/2\" x 6\" x 1\"": "MR32RD"
+  },
+  "Mirage Acrylic 4": {
+    "5\" x 7\" x 1\"": "MR33RD"
+  },
+  "Clear Diamond Acrylic": {
+    "5 3/4\" x 7\" x 1\"": "BAC033",
+    "5\" x 7\" x 1\"": "BAC032"
+  },
+  "Clear Rectangle Square Cut Acrylic": {
+    "4\" x 6\" x 1\"": "BAC051",
+    "5\" x 7\" x 1\"": "BAC052",
+    "6\" x 8\" x 1\"": "BAC053"
+  },
+  "Zenith Series Clear Acrylic with Walnut Base": {
+    "4 1/4\" x 7 1/4\" x 3/4\"": "A3107CL",
+    "4 3/4\" x 11 1/4\" x 3/4\"": "A3111CL"
+  },
+  "Zenith Series Jade Acrylic with Walnut Base": {
+    "4 1/2\" x 9 1/4\" x 3/4\"": "A3109JD",
+    "4 1/4\" x 7 1/4\" x 3/4\"": "A3107JD",
+    "4 3/4\" x 11 1/4\" x 3/4\"": "A3111JD"
+  },
+  "Premier Flame Facet Glass Award": {
+    "10 1/2\" x 3/8\"": "FC013",
+    "8 1/2\" x 3/8\"": "FC011",
+    "9 1/2\" x 3/8\"": "FC012",
+    "10 1/2\" x 3/8\" thick": "FC11",
+    "6 1/2\" x 9 1/2\" x 3/8\" thick": "FC12",
+    "8 1/2\" x 3/8\" thick": "FC13"
+  },
+  "Premier Clear Rectangle Glass Award": {
+    "7\" x 3/8\"": "CGS031",
+    "7 3/4\" x 3/8\"": "CGS032",
+    "8 1/2\" x 3/8\"": "CGS033",
+    "7 3/4\" x 3/8\" thick": "CGS31",
+    "7\" x 3/8\" thick": "CGS32",
+    "8 1/2\" x 3/8\" thick": "CGS33"
+  },
+  "Premier Glass Crescent": {
+    "10\" x 7\" x 1/4\"": "CE65003",
+    "6\" x 4\" x 1/4\"": "CE65000",
+    "7\" x 5\" x 1/4\"": "CE65001",
+    "8\" x 6\" x 1/4\"": "CE65002",
+    "10\" x 7\" x 1/4\" thick": "CE6503",
+    "6\" x 4\" x 1/4\" thick": "CE6500",
+    "7\" x 5\" x 1/4\" thick": "CE6501",
+    "8\" x 6\" x 1/4\" thick": "CE6502"
+  },
+  "Premier Clear Diamond Glass Award": {
+    "6 3/4\" x 3/8\"": "CGS021",
+    "7 1/2\" x 3/8\"": "CGS022",
+    "8 1/2\" x 3/8\"": "CGS023",
+    "6 3/4\" x 3/8\" thick": "CGS21",
+    "7 1/2\" x 3/8\" thick": "CGS22",
+    "8 1/2\" x 3/8\" thick": "CGS23"
+  },
+  "Premier Clear Octagon Glass Award": {
+    "6 1/2\" x 3/8\"": "CGS012",
+    "6\" x 3/8\"": "CGS011",
+    "7 1/2\" x 3/8\"": "CGS013",
+    "6 1/2\" x 3/8\" thick": "CGS11",
+    "6\" x 3/8\" thick": "CGS12",
+    "7 1/2\" x 3/8\" thick": "CGS13"
+  },
+  "Premier Round Facet Glass Award": {
+    "5\" x 3/8\"": "FC021",
+    "6 1/2\" x 3/8\"": "FC022",
+    "7 1/2\" x 3/8\"": "FC023",
+    "5\" x 3/8\" thick": "FC21",
+    "6 1/2\" x 3/8\" thick": "FC22",
+    "7 1/2\" x 3/8\" thick": "FC23"
+  },
+  "Premier Scroll Facet Glass Award": {
+    "7 1/2\" x 3/8\"": "FC031",
+    "8 1/4\" x 3/8\"": "FC032",
+    "9 1/2\" x 3/8\"": "FC033",
+    "7 1/2\" x 3/8\" thick": "FC31",
+    "8 1/4\" x 3/8\" thick": "FC32",
+    "9 1/2\" x 3/8\" thick": "FC33"
+  },
+  "Premier Shield Facet Glass Award": {
+    "6 1/2\" x 3/8\"": "FC041",
+    "7 1/2\" x 3/8\"": "FC042",
+    "8 1/4\" x 3/8\"": "FC043",
+    "6 1/2\" x 3/8\" thick": "FC41",
+    "7 1/2\" x 3/8\" thick": "FC42",
+    "8 1/4\" x 3/8\" thick": "FC43"
+  },
+  "Diamond Series Glass Award": {
+    "6 x 7 1/2\" x 1/2\"": "G2150",
+    "7\" x 8 1/2\" x 1/2\"": "G2160",
+    "8\" x 9 1/2\" x 1/2\"": "G2170"
+  },
+  "Arch Series Glass Award with Gold Metal Base": {
+    "5\" x 7 3/4\" x 3/8\"": "G2250",
+    "6\" x 8 3/4\" x 3/8\"": "G2260",
+    "7\" x 9 3/4\" x 3/8\"": "G2270"
+  },
+  "Flame Series Glass Award": {
+    "3 5/8\" x 6 1/2\" x 1/2\"": "G2301",
+    "4 1/4\" x 7 1/2\" x 1/2\"": "G2302",
+    "4 5/8\" x 8 1/2\" x 1/2\"": "G2303"
+  },
+  "Apex Series Glass Award, Black Piano Finish Base with Silver Aluminum Accent": {
+    "6 5/8\" x 7 7/8\" x 3/8\"": "G2412",
+    "6 5/8\" x 8 7/8\" x 3/8\"": "G2413",
+    "6 5/8\" x 9 7/8\" x 3/8\"": "G2414"
+  },
+  "Beveled Clear Glass with Black Silkscreen and Silver Aluminum Accent Base": {
+    "4 3/4\" x 7 7/8\" x 3/8\"": "G2425",
+    "4 3/4\" x 8 7/8\" x 3/8\"": "G2426",
+    "4 3/4\" x 9 7/8\" x 3/8\"": "G2427",
+    "5 1/8\" x 9 1/2\" x 3/8\"": "G2430",
+    "5 5/8\" x 9 5/8\" x 3/8\"": "G2431",
+    "5 5/8\" x 10\" x 3/8\"": "G2432"
+  },
+  "Zenith Series Glass Award": {
+    "4 3/4\" x 6 1/2\" x 1/2\"": "G2460",
+    "4 3/4\" x 7 1/2\" x 1/2\"": "G2470",
+    "4 3/4\" x 8 1/2\" x 1/2\"": "G2480"
+  },
+  "Flame Series with Gunmetal Finish Base": {
+    "3 3/4\" x 8 5/8\" x 3/8\"": "G2538",
+    "4 1/2\" x 9 5/8\" x 3/8\"": "G2539",
+    "5\" x 10 5/8\" x 3/8\"": "G2540"
+  },
+  "Apex Series Glass Award": {
+    "5\" x 7 1/4\" x 1/4\"": "G2605",
+    "6\" x 8 1/4\" x 1/4\"": "G2606",
+    "7\" x 9 1/4\" x 1/4\"": "G2607"
+  },
+  "Premium Series Jade Glass Award": {
+    "4\" x 5\" x 1/2\"": "G2640",
+    "5\" x 6\" x 1/2\"": "G2641",
+    "6\" x 7\" x 1/2\"": "G2642",
+    "5 1/2\" x 9\" x 1/2\"": "G2748",
+    "5 7/8\" x 9 1/2\" x 1/2\"": "G2749",
+    "5\" x 8 1/8\" x 1/2\"": "G2750"
+  },
+  "Black Glass Plaque with Silver Border and Easel Back": {
+    "5\" x 7\"": "G2885",
+    "6\" x 8\"": "G2886",
+    "7\" x 9\"": "G2887"
+  },
+  "Clear Glass with Sapphire Blue Highlight and Silver Plated Easel Post": {
+    "4\" x 6\" x 3/8\"": "G2854",
+    "5\" x 7\" x 3/8\"": "G2867",
+    "6\" x 8\" x 3/8\"": "G2879"
+  },
+  "Clear Glass Award with Silver Plated Easel Post": {
+    "4\" x 6\" x 3/8\"": "G2822",
+    "5\" x 7\" x 3/8\"": "G2835",
+    "6\" x 8\" x 3/8\"": "G2846"
+  },
+  "Diamond Shaped Glass Award, Black Silkscreen on Silver Metal Base": {
+    "6 1/4\" x 7 3/8\" x 3/8\"": "G2777",
+    "7 1/8\" x 8 1/4\" x 3/8\"": "G2778",
+    "8\" x 9\" x 3/8\"": "G2779"
+  },
+  "Clear Glass with Blue/Black Silkscreened Upright and Black Screened Base": {
+    "5 5/8\" x 7 1/4\" x 3/8\"": "G2653",
+    "5 7/8\" x 7 3/4\" x 3/8\"": "G2658",
+    "6 1/2\" x 8 3/8\" x 3/8\"": "G2659",
+    "5 5/8\" x 7 1/4\" x 3/8\" (Bottom": "G2657"
+  },
+  "VICTORY RESIN WORLD": {
+    "6.25\"": "RV55A",
+    "8.25\"": "RV55B",
+    "9.25\"": "RV55C"
+  },
+  "Classic Series Jade Acrylic Free Standing Award": {
+    "5\" x 7 1/2\" x 1\" thick": "A6418",
+    "6\" x 8 1/2\" x 1\" thick": "A6420"
+  },
+  "MOTION X FOOTBALL": {
+    "8": "MX809",
+    "9": "MX909",
+    "7\"": "MX709"
+  },
+  "GOLF DRIVER FEMALE": {
+    "10\"": "G2691",
+    "12.5\"": "G2692"
+  },
+  "GOLF SWING MALE": {
+    "10\"": "G2701",
+    "13\"": "G2702",
+    "16\"": "G2703"
+  },
+  "GOLF SWING FEMALE": {
+    "10\"": "G2711",
+    "12.5\"": "G2712"
+  },
+  "FOOTBALL 4 SIDES SILVER": {
+    "12\"": "RF148A",
+    "15\"": "RF148B",
+    "18\"": "RF148C"
+  },
+  "Zenith Series Clear Glass with Prism Effect Base": {
+    "3 3/8\" x 8 3/4\" x 3/8\" thic": "G3137",
+    "3 5/8\" x 9 5/8\" x 3/8\" thic": "G3138"
+  },
+  "Premier Blue Accent Diamond Glass Award": {
+    "7 1/2\" x 3/8\" thick": "ACG11BU",
+    "9\" x 3/8\" thick": "ACG13BU"
+  },
+  "Premier Blue Accent Flame Glass Award": {
+    "5 1/4\" x 8\" x 3/8\" thick": "ACG31BU",
+    "6 1/2\" x 9 1/2\" x 3/8\" thick": "ACG33BU"
+  },
+  "Premier Rosewood Piano Finish Floating Glass Plaque": {
+    "10 1/2\" x 13\"": "FPG11113",
+    "8\" x 10\"": "FPG1810",
+    "9\" x 12\"": "FPG1912"
+  },
+  "Premier Black Piano Finish Floating Glass Plaque": {
+    "10 1/2\" x 13\"": "FPG21113",
+    "8\" x 10\"": "FPG2810",
+    "9\" x 12\"": "FPG2912"
+  },
+  "Black Glass Plaque with Gold Border and Easel Back": {
+    "5\" x 7\"": "G2890",
+    "6\" x 8\"": "G2891",
+    "7\" x 9\"": "G2892"
+  },
+  "Contemporary Clear Glass Award with Pedestal Base": {
+    "5 1/2\" x 10 1/2\" x 3/8\" thick": "G2902",
+    "5\" x 8 1/2\" x 3/8\" thick": "G2903",
+    "6 1/4\" x 11 1/2\" x 3/8\" thick": "G2904"
+  },
+  "Black Silkscreened Clear Glass with High Gloss Rosewood Base": {
+    "6\" x 10\" x 2 1/4\" x 3/8\" thick": "G2906",
+    "6\" x 8\" x 2 1/4\" x 3/8\" thick": "G2907",
+    "6\" x 9\" x 2 1/4\" x 3/8\" thick": "G2908"
+  },
+  "Diamond Series Jade Glass with Prism-Effect Top": {
+    "5 1/8\" x 8 5/8\" x 1/2\" (bottom)": "G2917",
+    "5 5/8\" x 9 5/8\" x 1/2\" (bottom)": "G2918",
+    "6\" x 10 5/8\" x 1/2\" (bottom)": "G2919"
+  },
+  "Shield Shaped Glass Award with Black Silkscreened Center": {
+    "4 1/4\" x 7 1/4\" x 3/8\" thick": "G2920",
+    "5 1/2\" x 9 1/4\" x 3/8\" thick": "G2921",
+    "5\" x 8 1/4\" x 3/8\" thick": "G2922"
+  },
+  "Sail Shaped Glass Award with Black Center": {
+    "5 1/2\" x 8 3/4\" x 3/8\" thick": "G2924",
+    "5 1/8\" x 8\" x 3/8\" thick": "G2925",
+    "6\" x 9 1/2\" x 3/8\" thick": "G2926"
+  },
+  "Zenith Series Clear Glass Award with Blue Glass Highlights": {
+    "5 1/4\" x 8\" x 3/8\" thick": "G2930",
+    "5 3/4\" x 8 5/8\" x 3/8\" thick": "G2931"
+  },
+  "Rectangular Glass Award with Black Silkscreened Center": {
+    "6 1/2\" x 9 1/4\" x 3/8\" thick": "G2935",
+    "6 1/4\" x 8 1/4\" x 3/8\" thick": "G2936",
+    "6 3/4\" x 10 1/4\" x 3/8\" thick": "G2937"
+  },
+  "Iceberg Series Thick Jade Glass Award": {
+    "5 3/8\" x 7 5/8\" x 5/8\" thick": "G2953",
+    "6 1/4\" x 8 3/8\" x 5/8\" thick": "G2954",
+    "7\" x 9 1/8\" x 5/8\" thick": "G2955"
+  },
+  "Sail Series Clear Glass Award with High Gloss Rosewood Finish Base": {
+    "5 1/2\" x 10 3/4\"": "G2971",
+    "5 1/2\" x 9 3/4\"": "G2972",
+    "5 1/2\" x 7 3/4\"": "G2973"
+  },
+  "Constellation Series Glass Award with Blue Background with Chrome Plated Star": {
+    "6 3/8\" x 10 5/8\"": "G2976",
+    "6 3/8\" x 8 5/8\"": "G2977",
+    "6 3/8\" x 9 5/8\"": "G2978"
+  },
+  "Diamond Series Glass Awards": {
+    "7 3/8\" x 7 3/8\" x 5/8\" thick": "G2984",
+    "8 5/8\" x 8 5/8\" x 5/8\" thick": "G2985",
+    "8\" x 8\" x 5/8\" thick": "G2986"
+  },
+  "Premium Series Sapphire Glass Award with Rosewood and Aluminum Base": {
+    "4 1/4\" x 8 1/8\" x 1/2\" thick": "G2987",
+    "4 1/4\" x 9 3/4\" x 1/2\" thick": "G2988",
+    "4 1/4\" x 9\" x 1/2\" thick": "G2989"
+  },
+  "Chalice Series Sapphire Glass Award with Blue and Clear Glass Pedestal Base": {
+    "4\" x 8 1/4\" x 1/2\" thick": "G2990",
+    "5 3/8\" x 10 1/4\" x 1/2\" thick": "G2991",
+    "5\" x 9 1/4\" x 1/2\" thick": "G2992"
+  },
+  "Contemporary Jade Glass Award with Oval Shaped Base": {
+    "5 1/8\" x 7 3/4\" x 3/8\" thick": "G2995",
+    "6 3/4\" x 9 3/4\" x 3/8\" thick": "G2996",
+    "6\" x 8 3/4\" x 3/8\" thick": "G2997"
+  },
+  "Flame Series Clear Glass Award with Prism-Effect Base": {
+    "3 7/8\" x 7 7/8\" x 3/8\" thick": "G3005",
+    "3 7/8\" x 8 7/8\" x 3/8\" thick": "G3006",
+    "3 7/8\" x 9 7/8\" x 3/8\" thick": "G3007"
+  },
+  "Zenith Series Black Silkscreened Glass with Brushed Aluminum Post": {
+    "6 1/8\" x 7 3/4\" x 3/16\" thick": "G3027",
+    "6 1/8\" x 8 3/4\" x 3/16\" thick": "G3028",
+    "6 1/8\" x 9 3/4\" x 3/16\" thick": "G3029"
+  },
+  "Pinnacle Series Glass with Blue Silkscreened Center and Silver Mirror Border": {
+    "6 1/8\" x 7 3/4\" x 3/8\" (bottom)": "G3084",
+    "6 5/8\" x 8 3/8\" x 3/8\" (Bottom)": "G3085",
+    "7 1/8\" x 9\" x 3/8\" (Bottom)": "G3086"
+  },
+  "Shield Shaped Glass Award with Red Border and White Laurel Leaves": {
+    "5 7/8\" x 8 1/8\" x 3/8\" thick": "G3088",
+    "6 5/8\" x 8 7/8\" x 3/8\" thick": "G3089",
+    "7 1/4\" x 9 5/8\" x 3/8\" thick": "G3090"
+  },
+  "Shield Shaped Glass Award with Blue Border and White Laurel Leaves": {
+    "5 7/8\" x 8 1/4\" x 3/8\" thick": "G3093",
+    "6 5/8\" x 9\" x 3/8\" thick": "G3094",
+    "7 1/4\" x 9 3/4\" x 3/8\" thick": "G3095"
+  },
+  "Zenith Series Black Silkscreened Glass w/Frosted Accents, Heave Aluminum Base": {
+    "3 1/2\" x 10 7/8\" x 3/8\" thick": "G3100",
+    "3 1/2\" x 11 7/8\" x 3/8\" thick": "G3101",
+    "3 1/2\" x 9 3/8\" x 3/8\" thick": "G3102"
+  },
+  "Red Contemporary Clear Glass Award, Arched Base with Matte Metallic Finish": {
+    "3 7/8\" x 10 1/8\" x 1/2\" thick": "G3113",
+    "3 7/8\" x 8 1/2\" x 1/2\" thick": "G3114",
+    "3 7/8\" x 9 3/8\" x 1/2\" thick": "G3115"
+  },
+  "Silver Contemporary Clear Glass Award, Arched Base with Matte Metallic Finish": {
+    "3 7/8\" x 10 1/8\" x 1/2\" thick": "G3120",
+    "3 7/8\" x 8 1/2\" x 1/2\" thick": "G3121",
+    "8 7/8\" x 9 3/8\" x 1/2\" thick": "G3122"
+  },
+  "Blue Contemporary Clear Glass Award, Arched Base with Matte Metallic Finish": {
+    "3 7/8\" x 10 1/8\" x 1/2\" thick": "G3127",
+    "3 7/8\" x 8 1/2\" x 1/2\" thick": "G3128",
+    "3 7/8\" x 9 3/8\" x 1/2\" thick": "G3129"
+  },
+  "Tidal Series Clear Glass with Blue Painted Background": {
+    "5 1/2\" x 8 1/2\" x 3/8\" thick": "G3140",
+    "5\" x 7 1/2\" x 3/8\" thick": "G3141",
+    "6 1/8\" x 9 5/8\" x 3/8\" thick": "G3142"
+  },
+  "Tidal Series Clear Glass with Red Painted Background": {
+    "5 1/2\" x 8 1/2\" x 3/8\"": "G3144",
+    "5\" x 7 1/2\" x 3/8 thick": "G3145",
+    "6 1/8\" x 9 5/8\" x 3/8\"": "G3146"
+  },
+  "Peak Series Clear Glass Top with Brushed Silver Posts and Black Glass Base": {
+    "7\" x 8 5/8\" x 3/8\" thick": "G3151",
+    "7\" x 9 1/2\" x 3/8\" thick": "G3152"
+  },
+  "Flame Series Clear Glass Top with Brushed Silver Aluminum Base": {
+    "4 1/2\" x 7 1/2\" x 3/8\" thick": "G3156",
+    "4 3/4\" x 8\" x 3/8\" thick": "G3157",
+    "4 7/8\" x 9\" x 3/8\" thick": "G3158"
+  },
+  "Apex Series Jade Glass Award": {
+    "6 1/4\" x 9 1/8\" x 1/2\" thick": "G3164",
+    "6 5/8\" x 10\" x 1/2\" thick": "G3165",
+    "7\" x 11\" x 1/2\" thick": "G3166"
+  },
+  "Tidal Series Clear Glass with Black Painted Background": {
+    "5 1/4\" x 8 7/8\" x 3/8\" thick": "G3167",
+    "5\" x 7 1/2\" x 3/8\" thick": "G3168",
+    "6 1/8\" x 9 5/8\" x 3/8\" thick": "G3169"
+  },
+  "Rectangular Black Silkscreened Glass Award with Black Piano Finish Base": {
+    "5 1/4\" x 8 7/8\" x 3/8\" thick": "G3170",
+    "6 1/4\" x 8 7/8\" x 3/8\" thick": "G3171",
+    "7 1/4\" x 9 7/8\" x 3/8\" thick": "G3172"
+  },
+  "Clear Glass Plaque with Painted Black Background, Silver Plated Easel Post": {
+    "4\" x 6\" x 3/8\" thick": "G3180",
+    "5\" x 7\" x 3/8\" thick": "G3181",
+    "6\" x 8\" x 3/8\" thick": "G3182"
+  },
+  "Clear Glass Plaque with Painted Blue Background, Silver Plated Easel Post": {
+    "4\" x 6\" x 3/8 thick": "G3184",
+    "5\" x 7\" x 3/8\" thick": "G3185",
+    "6\" x 8\" x 3/8\" thick": "G3186"
+  },
+  "Premier Jade Octagon Award": {
+    "6 1/2\" x 3/8\" thick": "JGS11",
+    "7 1/2\" x 3/8\" thick": "JGS13"
+  },
+  "Premier Jade Diamond Award": {
+    "6 3/4\" x 3/8\" thick": "JGS21",
+    "7 1/2\" x 3/8\" thick": "JGS22",
+    "8 1/2\" x 3/8\" thick": "JGS23"
+  },
+  "Premier Jade Rectangle Award": {
+    "7 3/4\" x 3/8\" thick": "JGS61",
+    "7\" x 3/8\" thick": "JGS62",
+    "8 1/2\" x 3/8\" thick": "JGS63"
+  },
+  "Black Glass Airflyte Premium Plaque with Black/Gold Florentine LaserFX Plate": {
+    "7\" x 9\"": "P4421",
+    "8\" x 10\"": "P4422",
+    "9\" x 12\"": "P4423"
+  },
+  "Crystal Perpetual Standup Plaque with 4 Black Crystal Blocks": {
+    "8\" x 9\" x 2 3/8\"": "CRY7022BK",
+    "8\"x 9\" x 2 3/8\"": "CRY7022BU"
+  },
+  "Cube Series, Clipped Cube Multi-Faceted Award": {
+    "2 3/8\"": "K9012",
+    "3 1/2\"": "K9014",
+    "3\"": "K9013"
+  },
+  "Flame Series Multi-Faceted Optical Crystal Award": {
+    "5 3/8\" x 8 7/8\" x 3/4\" thick": "K9045",
+    "5 7/8\" x 9 7/8\" x 3/4\" thick": "K9046",
+    "5\" x 7 5/8\" x 3/4\" thick": "K9047"
+  },
+  "Premium Series Clear Crystal with Cobalt Blue Crystal Base": {
+    "3 1/2\" x 7 7/8\" x 1 1/4\"": "K9051",
+    "4 3/8\" x 9 3/4\"": "K9052",
+    "4\" x 8 3/4\" x 1 7/16\"": "K9053"
+  },
+  "Diamond Series Clear Crystal Award with Cobalt Blue Crystal Base": {
+    "4 1/2\" x 6 1/8\" x 9/16\"": "K9060",
+    "5 3/4\" x 7 5/8\" x 3/4\"": "K9061",
+    "6 7/8\" x 9 1/4\" x 7/8\"": "K9062"
+  },
+  "Diamond Series Crystal with Prism-Effect": {
+    "7 1/8\" x 10\" x 1 1/8\" (tapered)": "K9177",
+    "7 3/4\" x 11\" x 1 1/8\"": "K9178",
+    "8 3/8\" x 12\" x 1 1/8\"": "K9179"
+  },
+  "Crystal Flame with Jeweled Edge and Prism-Effect": {
+    "4\" x 6\" x 1\" (tapered)": "K9194",
+    "5\" x 7\" x 1 1/8\" (tapered)": "K9195",
+    "6\" x 8\" x 1 1/8\" (tapered)": "K9196"
+  },
+  "Star Trophy Carved From a Block of Crystal": {
+    "2 1/2\" x 7 1/2\" x 1 1/2\" (tapered)": "K9225",
+    "4\" x 8 1/2\" x 1 1/2\"": "K9226",
+    "4\" x 9 1/2\" x 1 1/2\"": "K9227"
+  },
+  "Flame Series Crystal with Prism-Effect Base": {
+    "5 3/8\" x 8 7/8\" x 3/4\" thick": "K9257",
+    "5 7/8\" x 9 7/8\" x 3/4\" thick": "K9258",
+    "5\" x 7 5/8\" x 3/4\" thick": "K9259"
+  },
+  "Zenith Series Crystal with Prism-Effect": {
+    "4 7/8\" x 6 7/8\" x 1 1/8\"": "K9274",
+    "5 7/8\" x 8\" x 1 1/8\" (tapered": "K9275",
+    "6 1/2\" x 9\" x 1 1/8\"": "K9276"
+  },
+  "Flame Series Clear Crystal Award with Blue Accented Bottom": {
+    "5 1/2\" x 8\" x 1 1/8\" thick": "K9297",
+    "5 7/8\" x 9\" x 1 1/8\" thick": "K9298",
+    "6 1/2\" x 9 7/8\" x 1 1/8\" thic": "K9299"
+  },
+  "Contemporary Series Crystal with Blue Crystal Bottom": {
+    "4 7/8\" x 8\" x 1 1/4\" (bottom": "K9342",
+    "5 1/8\" x 8 7/8\" x 1 1/4\"": "K9343",
+    "5 5/8\" x 9 5/8\" x 1 1/4\"": "K9344"
+  },
+  "Jade Crushed Ice Acrylic Series": {
+    "5 1/2\" x 4 1/4\"": "A3253",
+    "6 1/2\" x 5 1/4\"": "A3255"
+  },
+  "Diamond Series Clear Acrylic Award": {
+    "4 1/2\" x 5 1/8\"": "A3345CL",
+    "5\" x 5 7/8\"": "A3347CL",
+    "6\" x 7 3/8\"": "A3349CL"
+  },
+  "Diamond Series Jade Acrylic Award": {
+    "4 1/2\" x 5 7/8\"": "A3345JD",
+    "5\" x 5 7/8\"": "A3347JD",
+    "6\" x 7 3/8\"": "A3349JD"
+  },
+  "Octagon Series Jade Acrylic Award": {
+    "6\" x 6 3/4\"": "A3806",
+    "7\" x 7 3/4\"": "A3807",
+    "8\" x 8 3/4\"": "A3808"
+  },
+  "Apex Series Jade Acrylic Award": {
+    "10\" x 9 1/4\"": "A5469",
+    "8\" x 9 1/4\"": "A5467",
+    "9\" x 9 1/4\"": "A5468"
+  },
+  "Elite Series Jade Acrylic": {
+    "5 3/4\" x 10 1/2\"": "A6400",
+    "7\" x 9 3/4\"": "A6406",
+    "7\" x 9 3/4\" x 3/8\"": "A6408",
+    "5\" x 7 3/4\"": "A6410"
+  },
+  "Tidal Series Jade Acrylic": {
+    "5 1/2\" x 7 1/4\"": "A6424",
+    "7 1/2\" x 5 1/4\"": "A6426",
+    "7 1/2\" x 9 1/4\"": "A6428",
+    "8 1/2\" x 11 1/4\"": "A6432",
+    "9 1/2\" x 7 1/4\"": "A6434"
+  },
+  "Arrow Series Jade Acrylic Award": {
+    "8 1/8\" x 9 3/4\"": "A6510",
+    "9 1/8\" x 11 1/4\"": "A6512",
+    "7 1/8\" x 8 3/4\"": "A6514"
+  },
+  "Arch Series Jade Acrylic Award": {
+    "7 1/2\" x 8 3/4\"": "A6520",
+    "6 1/2\" x 7 3/4\"": "A6522"
+  },
+  "Zenith Series Jade Acrylic Award": {
+    "4 3/4\" x 6 3/4\"": "A6530",
+    "4 3/4\" x 7 3/4\"": "A6531",
+    "4 3/4\" x 8 3/4\"": "A6532"
+  },
+  "Flame Series Jade Acrylic Award": {
+    "3 5/8\" x 7 3/4\"": "A6534",
+    "4 1/4\" x 8 3/4\"": "A6535",
+    "4 3/4\" x 9 3/4\"": "A6536",
+    "4 1/4\" x 7 3/4\"": "A6707",
+    "5 5/8\" x 9 3/4\"": "A6708",
+    "5\" x 8 3/4\"": "A6709"
+  },
+  "Spire Series Clear Acrylic Upright on a Black Acrylic Base": {
+    "6 1/2\" x 10\"": "A6585",
+    "6 1/2\" x 8\"": "A6586",
+    "6 1/2\" x 9\"": "A6587"
+  },
+  "Spire Series Clear Acrylic Award": {
+    "6\" x 8\"": "A6590",
+    "6\" x 9\"": "A6591",
+    "6\" x 10\"": "A6592"
+  },
+  "Zenith Series Jade Acrylic with Blue Highlights": {
+    "6 1/2\" x 10\"": "A6714",
+    "5 1/2\" x 8\"": "A6715",
+    "6\" x 9\"": "A6716"
+  },
+  "Flame Series Clear Acrylic with Blue Accented Upright and Base": {
+    "5 1/8\" x 7 3/4\"": "A6727",
+    "5 7/8\" x 8 3/4\"": "A6728",
+    "6 3/4\" x 9 3/4\"": "A6729"
+  },
+  "Tidal Series Jade Acrylic Award": {
+    "4 1/4\" x 7 1/4\"": "A6738",
+    "5\" x 8 1/4\"": "A6739",
+    "5 1/2\" x 9 1/4\"": "A6740"
+  },
+  "Flame Series Black Silk Screened Clear Acrylic": {
+    "4 1/2\" x 7 3/4\"": "A6820",
+    "5 1/2\" x 9\"": "A6821",
+    "5 3/4\" x 10\"": "A6822"
+  },
+  "Flame Series Clear Acrylic with Red Accented Upright and Base": {
+    "5 1/8\" x 7 3/4\"": "A6833",
+    "5 7/8\" x 8 3/4\"": "A6834",
+    "5 7/8\" x 8- 3/4\"": "A6835"
+  },
+  "Flame Series Blue Silk Screened Clear Acrylic": {
+    "4 1/2\" x 7 3/4\"": "A6857",
+    "5 1/2\" x 9\"": "A6858",
+    "6 1/2\" x 9\"": "A6859"
+  },
+  "Dark Blue Draped Satin Pattern Acrylic Award with Silver Mirror Border": {
+    "5\" x 6 1/2\"": "A6865",
+    "5\" x 7 1/2\"": "A6866",
+    "5\" x 8 1/2\"": "A6867"
+  },
+  "Deep Red Draped Satin Pattern Acrylic Award with Silver Mirror Border": {
+    "5\" x 6 1/2\"": "A6873",
+    "5\" x 7 1/2\"": "A6874",
+    "5\" x 8 1/2\"": "A6875"
+  },
+  "Zenith Series Acrylic Award with Blue Accents/Black Base with Blue Mirror Top": {
+    "4 1/2\" x 8 1/2\"": "A6911",
+    "4 1/2\" x 6 1/2\"": "A6912",
+    "4 1/2\" x 7 1/2\"": "A6913"
+  },
+  "Flame Series Clear Acrylic with Blue Accented Bevel": {
+    "6 1/2\" x 9 3/4\"": "A6918",
+    "6\" x 8 3/4\"": "A6919",
+    "7\" x 10 3/4\"": "A6920"
+  }
+}

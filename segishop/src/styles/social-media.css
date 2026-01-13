@@ -1,0 +1,705 @@
+/* Social Media Components Styles */
+
+/* Social Media Feed Layouts */
+.social-feed {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.social-feed--grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.social-feed--masonry {
+  columns: 3;
+  column-gap: 1.5rem;
+  column-fill: balance;
+}
+
+.social-feed--carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 1.5rem;
+  padding-bottom: 1rem;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.social-feed--carousel::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.social-feed--carousel .social-post-card {
+  flex-shrink: 0;
+  width: 320px;
+  scroll-snap-align: start;
+}
+
+/* Social Post Card Styles */
+.social-post-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+}
+
+.social-post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Platform-specific colors */
+.social-post-card--instagram {
+  border-left: 4px solid #E1306C;
+}
+
+.social-post-card--youtube {
+  border-left: 4px solid #FF0000;
+}
+
+.social-post-card--tiktok {
+  border-left: 4px solid #000000;
+}
+
+/* Masonry layout specific styles */
+.social-feed--masonry .social-post-card {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  width: 100%;
+}
+
+/* Responsive Design */
+/* Large tablets and small desktops */
+@media (max-width: 1024px) {
+  .social-feed--masonry {
+    columns: 2;
+    column-gap: 1rem;
+  }
+
+  .social-feed--grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .social-feed--carousel .social-post-card {
+    width: 300px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .social-feed--masonry {
+    columns: 1;
+    column-gap: 0;
+  }
+
+  .social-feed--grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .social-feed--carousel {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .social-feed--carousel .social-post-card {
+    width: 280px;
+    margin-right: 1rem;
+  }
+
+  .social-feed {
+    gap: 1rem;
+  }
+
+  /* YouTube tablet optimizations */
+  .youtube-showcase {
+    padding: 1rem;
+  }
+
+  .youtube-showcase .grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .youtube-showcase h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .youtube-showcase .header {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .youtube-shorts-player {
+    max-width: 200px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 640px) {
+  .social-feed--carousel .social-post-card {
+    width: 260px;
+  }
+
+  .social-feed--grid {
+    padding: 0 0.5rem;
+  }
+
+  /* YouTube mobile optimizations */
+  .youtube-showcase {
+    padding: 0.75rem;
+  }
+
+  .youtube-showcase h2 {
+    font-size: 1.25rem;
+  }
+
+  .youtube-showcase .subscribe-button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .youtube-shorts-player {
+    max-width: 180px;
+  }
+
+  .youtube-player {
+    border-radius: 6px;
+  }
+}
+
+/* Small mobile phones */
+@media (max-width: 480px) {
+  .social-feed--carousel .social-post-card {
+    width: 240px;
+  }
+
+  .social-feed {
+    gap: 0.75rem;
+  }
+
+  .social-post-card {
+    margin-bottom: 1rem;
+    min-height: 44px; /* iOS minimum touch target */
+  }
+
+  /* YouTube mobile optimizations */
+  .youtube-showcase {
+    padding: 0.5rem;
+  }
+
+  .youtube-showcase h2 {
+    font-size: 1.125rem;
+  }
+
+  .youtube-shorts-player {
+    max-width: 160px;
+  }
+
+  .youtube-player .play-button {
+    padding: 8px;
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .youtube-player .play-button svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+/* Social Media Tabs Styles */
+.social-media-tabs {
+  width: 100%;
+}
+
+.social-media-tabs .tab-content {
+  min-height: 400px;
+}
+
+/* Tab navigation responsive */
+@media (max-width: 1024px) {
+  .social-media-tabs nav {
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .social-media-tabs nav::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .social-media-tabs nav {
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .social-media-tabs nav button {
+    flex-shrink: 0;
+    min-width: 120px;
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+    white-space: nowrap;
+  }
+
+  .social-media-tabs .tab-content {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 640px) {
+  .social-media-tabs nav button {
+    min-width: 100px;
+    font-size: 0.8rem;
+    padding: 0.625rem 0.75rem;
+  }
+
+  .social-media-tabs nav button span {
+    display: none;
+  }
+
+  .social-media-tabs nav button svg {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .social-media-tabs nav {
+    gap: 0.25rem;
+  }
+
+  .social-media-tabs nav button {
+    min-width: 80px;
+    padding: 0.5rem;
+  }
+}
+
+/* Loading animations */
+.social-post-skeleton {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Engagement stats animations */
+.engagement-stat {
+  transition: all 0.2s ease-in-out;
+}
+
+.engagement-stat:hover {
+  transform: scale(1.1);
+  color: #f97316; /* orange-500 */
+}
+
+/* Platform badges */
+.platform-badge {
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 9999px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.platform-badge--instagram {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.platform-badge--youtube {
+  background: linear-gradient(45deg, #ff0000 0%, #cc0000 100%);
+}
+
+.platform-badge--tiktok {
+  background: linear-gradient(45deg, #000000 0%, #333333 100%);
+}
+
+/* Video play button */
+.video-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  padding: 1rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(4px);
+}
+
+.video-play-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.video-play-button svg {
+  width: 2rem;
+  height: 2rem;
+  color: white;
+  fill: currentColor;
+  margin-left: 0.125rem; /* Optical alignment for play icon */
+}
+
+/* Aspect ratio containers */
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
+
+.aspect-tiktok {
+  aspect-ratio: 9 / 16;
+}
+
+.aspect-shorts {
+  aspect-ratio: 9 / 16;
+}
+
+/* YouTube Player Styles */
+.youtube-player {
+  position: relative;
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.youtube-player:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.youtube-player iframe {
+  border-radius: 8px;
+}
+
+/* YouTube Showcase Styles */
+.youtube-showcase {
+  width: 100%;
+}
+
+.youtube-showcase .grid {
+  gap: 2rem;
+}
+
+.youtube-showcase h2 {
+  background: linear-gradient(135deg, #ff0000, #cc0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* YouTube thumbnail overlays */
+.youtube-player .video-overlay {
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.1) 50%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.youtube-player .play-button {
+  background: rgba(255, 0, 0, 0.9);
+  backdrop-filter: blur(4px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.youtube-player .play-button:hover {
+  background: rgba(255, 0, 0, 1);
+  transform: scale(1.1);
+}
+
+/* YouTube Shorts specific styling */
+.youtube-shorts-container {
+  position: relative;
+}
+
+.youtube-shorts-container .social-feed--carousel {
+  padding: 1rem 0;
+}
+
+.youtube-shorts-container .social-post-card {
+  width: 280px;
+  max-width: 280px;
+}
+
+.youtube-shorts-player {
+  aspect-ratio: 9/16;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.youtube-shorts-player .play-button {
+  background: rgba(255, 0, 0, 0.9);
+  padding: 12px;
+}
+
+/* YouTube channel highlight */
+.youtube-channel-highlight {
+  background: linear-gradient(135deg, #ff0000 0%, #cc0000 100%);
+  color: white;
+}
+
+.youtube-channel-highlight .bg-white {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+}
+
+/* YouTube channel stats */
+.youtube-stats {
+  background: linear-gradient(135deg, #ff000010, #cc000010);
+  border: 1px solid #ff000020;
+}
+
+.youtube-stats .stat-number {
+  color: #ff0000;
+  font-weight: 700;
+}
+
+/* Platform-specific enhancements */
+.social-post-card--youtube-shorts {
+  border-left: 4px solid #ff4444;
+}
+
+.social-post-card--youtube-shorts .platform-badge {
+  background: linear-gradient(45deg, #ff0000 0%, #ff4444 100%);
+}
+
+/* YouTube Player Styles */
+.youtube-player {
+  position: relative;
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.youtube-player:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.youtube-player iframe {
+  border-radius: 8px;
+}
+
+/* YouTube Showcase Styles */
+.youtube-showcase {
+  width: 100%;
+}
+
+.youtube-showcase .grid {
+  gap: 2rem;
+}
+
+.youtube-showcase h2 {
+  background: linear-gradient(135deg, #ff0000, #cc0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* YouTube thumbnail overlays */
+.youtube-player .video-overlay {
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.1) 50%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.youtube-player .play-button {
+  background: rgba(255, 0, 0, 0.9);
+  backdrop-filter: blur(4px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.youtube-player .play-button:hover {
+  background: rgba(255, 0, 0, 1);
+  transform: scale(1.1);
+}
+
+/* YouTube Shorts specific styling */
+.youtube-shorts-player {
+  aspect-ratio: 9/16;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.youtube-shorts-player .play-button {
+  background: rgba(255, 0, 0, 0.9);
+  padding: 12px;
+}
+
+/* YouTube channel stats */
+.youtube-stats {
+  background: linear-gradient(135deg, #ff000010, #cc000010);
+  border: 1px solid #ff000020;
+}
+
+.youtube-stats .stat-number {
+  color: #ff0000;
+  font-weight: 700;
+}
+
+/* Mobile optimizations for YouTube content */
+@media (max-width: 768px) {
+  .youtube-shorts-container .social-post-card {
+    width: 240px;
+    max-width: 240px;
+  }
+
+  .youtube-channel-highlight {
+    padding: 1.5rem;
+  }
+
+  .youtube-channel-highlight .grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .youtube-showcase .grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .youtube-shorts-player {
+    max-width: 250px;
+  }
+
+  .youtube-player .play-button {
+    padding: 12px;
+  }
+
+  .youtube-player .play-button svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+/* Text truncation utilities */
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+/* Scrollbar hiding utility */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Social stats grid */
+.social-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+@media (max-width: 640px) {
+  .social-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+/* Hover effects for interactive elements */
+.interactive-hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.interactive-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Focus styles for accessibility */
+.social-post-card:focus,
+.social-media-tabs button:focus {
+  outline: 2px solid #f97316;
+  outline-offset: 2px;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .social-post-card {
+    border: 2px solid;
+  }
+  
+  .platform-badge {
+    border: 1px solid white;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .social-post-card,
+  .engagement-stat,
+  .video-play-button,
+  .interactive-hover {
+    transition: none;
+  }
+  
+  .social-post-card:hover {
+    transform: none;
+  }
+  
+  .social-post-skeleton {
+    animation: none;
+  }
+}
+
+/* Print styles */
+@media print {
+  .social-media-tabs nav,
+  .video-play-button,
+  .platform-badge {
+    display: none;
+  }
+  
+  .social-post-card {
+    break-inside: avoid;
+    box-shadow: none;
+    border: 1px solid #ccc;
+  }
+}
