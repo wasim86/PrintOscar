@@ -5,9 +5,9 @@ services:
     container_name: printoscar_db
     environment:
       - ACCEPT_EULA=Y
-      - MSSQL_SA_PASSWORD=@9-qNabWXD83
+      - MSSQL_SA_PASSWORD=YourStrong!Passw0rd
     ports:
-      - "1433:1433"
+      - "127.0.0.1:1433:1433"
     volumes:
       - sqlvolume:/var/opt/mssql
 
