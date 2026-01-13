@@ -1,19 +1,20 @@
+# Build Stage
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
+COPY ["SegishopAPI.csproj", "./"]
+RUN dotnet restore "SegishopAPI.csproj"
+COPY . .
+WORKDIR "/src/."
+RUN dotnet build "SegishopAPI.csproj" -c Release -o /app/build
 
-# Restore
-COPY SegishopAPI/SegishopAPI.csproj SegishopAPI/
-RUN dotnet restore SegishopAPI/SegishopAPI.csproj
+# Publish Stage
+FROM build AS publish
+RUN dotnet publish "SegishopAPI.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
-# Build
-COPY SegishopAPI/ ./SegishopAPI/
-RUN dotnet publish SegishopAPI/SegishopAPI.csproj -c Release -o /app/publish
-
-# Runtime
+# Final Stage
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
-COPY --from=build /app/publish .
-COPY --from=build /src/SegishopAPI/uploads /app/seed-uploads
-ENV ASPNETCORE_URLS=http://+:8080
+COPY --from=publish /app/publish .
 EXPOSE 8080
+ENV ASPNETCORE_URLS=http://+:8080
 ENTRYPOINT ["dotnet", "SegishopAPI.dll"]

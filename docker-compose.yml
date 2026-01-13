@@ -1,72 +1,44 @@
+version: '3.8'
+
 services:
-  segi-db:
+  # Database Service (SQL Server)
+  db:
     image: mcr.microsoft.com/mssql/server:2022-latest
-    container_name: segi-db
+    container_name: printoscar_db
     environment:
       - ACCEPT_EULA=Y
-      - SA_PASSWORD=${SQL_SA_PASSWORD:-@3-fNvgPSH84}
-      - MSSQL_PID=Express
+      - MSSQL_SA_PASSWORD=YourStrong!Passw0rd
+    ports:
+      - "1433:1433"
     volumes:
-      - segi_mssql_data:/var/opt/mssql
-      - /var/backups/segishop:/var/opt/mssql/backup:ro
-    networks:
-      - segi-network
-    restart: unless-stopped
-    healthcheck:
-      test: ["CMD-SHELL", "bash -lc 'echo > /dev/tcp/127.0.0.1/1433'"]
-      interval: 10s
-      timeout: 5s
-      retries: 12
+      - sqlvolume:/var/opt/mssql
 
-  segi-api:
+  # Backend Service (.NET API)
+  api:
     build:
-      context: ./segishop-api
-      dockerfile: SegishopAPI/Dockerfile
-    container_name: segi-api
+      context: ./segishop-api/SegishopAPI
+      dockerfile: Dockerfile
+    container_name: printoscar_api
+    ports:
+      - "8080:8080"
     environment:
+      - ConnectionStrings__DefaultConnection=Server=db;Database=SegishopDB;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;
       - ASPNETCORE_ENVIRONMENT=Production
-      - ASPNETCORE_URLS=http://0.0.0.0:8080
-      - DOTNET_USE_POLLING_FILE_WATCHER=1
-      - ConnectionStrings__DefaultConnection=Server=segi-db;Database=SegishopDB;User Id=sa;Password=${SQL_SA_PASSWORD:-@3-fNvgPSH84};TrustServerCertificate=true;MultipleActiveResultSets=true;
-      - CORS__AllowedOrigins=https://app-michelle.xendekweb.com,http://localhost:3000
-      - RECAPTCHA_SECRET_KEY=${RECAPTCHA_SECRET_KEY}
-      - RECAPTCHA_SKIP_VERIFY=${RECAPTCHA_SKIP_VERIFY:-false}
     depends_on:
-      segi-db:
-        condition: service_healthy
-    volumes: 
-      - segi_api_uploads:/app/uploads
-    networks:
-      - segi-network
-    restart: unless-stopped
+      - db
 
-  segi-app:
+  # Frontend Service (Next.js)
+  web:
     build:
       context: ./segishop
       dockerfile: Dockerfile
-      args:
-        - NEXT_PUBLIC_API_URL=https://api-michelle.xendekweb.com/api
-        - NEXT_PUBLIC_APP_URL=https://app-michelle.xendekweb.com
-        - NEXT_PUBLIC_IMAGE_BASE_URL=https://api-michelle.xendekweb.com
-        - NEXT_PUBLIC_RECAPTCHA_SITE_KEY=${RECAPTCHA_SITE_KEY}
-    container_name: segi-app
+    container_name: printoscar_web
+    ports:
+      - "3000:3000"
     environment:
-      - NODE_ENV=production
-      - NEXT_PUBLIC_API_URL=https://api-michelle.xendekweb.com/api
-      - RECAPTCHA_SECRET_KEY=${RECAPTCHA_SECRET_KEY}
-      - RECAPTCHA_SKIP_VERIFY=${RECAPTCHA_SKIP_VERIFY:-false}
+      - NEXT_PUBLIC_API_URL=http://api:8080
     depends_on:
-      - segi-api
-    networks:
-      - segi-network
-    restart: unless-stopped
+      - api
 
 volumes:
-  segi_mssql_data:
-  segi_api_uploads:
-
-networks:
-  segi-network:
-    driver: bridge
-
-
+  sqlvolume:
