@@ -18,7 +18,7 @@ services:
       dockerfile: Dockerfile
     container_name: printoscar_api
     ports:
-      - "8080:8080"
+      - "8081:8080"
     environment:
       - ConnectionStrings__DefaultConnection=Server=db;Database=SegishopDB;User Id=sa;Password=@9-qNabWXD83;TrustServerCertificate=True;
       - ASPNETCORE_ENVIRONMENT=Production
