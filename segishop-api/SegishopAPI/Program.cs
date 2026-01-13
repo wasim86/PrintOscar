@@ -94,6 +94,7 @@ builder.Services.AddCors(options =>
             "https://www.printoscar.com",
             "https://printoscardev.xendekweb.com",
             "https://printoscarapi.xendekweb.com",
+            "https://printoscar.xendekweb.com",
             "https://app-michelle.xendekweb.com",
             "https://api-michelle.xendekweb.com"
         });

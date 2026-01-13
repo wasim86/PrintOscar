@@ -29,6 +29,7 @@ services:
     environment:
       - ConnectionStrings__DefaultConnection=Server=printoscar_db;Database=SegishopDB_Dev;User Id=sa;Password=@9-qNabWXD83;TrustServerCertificate=True;MultipleActiveResultSets=true;
       - ASPNETCORE_ENVIRONMENT=Production
+      - FRONTEND_URL=https://printoscar.xendekweb.com
     depends_on:
       db:
         condition: service_healthy
