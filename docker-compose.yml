@@ -38,11 +38,13 @@ services:
     build:
       context: ./segishop
       dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: https://printoscarapi.xendekweb.com
     container_name: printoscar_web
     ports:
       - "3001:3000"
     environment:
-      - NEXT_PUBLIC_API_URL=http://api:8080
+      - NEXT_PUBLIC_API_URL=https://printoscarapi.xendekweb.com
     depends_on:
       - api
 
