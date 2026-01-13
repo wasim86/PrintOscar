@@ -213,12 +213,6 @@ export default function ShopPage() {
     setFilters(prev => ({ ...prev, ...newFilters }));
   };
 
-  const handleFilterChange = (newFilters: Partial<FilterState>) => {
-    setFilters(prev => ({ ...prev, ...newFilters }));
-  };
-  setFilters(prev => ({ ...prev, ...newFilters }));
-  };
-
   const clearAllFilters = () => {
     setFilters({
       priceRange: [0, 1000],
