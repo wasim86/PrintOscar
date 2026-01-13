@@ -99,7 +99,8 @@ builder.Services.AddCors(options =>
             "https://api-michelle.xendekweb.com"
         });
         
-        policy.WithOrigins(allowedOrigins.ToArray())
+        // Use SetIsOriginAllowed to allow any origin dynamically while supporting credentials
+        policy.SetIsOriginAllowed(origin => true)
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials();
