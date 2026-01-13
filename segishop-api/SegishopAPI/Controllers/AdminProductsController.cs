@@ -33,18 +33,35 @@ namespace SegishopAPI.Controllers
         {
             if (string.IsNullOrWhiteSpace(url)) return url;
             var origin = $"{Request.Scheme}://{Request.Host.Value}";
-            if (url.StartsWith("http://localhost") || url.StartsWith("https://localhost") || url.StartsWith("http://0.0.0.0") || url.StartsWith("https://0.0.0.0"))
+
+            // Domains to replace with current origin
+            var domainsToReplace = new[]
             {
-                try
+                "http://localhost", "https://localhost",
+                "http://0.0.0.0", "https://0.0.0.0",
+                "http://printoscar.com", "https://printoscar.com",
+                "http://www.printoscar.com", "https://www.printoscar.com",
+                "http://printoscar.xendekweb.com", "https://printoscar.xendekweb.com"
+            };
+
+            // Check if URL starts with any of the domains to replace
+            foreach (var domain in domainsToReplace)
+            {
+                if (url.StartsWith(domain, StringComparison.OrdinalIgnoreCase))
                 {
-                    var u = new Uri(url);
-                    var pathAndQuery = u.PathAndQuery;
-                    return origin + pathAndQuery;
+                    try
+                    {
+                        var u = new Uri(url);
+                        var pathAndQuery = u.PathAndQuery;
+                        return origin + pathAndQuery;
+                    }
+                    catch { return origin; }
                 }
-                catch { return origin; }
             }
+
             if (url.StartsWith("/")) return origin + url;
             if (url.StartsWith("uploads/")) return origin + "/" + url;
+            if (url.StartsWith("wp-content/")) return origin + "/" + url;
             return url;
         }
 
