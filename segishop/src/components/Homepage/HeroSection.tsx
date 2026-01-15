@@ -27,6 +27,12 @@ interface HeroSectionProps {
 const joinBase = (path: string) => {
   const rawBase = (IMAGE_BASE_URL || '').replace(/\/$/, '');
   const p = path.startsWith('/') ? path : `/${path}`;
+  if (/^https?:\/\//.test(path)) {
+    if (path.startsWith('http://localhost:5001')) {
+      return path.replace('http://localhost:5001', rawBase);
+    }
+    return path;
+  }
   if (!rawBase) return p;
 
   // If base already includes uploads path and path also includes it, avoid duplication
