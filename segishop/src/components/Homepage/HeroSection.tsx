@@ -27,15 +27,18 @@ interface HeroSectionProps {
 const joinBase = (path: string) => {
   let rawBase = (IMAGE_BASE_URL || '').replace(/\/$/, '');
 
-  // Sanitize localhost URLs - ensure we never point to localhost
-  if (rawBase.includes('localhost:5001')) {
-     rawBase = rawBase.replace('http://localhost:5001', 'https://printoscar.com');
+  // Sanitize localhost URLs - ensure we never point to localhost in production
+  if (process.env.NODE_ENV === 'production') {
+    if (rawBase.includes('localhost:5001')) {
+       rawBase = rawBase.replace('http://localhost:5001', 'https://printoscar.com');
+    }
   }
 
   const p = path.startsWith('/') ? path : `/${path}`;
   
   if (/^https?:\/\//.test(path)) {
-    if (path.includes('localhost:5001')) {
+    // Only force replace localhost in production
+    if (process.env.NODE_ENV === 'production' && path.includes('localhost:5001')) {
       return path.replace('http://localhost:5001', 'https://printoscar.com');
     }
     if (path.startsWith('https://printoscar.com')) {
