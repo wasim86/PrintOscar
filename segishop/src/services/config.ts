@@ -13,7 +13,10 @@ if (!/\/api$/.test(NORMALIZED_API)) {
 export const API_BASE_URL = NORMALIZED_API.replace(/\/+$/, '');
 
 // Image Base URL Configuration
-export const IMAGE_BASE_URL = process.env.NEXT_PUBLIC_IMAGE_BASE_URL || 'http://localhost:5001';
+const IS_PROD = process.env.NODE_ENV === 'production';
+const RAW_IMAGE_BASE = process.env.NEXT_PUBLIC_IMAGE_BASE_URL;
+const DEFAULT_IMAGE_BASE = IS_PROD ? '' : 'http://localhost:5001';
+export const IMAGE_BASE_URL = (RAW_IMAGE_BASE || DEFAULT_IMAGE_BASE).trim();
 
 // Other configuration constants
 export const DEFAULT_PAGE_SIZE = 20;
