@@ -520,7 +520,7 @@ export default function ShopLocalPage() {
           weeklyMonthlyMarkets.splice(0, weeklyMonthlyMarkets.length, ...weekly.map((e: any, i: number) => ({ id: `w${e.id || i}`, title: e.Title || e.title, date: '', time: e.Time || e.time || '', location: '', address: e.Address || e.address || '', type: e.Type || e.type || 'weekly', status: 'active', description: '', coordinates: { lat: 38.9072, lng: -77.0369 }, schedule: e.Schedule || e.schedule || '', mapUrl: e.MapEmbedUrl || e.mapEmbedUrl || '', googleMapsLink: e.GoogleMapsLink || e.googleMapsLink || '' })));
           dmvStores.splice(0, dmvStores.length, ...stores.map((e: any, i: number) => ({ id: `st${e.id || i}`, name: e.Title || e.title, address: e.Address || e.address || '', phone: 'Contact for hours', hours: 'Call for hours', type: 'store', coordinates: { lat: 38.9072, lng: -77.0369 }, mapUrl: e.MapEmbedUrl || e.mapEmbedUrl || '', googleMapsLink: e.GoogleMapsLink || e.googleMapsLink || '' })));
           if (gallery.length > 0) {
-            galleryImages.splice(0, galleryImages.length, ...gallery.map((m: any, i: number) => ({ id: `${m.Id || i}`, src: m.ImageUrl || m.imageUrl, alt: m.Caption || m.caption || '', title: '', description: '', location: '', date: '', category: (m.Category || m.category || 'market') as const, likes: 0 })));
+            galleryImages.splice(0, galleryImages.length, ...gallery.map((m: any, i: number) => ({ id: `${m.Id || i}`, src: m.ImageUrl || m.imageUrl, alt: m.Caption || m.caption || '', title: '', description: '', location: '', date: '', category: (m.Category || m.category || 'market') as 'market', likes: 0 })));
           }
         }
       } catch {}
