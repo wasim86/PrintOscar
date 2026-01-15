@@ -34,17 +34,13 @@ namespace SegishopAPI.Controllers
             if (string.IsNullOrWhiteSpace(url)) return url;
             var origin = $"{Request.Scheme}://{Request.Host.Value}";
 
-            // Domains to replace with current origin
             var domainsToReplace = new[]
             {
                 "http://localhost", "https://localhost",
                 "http://0.0.0.0", "https://0.0.0.0",
-                "http://printoscar.com", "https://printoscar.com",
-                "http://www.printoscar.com", "https://www.printoscar.com",
                 "http://printoscar.xendekweb.com", "https://printoscar.xendekweb.com"
             };
 
-            // Check if URL starts with any of the domains to replace
             foreach (var domain in domainsToReplace)
             {
                 if (url.StartsWith(domain, StringComparison.OrdinalIgnoreCase))

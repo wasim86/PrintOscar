@@ -40,7 +40,7 @@ builder.Services.AddScoped<IOrderStatusHistoryService, OrderStatusHistoryService
 builder.Services.AddScoped<IInvoiceService, InvoiceService>();
 builder.Services.AddScoped<IAdminProfileService, AdminProfileService>();
 builder.Services.AddScoped<IRecaptchaService, RecaptchaService>();
-// builder.Services.AddScoped<IImageProcessingService, ImageProcessingService>();
+builder.Services.AddScoped<IImageProcessingService, ImageProcessingService>();
 builder.Services.AddSingleton<ICsvSkuService, CsvSkuService>();
 builder.Services.AddHttpClient<PaymentGatewayRefundService>();
 builder.Services.AddHttpClient<RecaptchaService>();
