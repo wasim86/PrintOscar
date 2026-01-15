@@ -293,7 +293,7 @@ const mapLocations = [
 const galleryImages = [
   {
     id: '1',
-    src: 'http://localhost:5001/wp-content/uploads/2022/04/20210607_234134-scaled.jpg',
+    src: `${WP_UPLOADS_BASE}/2022/04/20210607_234134-scaled.jpg`,
     alt: 'Evening Market Setup',
     title: 'Market Preparation',
     description: 'Getting ready for another amazing market day',
