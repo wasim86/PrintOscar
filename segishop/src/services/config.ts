@@ -15,7 +15,7 @@ export const API_BASE_URL = NORMALIZED_API.replace(/\/+$/, '');
 // Image Base URL Configuration
 const IS_PROD = process.env.NODE_ENV === 'production';
 const RAW_IMAGE_BASE = process.env.NEXT_PUBLIC_IMAGE_BASE_URL;
-const DEFAULT_IMAGE_BASE = IS_PROD ? 'https://printoscar.com' : 'http://localhost:5001';
+const DEFAULT_IMAGE_BASE = IS_PROD ? 'https://printoscar.com' : 'https://printoscar.com';
 export const IMAGE_BASE_URL = (RAW_IMAGE_BASE || DEFAULT_IMAGE_BASE).trim();
 
 // Other configuration constants

@@ -25,15 +25,26 @@ interface HeroSectionProps {
 }
 
 const joinBase = (path: string) => {
-  const rawBase = (IMAGE_BASE_URL || '').replace(/\/$/, '');
+  let rawBase = (IMAGE_BASE_URL || '').replace(/\/$/, '');
+
+  // Sanitize localhost URLs - ensure we never point to localhost
+  if (rawBase.includes('localhost:5001')) {
+     rawBase = rawBase.replace('http://localhost:5001', 'https://printoscar.com');
+  }
+
   const p = path.startsWith('/') ? path : `/${path}`;
+  
   if (/^https?:\/\//.test(path)) {
-    if (path.startsWith('http://localhost:5001')) {
-      return path.replace('http://localhost:5001', rawBase);
+    if (path.includes('localhost:5001')) {
+      return path.replace('http://localhost:5001', 'https://printoscar.com');
+    }
+    if (path.startsWith('https://printoscar.com')) {
+      return path.replace('https://printoscar.com', rawBase);
     }
     return path;
   }
-  if (!rawBase) return p;
+
+  if (!rawBase) return `https://printoscar.com${p}`;
 
   // If base already includes uploads path and path also includes it, avoid duplication
   if (rawBase.endsWith('/uploads/images') && p.startsWith('/uploads/images')) {
