@@ -7,6 +7,7 @@ import { Header } from '@/components/Header/Header';
 import { Footer } from '@/components/Footer/Footer';
 import { GoogleMapComponent } from '@/components/Maps/GoogleMapComponent';
 import { CommunityGallery } from '@/components/Gallery/CommunityGallery';
+import { IMAGE_BASE_URL } from '@/services/config';
 import { 
   MapPin, 
   Calendar, 
@@ -19,6 +20,7 @@ import {
   Search
 } from 'lucide-react';
 
+const WP_UPLOADS_BASE = `${IMAGE_BASE_URL.replace(/\/$/, '')}/wp-content/uploads`;
 // Real DMV Seasonal Events
 const seasonalEvents = [
   {
@@ -302,7 +304,7 @@ const galleryImages = [
   },
   {
     id: '2',
-    src: 'http://localhost:5001/wp-content/uploads/2022/01/20220112_071509v2-scaled-e1641992057434.jpg',
+    src: `${WP_UPLOADS_BASE}/2022/01/20220112_071509v2-scaled-e1641992057434.jpg`,
     alt: 'Early Morning Market',
     title: 'Fresh Start',
     description: 'Early morning setup at the farmers market',
@@ -313,7 +315,7 @@ const galleryImages = [
   },
   {
     id: '3',
-    src: 'http://localhost:5001/wp-content/uploads/2022/01/20211107_103617-scaled.jpg',
+    src: `${WP_UPLOADS_BASE}/2022/01/20211107_103617-scaled.jpg`,
     alt: 'Community Engagement',
     title: 'Community Connection',
     description: 'Engaging with our wonderful customers',
@@ -324,7 +326,7 @@ const galleryImages = [
   },
   {
     id: '4',
-    src: 'http://localhost:5001/wp-content/uploads/2021/10/20211006_233401-1-scaled.jpg',
+    src: `${WP_UPLOADS_BASE}/2021/10/20211006_233401-1-scaled.jpg`,
     alt: 'Evening Event',
     title: 'Evening Gathering',
     description: 'Special evening event with our community',
@@ -335,7 +337,7 @@ const galleryImages = [
   },
   {
     id: '5',
-    src: 'http://localhost:5001/wp-content/uploads/2021/10/20210829_082915-scaled-e1634474913413.jpg',
+    src: `${WP_UPLOADS_BASE}/2021/10/20210829_082915-scaled-e1634474913413.jpg`,
     alt: 'Morning Market Activity',
     title: 'Busy Market Day',
     description: 'Bustling morning at the farmers market',
@@ -346,7 +348,7 @@ const galleryImages = [
   },
   {
     id: '6',
-    src: 'http://localhost:5001/wp-content/uploads/2023/01/20220731_085533-scaled.jpg',
+    src: `${WP_UPLOADS_BASE}/2023/01/20220731_085533-scaled.jpg`,
     alt: 'Summer Market',
     title: 'Summer Vibes',
     description: 'Beautiful summer morning at the market',
@@ -357,7 +359,7 @@ const galleryImages = [
   },
   {
     id: '7',
-    src: 'http://localhost:5001/wp-content/uploads/2023/01/20220917_163031-scaled-e1674435690319.jpg',
+    src: `${WP_UPLOADS_BASE}/2023/01/20220917_163031-scaled-e1674435690319.jpg`,
     alt: 'Afternoon Market',
     title: 'Afternoon Delight',
     description: 'Wonderful afternoon connecting with customers',
@@ -368,7 +370,7 @@ const galleryImages = [
   },
   {
     id: '8',
-    src: 'http://localhost:5001/wp-content/uploads/2023/01/20221029_102134-scaled.jpg',
+    src: `${WP_UPLOADS_BASE}/2023/01/20221029_102134-scaled.jpg`,
     alt: 'Fall Market',
     title: 'Autumn Market',
     description: 'Beautiful fall day at the farmers market',
@@ -379,7 +381,7 @@ const galleryImages = [
   },
   {
     id: '9',
-    src: 'http://localhost:5001/wp-content/uploads/2021/10/20211009_083131-scaled-e1634473705340.jpg',
+    src: `${WP_UPLOADS_BASE}/2021/10/20211009_083131-scaled-e1634473705340.jpg`,
     alt: 'Product Display',
     title: 'Product Showcase',
     description: 'Displaying our amazing organic products',
@@ -390,7 +392,7 @@ const galleryImages = [
   },
   {
     id: '10',
-    src: 'http://localhost:5001/wp-content/uploads/2021/10/20210905_080413-scaled-e1634474989650.jpg',
+    src: `${WP_UPLOADS_BASE}/2021/10/20210905_080413-scaled-e1634474989650.jpg`,
     alt: 'Early Market Setup',
     title: 'Early Bird',
     description: 'Setting up bright and early for our customers',
@@ -401,7 +403,7 @@ const galleryImages = [
   },
   {
     id: '11',
-    src: 'http://localhost:5001/wp-content/uploads/2021/10/20211010_084739-scaled.jpg',
+    src: `${WP_UPLOADS_BASE}/2021/10/20211010_084739-scaled.jpg`,
     alt: 'Team at Work',
     title: 'Team Spirit',
     description: 'Our dedicated team working together',
@@ -412,7 +414,7 @@ const galleryImages = [
   },
   {
     id: '12',
-    src: 'http://localhost:5001/wp-content/uploads/2021/10/20210912_084929-scaled.jpg',
+    src: `${WP_UPLOADS_BASE}/2021/10/20210912_084929-scaled.jpg`,
     alt: 'Market Morning',
     title: 'Sunday Market',
     description: 'Perfect Sunday morning at the market',
@@ -423,7 +425,7 @@ const galleryImages = [
   },
   {
     id: '13',
-    src: 'http://localhost:5001/wp-content/uploads/2021/01/IMG-20201114-WA0007.jpg',
+    src: `${WP_UPLOADS_BASE}/2021/01/IMG-20201114-WA0007.jpg`,
     alt: 'Community Event',
     title: 'Community Gathering',
     description: 'Special community event and celebration',
@@ -434,7 +436,7 @@ const galleryImages = [
   },
   {
     id: '14',
-    src: 'http://localhost:5001/wp-content/uploads/2021/01/20201205_085856-scaled.jpg',
+    src: `${WP_UPLOADS_BASE}/2021/01/20201205_085856-scaled.jpg`,
     alt: 'Winter Market',
     title: 'Winter Warmth',
     description: 'Bringing warmth to the winter market',

@@ -4,8 +4,8 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { Header } from '@/components/Header/Header';
 import { Footer } from '@/components/Footer/Footer';
-
-const API_URL = process.env.NEXT_PUBLIC_IMAGE_BASE_URL || 'http://localhost:5001';
+import { IMAGE_BASE_URL } from '@/services/config';
+const API_URL = IMAGE_BASE_URL;
 
 export default function WeddingInvitationsPage() {
   // Simple form state
