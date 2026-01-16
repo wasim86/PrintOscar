@@ -1,5 +1,7 @@
 // API Configuration
-const RAW_API = (process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5001/api').trim();
+const IS_PROD = process.env.NODE_ENV === 'production';
+const RAW_API_DEFAULT = IS_PROD ? 'https://printoscarapi.xendekweb.com/api' : 'http://localhost:5001/api';
+const RAW_API = (process.env.NEXT_PUBLIC_API_URL || RAW_API_DEFAULT).trim();
 let NORMALIZED_API = RAW_API;
 if (/^:\d+/.test(NORMALIZED_API)) {
   NORMALIZED_API = `http://localhost${NORMALIZED_API}`;
@@ -10,10 +12,12 @@ if (!/^https?:\/\//.test(NORMALIZED_API)) {
 if (!/\/api$/.test(NORMALIZED_API)) {
   NORMALIZED_API = `${NORMALIZED_API.replace(/\/+$/, '')}/api`;
 }
+if (IS_PROD && NORMALIZED_API.includes('localhost:5001')) {
+  NORMALIZED_API = NORMALIZED_API.replace('http://localhost:5001', 'https://printoscarapi.xendekweb.com');
+}
 export const API_BASE_URL = NORMALIZED_API.replace(/\/+$/, '');
 
 // Image Base URL Configuration
-const IS_PROD = process.env.NODE_ENV === 'production';
 const RAW_IMAGE_BASE = process.env.NEXT_PUBLIC_IMAGE_BASE_URL;
 const DEFAULT_IMAGE_BASE = IS_PROD ? 'https://printoscar.com' : 'http://localhost:5001';
 export const IMAGE_BASE_URL = (RAW_IMAGE_BASE || DEFAULT_IMAGE_BASE).trim();

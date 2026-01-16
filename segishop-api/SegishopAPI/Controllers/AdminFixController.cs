@@ -100,28 +100,28 @@ namespace SegishopAPI.Controllers
                 var replacements = new Dictionary<string, string>
                 {
                     // 1. Sport Ball Stars Spinner (was Generic Sports Ball) -> CRY6532L
-                    { "Theballspins_7432c94c-b12e-4418-b780-91ebfaeb619a_1024x.webp", "http://localhost:5001/wp-content/uploads/2024/12/CRY6532L-57e75b80.webp" },
-                    { "https://images.unsplash.com/photo-1575361204480-aadea25e6e68?w=800&q=80", "http://localhost:5001/wp-content/uploads/2024/12/CRY6532L-57e75b80.webp" },
-                    { "photo-1614632537423-1e6c2e7e0aab", "http://localhost:5001/wp-content/uploads/2024/12/CRY6532L-57e75b80.webp" },
-                    { "/wp-content/uploads/2024/12/CRY6532L-57e75b80.webp", "http://localhost:5001/wp-content/uploads/2024/12/CRY6532L-57e75b80.webp" },
+                    { "Theballspins_7432c94c-b12e-4418-b780-91ebfaeb619a_1024x.webp", "https://printoscar.com/wp-content/uploads/2024/12/CRY6532L-57e75b80.webp" },
+                    { "https://images.unsplash.com/photo-1575361204480-aadea25e6e68?w=800&q=80", "https://printoscar.com/wp-content/uploads/2024/12/CRY6532L-57e75b80.webp" },
+                    { "photo-1614632537423-1e6c2e7e0aab", "https://printoscar.com/wp-content/uploads/2024/12/CRY6532L-57e75b80.webp" },
+                    { "/wp-content/uploads/2024/12/CRY6532L-57e75b80.webp", "https://printoscar.com/wp-content/uploads/2024/12/CRY6532L-57e75b80.webp" },
 
                     // 2. Spinning Squeeze Sports Ball Trophy (was Gold Trophy) -> CRY243
-                    { "IMG_6932_d9d4fb46-5284-46ce-98f5-b91dac9f30fb.webp", "http://localhost:5001/wp-content/uploads/2024/12/CRY243-fdd3a811.webp" },
-                    { "https://images.unsplash.com/photo-1614632537190-23e4146777db?w=800&q=80", "http://localhost:5001/wp-content/uploads/2024/12/CRY243-fdd3a811.webp" },
-                    { "photo-1579952363873-27f3bade9f55", "http://localhost:5001/wp-content/uploads/2024/12/CRY243-fdd3a811.webp" },
-                    { "/wp-content/uploads/2024/12/CRY243-fdd3a811.webp", "http://localhost:5001/wp-content/uploads/2024/12/CRY243-fdd3a811.webp" },
+                    { "IMG_6932_d9d4fb46-5284-46ce-98f5-b91dac9f30fb.webp", "https://printoscar.com/wp-content/uploads/2024/12/CRY243-fdd3a811.webp" },
+                    { "https://images.unsplash.com/photo-1614632537190-23e4146777db?w=800&q=80", "https://printoscar.com/wp-content/uploads/2024/12/CRY243-fdd3a811.webp" },
+                    { "photo-1579952363873-27f3bade9f55", "https://printoscar.com/wp-content/uploads/2024/12/CRY243-fdd3a811.webp" },
+                    { "/wp-content/uploads/2024/12/CRY243-fdd3a811.webp", "https://printoscar.com/wp-content/uploads/2024/12/CRY243-fdd3a811.webp" },
 
                     // 3. Commemorative Softball Display Award (was Softball) -> CRY034L
-                    { "ProductDetailImageGenerator_4b0a4348-0a58-4f6f-9af3-10726fde7bba_1024x.webp", "http://localhost:5001/wp-content/uploads/2024/12/CRY034L-c6a389b1.webp" },
-                    { "https://images.unsplash.com/photo-1562771242-a02d9090c90c?w=800&q=80", "http://localhost:5001/wp-content/uploads/2024/12/CRY034L-c6a389b1.webp" },
-                    { "photo-1560472354-b33ff0c44a43", "http://localhost:5001/wp-content/uploads/2024/12/CRY034L-c6a389b1.webp" },
-                    { "/wp-content/uploads/2024/12/CRY034L-c6a389b1.webp", "http://localhost:5001/wp-content/uploads/2024/12/CRY034L-c6a389b1.webp" },
+                    { "ProductDetailImageGenerator_4b0a4348-0a58-4f6f-9af3-10726fde7bba_1024x.webp", "https://printoscar.com/wp-content/uploads/2024/12/CRY034L-c6a389b1.webp" },
+                    { "https://images.unsplash.com/photo-1562771242-a02d9090c90c?w=800&q=80", "https://printoscar.com/wp-content/uploads/2024/12/CRY034L-c6a389b1.webp" },
+                    { "photo-1560472354-b33ff0c44a43", "https://printoscar.com/wp-content/uploads/2024/12/CRY034L-c6a389b1.webp" },
+                    { "/wp-content/uploads/2024/12/CRY034L-c6a389b1.webp", "https://printoscar.com/wp-content/uploads/2024/12/CRY034L-c6a389b1.webp" },
 
                     // 4. Soccer Ball Replica Sport Ball Award (was Soccer Trophy) -> CRY242
-                    { "SilverSoccerball_3bde6df8-b4d3-4bfb-ad54-df6dd133d183_1024x.webp", "http://localhost:5001/wp-content/uploads/2024/12/CRY242-dd0e4ff5.webp" },
-                    { "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&q=80", "http://localhost:5001/wp-content/uploads/2024/12/CRY242-dd0e4ff5.webp" },
-                    { "photo-1518091043644-c1d4457512c6", "http://localhost:5001/wp-content/uploads/2024/12/CRY242-dd0e4ff5.webp" },
-                    { "/wp-content/uploads/2024/12/CRY242-dd0e4ff5.webp", "http://localhost:5001/wp-content/uploads/2024/12/CRY242-dd0e4ff5.webp" }
+                    { "SilverSoccerball_3bde6df8-b4d3-4bfb-ad54-df6dd133d183_1024x.webp", "https://printoscar.com/wp-content/uploads/2024/12/CRY242-dd0e4ff5.webp" },
+                    { "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&q=80", "https://printoscar.com/wp-content/uploads/2024/12/CRY242-dd0e4ff5.webp" },
+                    { "photo-1518091043644-c1d4457512c6", "https://printoscar.com/wp-content/uploads/2024/12/CRY242-dd0e4ff5.webp" },
+                    { "/wp-content/uploads/2024/12/CRY242-dd0e4ff5.webp", "https://printoscar.com/wp-content/uploads/2024/12/CRY242-dd0e4ff5.webp" }
                 };
 
                 foreach (var product in products)
