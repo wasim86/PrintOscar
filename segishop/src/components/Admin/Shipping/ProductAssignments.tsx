@@ -18,6 +18,7 @@ import {
   ShippingClassProduct,
   ShippingClassProductsResponse
 } from '@/services/admin-shipping-api';
+import { DEFAULT_PRODUCT_IMAGE } from '@/services/config';
 
 interface ProductAssignmentsProps {
   classId: number;
@@ -237,7 +238,7 @@ export const ProductAssignments: React.FC<ProductAssignmentsProps> = ({
         />
         
         <img
-          src={product.imageUrl || '/placeholder-product.svg'}
+          src={product.imageUrl || DEFAULT_PRODUCT_IMAGE}
           alt={product.name}
           className="w-12 h-12 object-cover rounded"
         />

@@ -7,6 +7,7 @@ import { SimpleProduct } from '@/services/simple-products-api';
 import { useWishlist } from '@/contexts/WishlistContext';
 import { ProductFreeShippingBanner } from '@/components/FreeShippingBanner';
 import { DynamicConfigurationSelector } from './DynamicConfigurationSelector';
+import { DEFAULT_PRODUCT_IMAGE } from '@/services/config';
 
 interface ProductImage {
   id: string;
@@ -94,12 +95,12 @@ export const EnhancedProductDetailPage: React.FC<EnhancedProductDetailPageProps>
     (product.images && product.images.length > 0)
       ? product.images.map((img, idx) => ({
           id: (img.id?.toString() || (idx + 1).toString()),
-          url: img.imageUrl || product.imageUrl || '/placeholder-product.svg',
+          url: img.imageUrl || product.imageUrl || DEFAULT_PRODUCT_IMAGE,
           alt: product.name
         }))
       : (product.imageUrl
           ? [{ id: '1', url: product.imageUrl, alt: product.name }]
-          : [{ id: '1', url: '/placeholder-product.svg', alt: product.name }]);
+          : [{ id: '1', url: DEFAULT_PRODUCT_IMAGE, alt: product.name }]);
   const imageCount = sizeOptions.length > 0 ? sizeOptions.length : baseImages.length;
   const productImages: ProductImage[] = baseImages.slice(0, imageCount);
 

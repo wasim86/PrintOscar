@@ -171,7 +171,7 @@ app.UseCors("AllowReactApp");
 // Static files for image uploads
 app.UseStaticFiles();
 
-// Configure static files for uploads directory
+// Configure static files for uploads directory (single media root)
 var contentRootUploads = Path.Combine(app.Environment.ContentRootPath, "uploads");
 var webRootUploads = Path.Combine(app.Environment.WebRootPath ?? app.Environment.ContentRootPath, "uploads");
 var uploadsPath = Directory.Exists(contentRootUploads) ? contentRootUploads : webRootUploads;
@@ -182,18 +182,6 @@ app.UseStaticFiles(new StaticFileOptions
     FileProvider = new Microsoft.Extensions.FileProviders.PhysicalFileProvider(uploadsPath),
     RequestPath = "/uploads"
 });
-
-// Configure static files for wp-content directory (legacy/migrated images)
-var wpContentPath = Path.Combine(app.Environment.ContentRootPath, "wp-content");
-if (Directory.Exists(wpContentPath))
-{
-    app.UseStaticFiles(new StaticFileOptions
-    {
-        FileProvider = new Microsoft.Extensions.FileProviders.PhysicalFileProvider(wpContentPath),
-        RequestPath = "/wp-content",
-        ServeUnknownFileTypes = true
-    });
-}
 
 app.UseAuthentication();
 app.UseAuthorization();

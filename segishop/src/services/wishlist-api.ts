@@ -1,4 +1,4 @@
-import { API_BASE_URL } from './config';
+import { API_BASE_URL, DEFAULT_PRODUCT_IMAGE } from './config';
 
 // Helper function for API requests
 async function apiRequest<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
@@ -124,7 +124,7 @@ export function convertApiWishlistItemToFrontend(apiItem: WishlistItem) {
     price: apiItem.price,
     originalPrice: apiItem.salePrice ? apiItem.price : undefined,
     salePrice: apiItem.salePrice,
-    image: apiItem.imageUrl || '/placeholder-product.svg',
+    image: apiItem.imageUrl || DEFAULT_PRODUCT_IMAGE,
     category: apiItem.categoryName,
     inStock: apiItem.inStock,
     stock: apiItem.stock,

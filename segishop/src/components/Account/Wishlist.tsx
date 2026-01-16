@@ -17,6 +17,7 @@ import { PriceDisplay } from '@/components/Currency/PriceDisplay';
 import { useWishlist } from '@/contexts/WishlistContext';
 import { useCart } from '@/contexts/CartContext';
 import { WishlistItem as WishlistItemType } from '@/services/wishlist-api';
+import { DEFAULT_PRODUCT_IMAGE } from '@/services/config';
 
 export const Wishlist: React.FC = () => {
   const { wishlistItems, isLoading, error, removeFromWishlist, clearError } = useWishlist();
@@ -83,7 +84,7 @@ export const Wishlist: React.FC = () => {
     <div className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden group hover:shadow-md transition-shadow">
       <div className="relative">
         <img
-          src={item.imageUrl || '/placeholder-product.svg'}
+          src={item.imageUrl || DEFAULT_PRODUCT_IMAGE}
           alt={item.productName}
           className="w-full h-48 object-cover"
         />
@@ -153,7 +154,7 @@ export const Wishlist: React.FC = () => {
     <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 flex items-center space-x-4">
       <div className="relative">
         <img
-          src={item.imageUrl || '/placeholder-product.svg'}
+          src={item.imageUrl || DEFAULT_PRODUCT_IMAGE}
           alt={item.productName}
           className="w-20 h-20 object-cover rounded-lg"
         />

@@ -55,7 +55,7 @@ function enhanceSimpleProduct(product: SimpleProduct): SimpleProduct {
       ...product,
       price: product.price || 75.00,
       salePrice: product.salePrice,
-      imageUrl: product.imageUrl || 'https://printoscar.com/wp-content/uploads/2025/12/36-2.webp',
+      imageUrl: product.imageUrl || '/productImages/uploads/2025/12/36-2.webp',
       description: product.description || 'Premium Peak Series Acrylic Award with Blue Accents.',
     };
   }
@@ -407,7 +407,7 @@ export class SimpleProductsApi {
             return enhanceSimpleProduct(slugData.product);
           }
         }
-      } catch (_slugError) {
+      } catch {
         console.log('⚠️ Direct slug lookup failed, trying search fallback...');
       }
 
@@ -547,7 +547,7 @@ export class SimpleProductsApi {
               signal: AbortSignal.timeout(5000)
            });
            return rootResponse.ok;
-      } catch (e) {
+      } catch {
           return false;
       }
     }

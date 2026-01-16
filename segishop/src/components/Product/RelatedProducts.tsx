@@ -4,6 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Star, Heart, ShoppingCart } from 'lucide-react';
 import { PriceDisplay } from '@/components/Currency/PriceDisplay';
+import { DEFAULT_PRODUCT_IMAGE } from '@/services/config';
 
 interface RelatedProduct {
   id: string;
@@ -119,7 +120,7 @@ export const RelatedProducts: React.FC<RelatedProductsProps> = ({
               <div className="relative aspect-square bg-gray-100 rounded-t-lg overflow-hidden">
                 <Link href={`/products/${product.slug || product.id}`} prefetch={false}>
                   <img
-                    src={product.image || '/placeholder-product.svg'}
+                    src={product.image || DEFAULT_PRODUCT_IMAGE}
                     alt={product.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />

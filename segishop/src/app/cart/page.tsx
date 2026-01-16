@@ -7,6 +7,7 @@ import { Footer } from '@/components/Footer/Footer';
 import { LoginModal } from '@/components/Auth/LoginModal';
 import { SignupModal } from '@/components/Auth/SignupModal';
 import { SimplePriceDisplay } from '@/components/Currency/PriceDisplay';
+import { DEFAULT_PRODUCT_IMAGE } from '@/services/config';
 import { usePriceUtils } from '@/utils/priceUtils';
 import { Trash2, Plus, Minus, ShoppingBag, ArrowLeft } from 'lucide-react';
 import { useCart } from '@/contexts/CartContext';
@@ -178,7 +179,7 @@ export default function CartPage() {
                     <div className="flex items-start space-x-4">
                       {/* Product Image */}
                       <img
-                        src={item.productImage || 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=150&h=150&fit=crop'}
+                        src={item.productImage || DEFAULT_PRODUCT_IMAGE}
                         alt={item.productName}
                         className="w-24 h-24 object-cover rounded-lg border border-gray-200 flex-shrink-0"
                       />

@@ -17,13 +17,14 @@ const IS_PROD = process.env.NODE_ENV === 'production';
 const RAW_IMAGE_BASE = process.env.NEXT_PUBLIC_IMAGE_BASE_URL;
 const DEFAULT_IMAGE_BASE = IS_PROD ? 'https://printoscar.com' : 'http://localhost:5001';
 export const IMAGE_BASE_URL = (RAW_IMAGE_BASE || DEFAULT_IMAGE_BASE).trim();
+export const WP_UPLOADS_BASE = `${IMAGE_BASE_URL.replace(/\/$/, '')}/wp-content/uploads`;
 
 // Other configuration constants
 export const DEFAULT_PAGE_SIZE = 20;
 export const MAX_PAGE_SIZE = 100;
 
 // Image configuration
-export const DEFAULT_PRODUCT_IMAGE = '/api/placeholder/300/200';
+export const DEFAULT_PRODUCT_IMAGE = `${IMAGE_BASE_URL}/uploads/productImages/no-product-image-placeholder.png`;
 export const MAX_IMAGE_SIZE = 5 * 1024 * 1024; // 5MB
 export const ALLOWED_IMAGE_TYPES = ['image/jpeg', 'image/png', 'image/webp'];
 

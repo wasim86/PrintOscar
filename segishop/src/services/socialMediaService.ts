@@ -5,6 +5,53 @@ import { API_BASE_URL } from './config';
 
 /* ===================== TYPES ===================== */
 
+interface InstagramApiPost {
+  id: string;
+  media_type?: string;
+  permalink: string;
+  media_url: string;
+  caption?: string;
+  timestamp: string;
+}
+
+interface YouTubeFeedItem {
+  id: string;
+  title?: string;
+  thumbnail?: string;
+  likeCount?: string | number;
+  commentCount?: string | number;
+  viewCount?: string | number;
+  publishedAt?: string;
+}
+
+interface YouTubeFeedResponse {
+  items?: YouTubeFeedItem[];
+}
+
+interface TikTokAuthorMeta {
+  name?: string;
+  avatar?: string;
+  nickName?: string;
+}
+
+interface TikTokCovers {
+  default?: string;
+}
+
+interface TikTokApiItem {
+  id: string;
+  webVideoUrl?: string;
+  covers?: TikTokCovers;
+  text?: string;
+  authorMeta?: TikTokAuthorMeta;
+  diggCount?: number;
+  commentCount?: number;
+  shareCount?: number;
+  playCount?: number;
+  createTime: number;
+  videoUrl?: string;
+}
+
 export interface SocialMediaPost {
   id: string;
   platform: 'instagram' | 'youtube' | 'tiktok';
@@ -150,9 +197,11 @@ class SocialMediaService {
   }
 
   /* ===================== TRANSFORMS ===================== */
-  private transformInstagramData(data: any): SocialMediaPost[] {
-    if (!data?.data) return [];
-    return data.data.map((post: any) => ({
+
+  private transformInstagramData(data: unknown): SocialMediaPost[] {
+    const response = data as { data?: InstagramApiPost[] } | null | undefined;
+    if (!response?.data) return [];
+    return response.data.map((post) => ({
       id: post.id,
       platform: 'instagram',
       type: post.media_type === 'VIDEO' ? 'video' : 'image',
@@ -171,9 +220,10 @@ class SocialMediaService {
     }));
   }
 
-  private transformYouTubeData(data: any): SocialMediaPost[] {
-    if (!Array.isArray(data?.items)) return [];
-    return data.items.map((v: any) => ({
+  private transformYouTubeData(data: unknown): SocialMediaPost[] {
+    const items = (data as YouTubeFeedResponse | null | undefined)?.items;
+    if (!Array.isArray(items)) return [];
+    return items.map((v) => ({
       id: v.id,
       platform: 'youtube' as const,
       type: 'video' as const,
@@ -186,9 +236,9 @@ class SocialMediaService {
         displayName: 'Oscar Printing',
       },
       engagement: {
-        likes: v.likeCount ? parseInt(v.likeCount) : 0,
-        comments: v.commentCount ? parseInt(v.commentCount) : 0,
-        views: v.viewCount ? parseInt(v.viewCount) : 0,
+        likes: v.likeCount ? parseInt(String(v.likeCount)) : 0,
+        comments: v.commentCount ? parseInt(String(v.commentCount)) : 0,
+        views: v.viewCount ? parseInt(String(v.viewCount)) : 0,
       },
       createdAt: v.publishedAt || new Date().toISOString(),
       mediaUrl: `https://www.youtube.com/embed/${v.id}`,
@@ -196,9 +246,10 @@ class SocialMediaService {
     }));
   }
 
-  private transformTikTokData(data: any): SocialMediaPost[] {
-    if (!Array.isArray(data)) return [];
-    return data.map((v: any) => ({
+  private transformTikTokData(data: unknown): SocialMediaPost[] {
+    const items = Array.isArray(data) ? (data as TikTokApiItem[]) : [];
+    if (!items.length) return [];
+    return items.map((v) => ({
       id: v.id,
       platform: 'tiktok' as const,
       type: 'video' as const,

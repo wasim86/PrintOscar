@@ -11,11 +11,12 @@ function authFileHeaders(): HeadersInit {
 }
 
 export const adminShopLocalApi = {
-  async get(): Promise<any> {
+  async get(): Promise<unknown> {
     const base = API_BASE_URL.endsWith('/api') ? API_BASE_URL : `${API_BASE_URL.replace(/\/+$/, '')}/api`;
     const res = await fetch(`${base}/admin/shop-local`, { headers: authHeaders(), cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return res.json();
+    const data = await res.json();
+    return data as unknown;
   },
   async updatePage(payload: { headline?: string; contentHtml?: string; heroMapEmbedUrl?: string; weeklyHeading?: string; annualHeading?: string; thankYouHeading?: string; galleryHeading?: string; inactiveHeading?: string; storesHeading?: string }): Promise<void> {
     const base = API_BASE_URL.endsWith('/api') ? API_BASE_URL : `${API_BASE_URL.replace(/\/+$/, '')}/api`;

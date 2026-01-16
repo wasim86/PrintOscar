@@ -4,9 +4,6 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { Header } from '@/components/Header/Header';
 import { Footer } from '@/components/Footer/Footer';
-import { IMAGE_BASE_URL } from '@/services/config';
-const API_URL = IMAGE_BASE_URL;
-
 export default function WeddingInvitationsPage() {
   // Simple form state
   const [formData, setFormData] = useState({
@@ -36,7 +33,7 @@ export default function WeddingInvitationsPage() {
         <section className="relative h-[600px] flex items-center justify-center text-center">
           <div className="absolute inset-0 z-0">
             <Image
-              src={`${API_URL}/wp-content/uploads/2024/12/couple-1536x1010.jpg`}
+              src="/uploads/productImages/2024/12/couple-1536x1010.jpg"
               alt="Wedding Invitations Background"
               fill
               className="object-cover"
@@ -86,7 +83,7 @@ export default function WeddingInvitationsPage() {
               </div>
               <div className="relative h-[400px] md:h-[500px] w-full rounded-lg overflow-hidden">
                 <Image
-                  src={`${API_URL}/wp-content/uploads/2024/12/38600593_8597128-1024x1024.jpg`}
+                  src="/uploads/productImages/2024/12/38600593_8597128-1024x1024.jpg"
                   alt="Our Story"
                   fill
                   className="object-cover"
@@ -109,7 +106,7 @@ export default function WeddingInvitationsPage() {
               <div className="group relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-white">
                 <div className="relative h-64 w-full">
                    <Image
-                    src={`${API_URL}/wp-content/uploads/2024/12/00_Blog_HolidayCardIdeas_SeasonsGreetingsGoldTypographyLettering.png`}
+                    src="/uploads/productImages/2024/12/00_Blog_HolidayCardIdeas_SeasonsGreetingsGoldTypographyLettering.png"
                     alt="On-Trend Designs"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -131,7 +128,7 @@ export default function WeddingInvitationsPage() {
               <div className="group relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-white">
                 <div className="relative h-64 w-full">
                    <Image
-                    src={`${API_URL}/wp-content/uploads/2024/12/03_Blog_ChristmasCardDesignTrends_Bows-1536x1024-1.png`}
+                    src="/uploads/productImages/2024/12/03_Blog_ChristmasCardDesignTrends_Bows-1536x1024-1.png"
                     alt="Exceptional Quality"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -153,7 +150,7 @@ export default function WeddingInvitationsPage() {
               <div className="group relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-white">
                 <div className="relative h-64 w-full">
                    <Image
-                    src={`${API_URL}/wp-content/uploads/2024/12/Greeting_1711799416.webp`}
+                    src="/uploads/productImages/2024/12/Greeting_1711799416.webp"
                     alt="Personalized Service"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -196,7 +193,7 @@ export default function WeddingInvitationsPage() {
               {/* Image 1 */}
               <div className="relative h-[400px] w-full rounded-lg overflow-hidden shadow-lg group">
                 <Image
-                  src={`${API_URL}/wp-content/uploads/2024/12/38600593_8597128.jpg`}
+                  src="/uploads/productImages/2024/12/38600593_8597128.jpg"
                   alt="Vision 1"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -207,7 +204,7 @@ export default function WeddingInvitationsPage() {
               {/* Image 2 */}
               <div className="relative h-[400px] w-full rounded-lg overflow-hidden shadow-lg group">
                 <Image
-                  src={`${API_URL}/wp-content/uploads/2024/12/11167647_20156-scaled.jpg`}
+                  src="/uploads/productImages/2024/12/11167647_20156-scaled.jpg"
                   alt="Vision 2"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -223,7 +220,7 @@ export default function WeddingInvitationsPage() {
           {/* Background Image with Overlay */}
            <div className="absolute inset-0 z-0">
             <Image
-              src={`${API_URL}/wp-content/uploads/2024/12/bg-2-1536x1536.jpg`}
+              src="/uploads/productImages/2024/12/bg-2-1536x1536.jpg"
               alt="Contact Background"
               fill
               className="object-cover opacity-20"

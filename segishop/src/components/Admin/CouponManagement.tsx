@@ -2,8 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Plus, Edit, Trash2, Search, Filter, Calendar, Percent, DollarSign, Users, TrendingUp, Truck } from 'lucide-react';
-
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://api.printoscar.com/api';
+import { API_BASE_URL } from '@/services/config';
 
 interface Coupon {
   id: number;

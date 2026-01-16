@@ -1,9 +1,9 @@
+@import "../styles/social-media.css";
+@import "../styles/mobile-address.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import "../styles/social-media.css";
-@import "../styles/mobile-address.css";
 
 /* Custom Number Input Styles for Price Filter */
 input[type="number"]::-webkit-outer-spin-button,

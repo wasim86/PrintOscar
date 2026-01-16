@@ -5,6 +5,7 @@ import { ShippingAddress, PaymentMethod, PaymentResult } from '@/app/checkout/pa
 import { ArrowLeft, Loader2, MapPin, CreditCard, Package, Clock, XCircle, CheckCircle, FileText } from 'lucide-react';
 import { SimplePriceDisplay } from '@/components/Currency/PriceDisplay';
 import { usePriceUtils } from '@/utils/priceUtils';
+import { DEFAULT_PRODUCT_IMAGE } from '@/services/config';
 
 interface CartItem {
   id: string;
@@ -176,7 +177,7 @@ export const OrderReview: React.FC<OrderReviewProps> = ({
                 {cartItems.map((item) => (
                   <div key={item.id} className="flex items-center space-x-4">
                     <img
-                      src={item.image || '/placeholder-product.svg'}
+                      src={item.image || DEFAULT_PRODUCT_IMAGE}
                       alt={item.name}
                       className="w-16 h-16 object-cover rounded-lg border border-gray-200"
                     />

@@ -10,6 +10,7 @@ import { useWishlist } from '@/contexts/WishlistContext';
 import { Header } from '@/components/Header/Header';
 import { Footer } from '@/components/Footer/Footer';
 import { PriceDisplay } from '@/components/Currency/PriceDisplay';
+import { DEFAULT_PRODUCT_IMAGE } from '@/services/config';
 
 export default function ComparePage() {
   const { comparedProducts, removeFromComparison, clearComparison } = useComparison();
@@ -177,7 +178,7 @@ export default function ComparePage() {
                           <div className="space-y-3">
                             <div className="relative">
                               <img
-                                src={product.image || '/placeholder-product.svg'}
+                                src={product.image || DEFAULT_PRODUCT_IMAGE}
                                 alt={product.title || product.name}
                                 className="w-32 h-32 object-cover rounded-lg mx-auto"
                               />

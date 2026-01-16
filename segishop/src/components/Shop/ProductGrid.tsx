@@ -4,6 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Product } from '@/app/shop/page';
 import { Star, ShoppingCart, Heart, Eye, Settings } from 'lucide-react';
+import { DEFAULT_PRODUCT_IMAGE } from '@/services/config';
 
 interface ProductGridProps {
   products: Product[];
@@ -102,7 +103,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode }) => {
   };
 
   const getCategoryFallback = (categoryName?: string) => {
-    return '/placeholder-product.svg';
+    return DEFAULT_PRODUCT_IMAGE;
   };
   const handleAddToCart = async (e: React.MouseEvent) => {
     e.preventDefault();

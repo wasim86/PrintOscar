@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import api from '@/services/api';
+import { DEFAULT_PRODUCT_IMAGE } from '@/services/config';
 import {
   convertApiProductToFrontend,
   convertApiCategoryToFrontend,
@@ -85,9 +86,11 @@ export function useProducts(): UseProductsReturn {
         const { data } = response;
         console.log('Response data:', data);
 
-        if (data.products && Array.isArray(data.products)) {
+        const productsArray = data.products || data.Products;
+
+        if (productsArray && Array.isArray(productsArray)) {
           try {
-            const frontendProducts = data.products.map((product: any, index: number) => {
+            const frontendProducts = productsArray.map((product: any, index: number) => {
               try {
                 return convertApiProductToFrontend(product);
               } catch (conversionError) {
@@ -98,7 +101,7 @@ export function useProducts(): UseProductsReturn {
                   title: product.name || 'Product',
                   price: product.price || 0,
                   originalPrice: undefined,
-                  image: '/placeholder-product.svg',
+                  image: DEFAULT_PRODUCT_IMAGE,
                   rating: 4.5,
                   reviewCount: 50,
                   category: product.categoryName || 'Uncategorized',
@@ -121,11 +124,11 @@ export function useProducts(): UseProductsReturn {
               setProducts(frontendProducts);
             }
 
-            setTotalCount(data.totalCount || 0);
-            setTotalPages(data.totalPages || 0);
-            setCurrentPage(data.page || 1);
-            setHasNextPage(data.hasNextPage || false);
-            setHasPreviousPage(data.hasPreviousPage || false);
+            setTotalCount(data.totalCount ?? data.TotalCount ?? frontendProducts.length);
+            setTotalPages(data.totalPages ?? data.TotalPages ?? 1);
+            setCurrentPage(data.page ?? data.Page ?? 1);
+            setHasNextPage(data.hasNextPage ?? data.HasNextPage ?? false);
+            setHasPreviousPage(data.hasPreviousPage ?? data.HasPreviousPage ?? false);
           } catch (mappingError) {
             console.error('Error during product mapping:', mappingError);
             throw new Error('Failed to process products data');

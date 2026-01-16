@@ -841,6 +841,8 @@ public async Task<IActionResult> GetProducts(
             {
                 "http://localhost", "https://localhost",
                 "http://0.0.0.0", "https://0.0.0.0",
+                "http://printoscar.com", "https://printoscar.com",
+                "http://www.printoscar.com", "https://www.printoscar.com",
                 "http://printoscar.xendekweb.com", "https://printoscar.xendekweb.com"
             };
 
@@ -853,19 +855,75 @@ public async Task<IActionResult> GetProducts(
                     {
                         var u = new Uri(url);
                         var pathAndQuery = u.PathAndQuery;
-                        return origin + pathAndQuery;
+
+                        var path = pathAndQuery;
+                        if (path.StartsWith("/wp-content/uploads/", StringComparison.OrdinalIgnoreCase))
+                        {
+                            var rest = path.Substring("/wp-content/uploads/".Length);
+                            path = "/uploads/productImages/" + rest;
+                        }
+
+                        path = PreferWebp(path);
+                        return origin + path;
                     }
                     catch { return origin; }
                 }
             }
 
             // If relative path (e.g., /uploads/...), prefix origin
-            if (url.StartsWith("/")) return origin + url;
+            if (url.StartsWith("/"))
+            {
+                var path = url;
+                if (path.StartsWith("/wp-content/uploads/", StringComparison.OrdinalIgnoreCase))
+                {
+                    var rest = path.Substring("/wp-content/uploads/".Length);
+                    path = "/uploads/productImages/" + rest;
+                }
+                path = PreferWebp(path);
+                return origin + path;
+            }
             // If bare uploads path without leading slash
-            if (url.StartsWith("uploads/")) return origin + "/" + url;
+            if (url.StartsWith("uploads/")) return origin + "/" + PreferWebp("/" + url).TrimStart('/');
             // If bare wp-content path without leading slash
-            if (url.StartsWith("wp-content/")) return origin + "/" + url;
+            if (url.StartsWith("wp-content/"))
+            {
+                var rest = url.Substring("wp-content/".Length);
+                var path = "/uploads/productImages/" + rest.Replace("uploads/", string.Empty, StringComparison.OrdinalIgnoreCase);
+                path = PreferWebp(path);
+                return origin + path;
+            }
             return url;
+        }
+
+        private static string PreferWebp(string path)
+        {
+            try
+            {
+                var queryIndex = path.IndexOf('?', StringComparison.Ordinal);
+                var basePath = queryIndex >= 0 ? path.Substring(0, queryIndex) : path;
+                var query = queryIndex >= 0 ? path.Substring(queryIndex) : string.Empty;
+
+                var ext = System.IO.Path.GetExtension(basePath);
+                if (string.IsNullOrEmpty(ext) ||
+                    ext.Equals(".webp", StringComparison.OrdinalIgnoreCase))
+                {
+                    return path;
+                }
+
+                if (ext.Equals(".jpg", StringComparison.OrdinalIgnoreCase) ||
+                    ext.Equals(".jpeg", StringComparison.OrdinalIgnoreCase) ||
+                    ext.Equals(".png", StringComparison.OrdinalIgnoreCase))
+                {
+                    var withoutExt = basePath.Substring(0, basePath.Length - ext.Length);
+                    return withoutExt + ".webp" + query;
+                }
+
+                return path;
+            }
+            catch
+            {
+                return path;
+            }
         }
 
         /// <summary>

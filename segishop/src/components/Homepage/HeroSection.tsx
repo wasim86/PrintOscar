@@ -49,11 +49,6 @@ const joinBase = (path: string) => {
 
   if (!rawBase) return `https://printoscar.com${p}`;
 
-  // If base already includes uploads path and path also includes it, avoid duplication
-  if (rawBase.endsWith('/uploads/images') && p.startsWith('/uploads/images')) {
-    return `${rawBase}${p.replace(/^\/uploads\/images/, '')}`;
-  }
-
   return `${rawBase}${p}`;
 };
 
@@ -64,8 +59,8 @@ const heroSlides: HeroSlide[] = [
     subtitle: "Premium Custom Trophies & Awards",
     description:
       "At Oscar Printing Shop, we craft premium-quality trophies and awards to celebrate achievements. Ideal for corporate events, schools, and sports tournaments.",
-    image: joinBase("/uploads/images/Oscer/banner1.jpg"),
-    secondaryImage: joinBase("/uploads/images/Oscer/banner2.webp"),
+    image: joinBase("/uploads/bannerImages/banner1.jpg"),
+    secondaryImage: joinBase("/uploads/bannerImages/banner2.webp"),
     ctaText: "SHOP TROPHIES",
     ctaLink: "/products?category=trophies",
     badge: "Premium Quality • Custom Engraving",
@@ -77,8 +72,8 @@ const heroSlides: HeroSlide[] = [
     subtitle: "Victory Medals for Champions",
     description:
       "Discover high-quality medals designed for sports events, school competitions, and achievement ceremonies.",
-    image: joinBase("/uploads/images/Oscer/banner3.jpg"),
-    secondaryImage: joinBase("/uploads/images/Oscer/banner4.png"),
+    image: joinBase("/uploads/bannerImages/banner3.jpg"),
+    secondaryImage: joinBase("/uploads/bannerImages/banner4.png"),
     ctaText: "SHOP MEDALS",
     ctaLink: "/products?category=medals",
     badge: "Gold • Silver • Bronze",
@@ -90,8 +85,8 @@ const heroSlides: HeroSlide[] = [
     subtitle: "Elegant Plaques & Mementos",
     description:
       "Honor excellence with beautifully crafted plaques and mementos, perfect for corporate recognition and milestones.",
-    image: joinBase("/uploads/images/Oscer/requal1.jpg"),
-    secondaryImage: joinBase("/uploads/images/Oscer/banner6.jpg"),
+    image: joinBase("/uploads/awardImages/requal1.jpg"),
+    secondaryImage: joinBase("/uploads/bannerImages/banner6.jpg"),
     ctaText: "SHOP PLAQUES",
     ctaLink: "/products?category=walnut-plaques",
     badge: "Elegant • Premium Finish",
@@ -103,8 +98,8 @@ const heroSlides: HeroSlide[] = [
     subtitle: "Corporate & Sports Awards",
     description:
       "Celebrate success with our exclusive range of corporate and sports awards, designed to inspire pride and motivation.",
-    image: joinBase("/uploads/images/Oscer/award1.jpeg"),
-    secondaryImage: joinBase("/uploads/images/Oscer/banner5.jpg"),
+    image: joinBase("/uploads/awardImages/award1.jpeg"),
+    secondaryImage: joinBase("/uploads/bannerImages/banner5.jpg"),
     ctaText: "VIEW AWARDS",
     ctaLink: "/products?category=football-awards",
     badge: "Professional • Premium Look",
@@ -116,8 +111,8 @@ const heroSlides: HeroSlide[] = [
     subtitle: "Custom Momentos for Every Occasion",
     description:
       "Our custom momentos are perfect for honoring achievements, anniversaries, and special occasions.",
-    image: joinBase("/uploads/images/Oscer/Momento1.webp"),
-    secondaryImage: joinBase("/uploads/images/Oscer/Momento2.png"),
+    image: joinBase("/uploads/awardImages/Momento1.webp"),
+    secondaryImage: joinBase("/uploads/awardImages/Momento2.png"),
     ctaText: "SHOP MOMENTOS",
     ctaLink: "/products?category=paperweights",
     badge: "Personalized • Long Lasting",
@@ -129,8 +124,8 @@ const heroSlides: HeroSlide[] = [
     subtitle: "Sports Trophies & Awards",
     description:
       "Celebrate sporting excellence with our durable and stylish sports trophies, designed for winners.",
-    image: joinBase("/uploads/images/Oscer/sport1.jpg"),
-    secondaryImage: joinBase("/uploads/images/Oscer/sport2.jpg"),
+    image: joinBase("/uploads/sportImages/sport1.jpg"),
+    secondaryImage: joinBase("/uploads/sportImages/sport2.jpg"),
     ctaText: "SHOP SPORTS",
     ctaLink: "/products?category=basketball-awards",
     badge: "Durable • Champion Choice",
@@ -143,8 +138,8 @@ const heroSlides: HeroSlide[] = [
     description:
       "Ideal for corporate recognition and client appreciation.",
      
-    image: joinBase("/uploads/images/Oscer/gift1.webp"),
-    secondaryImage: joinBase("/uploads/images/Oscer/gift.jpg"),
+    image: joinBase("/uploads/giftImages/gift1.webp"),
+    secondaryImage: joinBase("/uploads/giftImages/gift.jpg"),
     ctaText: "SHOP GIFTS",
     ctaLink: "/products?category=art-glass",
     badge: "Elegant • Corporate Choice",

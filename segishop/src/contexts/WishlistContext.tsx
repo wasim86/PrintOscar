@@ -4,6 +4,7 @@ import React, { createContext, useContext, useState, useEffect, ReactNode } from
 import { WishlistApiService, WishlistItem, AddToWishlistRequest, RemoveFromWishlistRequest } from '@/services/wishlist-api';
 import { useAuth } from './AuthContext';
 import { simpleProductsApi } from '@/services/simple-products-api';
+import { DEFAULT_PRODUCT_IMAGE } from '@/services/config';
 
 interface WishlistContextType {
   wishlistItems: WishlistItem[];
@@ -176,7 +177,7 @@ export const WishlistProvider: React.FC<WishlistProviderProps> = ({ children }) 
         productSlug: productData?.slug || `product-${productId}`,
         price: productData?.price || 29.99,
         salePrice: productData?.salePrice,
-        imageUrl: productData?.imageUrl || '/placeholder-product.svg',
+        imageUrl: productData?.imageUrl || DEFAULT_PRODUCT_IMAGE,
         categoryName: productData?.categoryName || 'Demo Category',
         inStock: productData ? (productData.stock || 0) > 0 : true,
         stock: productData?.stock || 10,
@@ -184,8 +185,8 @@ export const WishlistProvider: React.FC<WishlistProviderProps> = ({ children }) 
         sku: productData?.sku || `SKU-${productId}`,
         description: productData?.description || `Demo product ${productId}`,
         isFeatured: productData?.isFeatured || false,
-        rating: 4.5, // Default rating since not available in SimpleProduct
-        reviewCount: 10 // Default review count since not available in SimpleProduct
+        rating: 4.5,
+        reviewCount: 10
       };
 
       const newItems = [mockItem, ...wishlistItems];

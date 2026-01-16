@@ -23,27 +23,14 @@ export default function TestFixPage() {
   const runTest = async () => {
     setTestStatus('testing');
     setTestMessage('Testing search products API...');
-    
+
     try {
       clearError();
-      
-      // Test basic search
+
       await searchProducts({
         page: 1,
         pageSize: 5
       });
-      
-      // Wait a moment for state to update
-      setTimeout(() => {
-        if (products.length > 0) {
-          setTestStatus('success');
-          setTestMessage(`✅ Success! Loaded ${products.length} products`);
-        } else {
-          setTestStatus('error');
-          setTestMessage('❌ No products loaded');
-        }
-      }, 1000);
-      
     } catch (err) {
       setTestStatus('error');
       setTestMessage(`❌ Error: ${err instanceof Error ? err.message : 'Unknown error'}`);
@@ -54,6 +41,25 @@ export default function TestFixPage() {
   useEffect(() => {
     runTest();
   }, []);
+
+  useEffect(() => {
+    if (testStatus !== 'testing') return;
+    if (loading) return;
+
+    if (error) {
+      setTestStatus('error');
+      setTestMessage(`❌ Error: ${error}`);
+      return;
+    }
+
+    if (products.length > 0) {
+      setTestStatus('success');
+      setTestMessage(`✅ Success! Loaded ${products.length} products`);
+    } else {
+      setTestStatus('error');
+      setTestMessage('❌ No products loaded');
+    }
+  }, [products, error, loading, testStatus]);
 
   return (
     <div className="min-h-screen bg-gray-50">

@@ -15,7 +15,7 @@ import { useAuth } from '@/contexts/AuthContext';
 import { useShipping } from '@/contexts/ShippingContext';
 import { ShippingOption } from '@/services/shipping-api';
 import { OrderApiService, CreateOrderRequest } from '@/services/order-api';
-import { API_BASE_URL } from '@/services/config';
+import { API_BASE_URL, DEFAULT_PRODUCT_IMAGE } from '@/services/config';
 import { CheckoutFreeShippingBanner } from '@/components/FreeShippingBanner';
 
 // Types for checkout process
@@ -130,7 +130,7 @@ export default function CheckoutPage() {
         name: item?.productName || 'Unknown Product',
         price: item?.productPrice || 0,
         quantity: item?.quantity || 1,
-        image: item?.productImage || 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=80&h=80&fit=crop',
+        image: item?.productImage || DEFAULT_PRODUCT_IMAGE,
         category: 'Product',
         productId: item?.productId || 0,
         productSlug: item?.productSlug || '',
@@ -144,7 +144,7 @@ export default function CheckoutPage() {
         name: item?.productName || 'Unknown Product',
         price: item?.unitPrice || 0,
         quantity: item?.quantity || 1,
-        image: item?.productImage || 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=80&h=80&fit=crop',
+        image: item?.productImage || DEFAULT_PRODUCT_IMAGE,
         category: 'Product',
         productId: item?.productId || 0,
         productSlug: '', // Guest cart doesn't have slug

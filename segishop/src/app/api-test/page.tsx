@@ -127,7 +127,7 @@ export default function ApiTestPage() {
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 mb-6">
           <h2 className="text-xl font-semibold text-gray-900 mb-4">Environment Info</h2>
           <div className="space-y-2 text-sm">
-            <p><strong>API Base URL:</strong> {process.env.NEXT_PUBLIC_API_URL || 'https://api.printoscar.com/api'}</p>
+            <p><strong>API Base URL:</strong> {process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5001/api'}</p>
             <p><strong>Node Environment:</strong> {process.env.NODE_ENV}</p>
             <p><strong>Current URL:</strong> {typeof window !== 'undefined' ? window.location.href : 'Server-side'}</p>
           </div>

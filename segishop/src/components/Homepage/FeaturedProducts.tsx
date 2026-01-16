@@ -6,6 +6,7 @@ import { Star, Heart, Loader2 } from 'lucide-react';
 import { PriceDisplay } from '@/components/Currency/PriceDisplay';
 import api from '@/services/api';
 import { convertApiProductToFrontend, FrontendProduct } from '@/types/api';
+import { DEFAULT_PRODUCT_IMAGE } from '@/services/config';
 
 // Helper function to determine product labels
 const getProductLabels = (product: FrontendProduct & { badge?: string }) => {
@@ -292,7 +293,7 @@ export const FeaturedProducts: React.FC<FeaturedProductsProps> = () => {
               <Link href={`/products/${product.slug}`} prefetch={false} className="block">
                 <div className="relative" style={{ width: '100%', height: '250px', backgroundColor: '#f3f4f6' }}>
                   <img
-                    src={product.image || '/placeholder-product.svg'}
+                    src={product.image || DEFAULT_PRODUCT_IMAGE}
                     alt={product.title}
                     style={{
                       width: '100%',
@@ -301,34 +302,6 @@ export const FeaturedProducts: React.FC<FeaturedProductsProps> = () => {
                       display: 'block'
                     }}
                     className="group-hover:scale-105 transition-transform duration-300"
-                    onError={(e) => {
-                      console.error('Image failed to load:', product.image);
-                      const target = e.target as HTMLImageElement;
-
-                      // Use category-based fallback SVG
-                      const colorMap: {[key: string]: string} = {
-                        'Snacks': '#ff6b35',
-                        'Decor': '#333333',
-                        'Fashion': '#ec4899',
-                        'Bags': '#8b5cf6'
-                      };
-
-                      const category = product.category || 'default';
-                      const color = colorMap[category] || '#6b7280';
-                      const svg = `
-                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-                          <rect width="100" height="100" fill="${color}" rx="8"/>
-                          <text x="50" y="50" font-size="12" fill="#fff" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif">${category}</text>
-                        </svg>
-                      `;
-                      target.src = 'data:image/svg+xml;base64,' + btoa(svg);
-
-                      // Prevent infinite error loop
-                      target.onerror = null;
-                    }}
-                    onLoad={() => {
-                      // Image loaded successfully
-                    }}
                   />
                 </div>
               </Link>

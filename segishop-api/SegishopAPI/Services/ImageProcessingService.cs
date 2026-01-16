@@ -18,7 +18,7 @@ namespace SegishopAPI.Services
 
         public async Task<(string FileName, string ImageUrl, long FileSize)> ProcessAndSaveAsync(IFormFile file, HttpRequest request)
         {
-            var uploadsPath = Path.Combine(_environment.WebRootPath ?? _environment.ContentRootPath, "uploads", "images");
+            var uploadsPath = Path.Combine(_environment.WebRootPath ?? _environment.ContentRootPath, "uploads", "bannerImages");
             Directory.CreateDirectory(uploadsPath);
 
             var maxWidth = _configuration.GetValue<int?>("ImageSettings:MaxWidth") ?? 2000;
@@ -85,7 +85,7 @@ namespace SegishopAPI.Services
                 var envName = _environment.EnvironmentName ?? string.Empty;
                 var useConfigured = !string.IsNullOrEmpty(configuredBaseUrl) && string.Equals(envName, "Production", StringComparison.OrdinalIgnoreCase);
                 var baseUrl = useConfigured ? configuredBaseUrl : $"{request.Scheme}://{request.Host}";
-                var imageUrl = $"{baseUrl}/uploads/images/{fileName}";
+                var imageUrl = $"{baseUrl}/uploads/bannerImages/{fileName}";
 
                 var info = new FileInfo(filePath);
                 return (fileName, imageUrl, info.Length);

@@ -3,8 +3,7 @@
 import React, { useState } from 'react';
 import { Header } from '@/components/Header/Header';
 import { Footer } from '@/components/Footer/Footer';
-
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://api.segishop.com/api';
+import { API_BASE_URL } from '@/services/config';
 
 export default function TestSearchPage() {
   const [result, setResult] = useState<string>('');

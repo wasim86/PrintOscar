@@ -211,7 +211,7 @@ export const Header: React.FC<HeaderProps> = () => {
           <div className="flex items-center flex-shrink-0 mr-4">
             <NavigationLink href="/" className="flex items-center">
               <img
-                src="/logo.png"
+                src="/uploads/logo/logo.png"
                 alt="SegiShop"
                 className="h-10 w-auto object-contain filter brightness-110"
               />

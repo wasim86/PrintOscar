@@ -32,12 +32,13 @@ namespace SegishopAPI.Controllers
         private string? NormalizeImageUrl(string? url)
         {
             if (string.IsNullOrWhiteSpace(url)) return url;
-            var origin = $"{Request.Scheme}://{Request.Host.Value}";
 
             var domainsToReplace = new[]
             {
                 "http://localhost", "https://localhost",
                 "http://0.0.0.0", "https://0.0.0.0",
+                "http://printoscar.com", "https://printoscar.com",
+                "http://www.printoscar.com", "https://www.printoscar.com",
                 "http://printoscar.xendekweb.com", "https://printoscar.xendekweb.com"
             };
 
@@ -48,16 +49,45 @@ namespace SegishopAPI.Controllers
                     try
                     {
                         var u = new Uri(url);
-                        var pathAndQuery = u.PathAndQuery;
-                        return origin + pathAndQuery;
+                        var path = u.PathAndQuery;
+
+                        if (path.StartsWith("/wp-content/uploads/", StringComparison.OrdinalIgnoreCase))
+                        {
+                            var rest = path.Substring("/wp-content/uploads/".Length);
+                            return "/productImages/uploads/" + rest;
+                        }
+
+                        return path;
                     }
-                    catch { return origin; }
+                    catch
+                    {
+                        return url;
+                    }
                 }
             }
 
-            if (url.StartsWith("/")) return origin + url;
-            if (url.StartsWith("uploads/")) return origin + "/" + url;
-            if (url.StartsWith("wp-content/")) return origin + "/" + url;
+            if (url.StartsWith("/", StringComparison.OrdinalIgnoreCase))
+            {
+                var path = url;
+                if (path.StartsWith("/wp-content/uploads/", StringComparison.OrdinalIgnoreCase))
+                {
+                    var rest = path.Substring("/wp-content/uploads/".Length);
+                    return "/productImages/uploads/" + rest;
+                }
+                return path;
+            }
+
+            if (url.StartsWith("uploads/", StringComparison.OrdinalIgnoreCase))
+            {
+                return "/productImages/" + url;
+            }
+
+            if (url.StartsWith("wp-content/", StringComparison.OrdinalIgnoreCase))
+            {
+                var rest = url.Substring("wp-content/".Length);
+                return "/productImages/uploads/" + rest.Replace("uploads/", string.Empty, StringComparison.OrdinalIgnoreCase);
+            }
+
             return url;
         }
 

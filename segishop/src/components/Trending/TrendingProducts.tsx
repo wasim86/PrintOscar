@@ -10,6 +10,7 @@ import {
   Flame,
   ArrowRight
 } from 'lucide-react';
+import { DEFAULT_PRODUCT_IMAGE } from '@/services/config';
 
 interface TrendingProduct {
   id: string;
@@ -215,7 +216,7 @@ export const TrendingProducts: React.FC<TrendingProductsProps> = ({
             {/* Product Image */}
             <div className="relative aspect-square bg-gray-100">
               <img
-                src={product.image || '/placeholder-product.svg'}
+                src={product.image || DEFAULT_PRODUCT_IMAGE}
                 alt={product.name}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"
               />

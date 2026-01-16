@@ -9,6 +9,7 @@ import { ProductFreeShippingBanner } from '@/components/FreeShippingBanner';
 import { DynamicConfigurationSelector } from './DynamicConfigurationSelector';
 import { customerUploadApi } from '@/services/customer-upload-api';
 import skuMappingData from '@/data/sku-mapping.json';
+import { DEFAULT_PRODUCT_IMAGE } from '@/services/config';
 
 const skuMapping = skuMappingData as Record<string, Record<string, string>>;
 
@@ -193,12 +194,12 @@ export const EnhancedProductDetailPage: React.FC<EnhancedProductDetailPageProps>
     (product.images && product.images.length > 0)
       ? product.images.map((img, idx) => ({
           id: (img.id?.toString() || (idx + 1).toString()),
-          url: img.imageUrl || product.imageUrl || '/placeholder-product.svg',
+          url: img.imageUrl || product.imageUrl || DEFAULT_PRODUCT_IMAGE,
           alt: product.name
         }))
       : (product.imageUrl
           ? [{ id: '1', url: product.imageUrl, alt: product.name }]
-          : [{ id: '1', url: '/placeholder-product.svg', alt: product.name }]);
+          : [{ id: '1', url: DEFAULT_PRODUCT_IMAGE, alt: product.name }]);
   const desiredImageCount = sizeOptions.length > 0 ? sizeOptions.length : 1;
   const productImages: ProductImage[] =
     baseImages.length >= desiredImageCount
@@ -459,7 +460,7 @@ export const EnhancedProductDetailPage: React.FC<EnhancedProductDetailPageProps>
             {sizeOptions.length > 0 && (
               <div className="mb-6">
                 <div className="flex items-center mb-2">
-                  <span className="text-sm font-medium mr-2">Size :</span>
+                  <span className="text-sm text-bold text-black font-medium mr-2">Size :</span>
                   <span className="text-sm text-gray-700">
                     {sizeOptions[selectedSizeIndex]?.name || ''}
                   </span>
@@ -559,7 +560,7 @@ export const EnhancedProductDetailPage: React.FC<EnhancedProductDetailPageProps>
             ) : (
               <>
                 <div>
-                  <label className="block text-sm font-medium mb-1 flex items-center gap-2">
+                  <label className="block text-ml font-bold text-gray-900 mb-1 flex items-center gap-2">
                     <Upload className="w-4 h-4" />
                     Upload Your Logo:
                   </label>
@@ -583,7 +584,7 @@ export const EnhancedProductDetailPage: React.FC<EnhancedProductDetailPageProps>
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium mb-1 flex items-center gap-2">
+                  <label className="block text-ml font-bold text-gray-900 mb-1 flex items-center gap-2">
                     <FileText className="w-4 h-4" />
                     Upload Your Text File:
                   </label>
@@ -606,7 +607,7 @@ export const EnhancedProductDetailPage: React.FC<EnhancedProductDetailPageProps>
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium mb-1">
+                  <label className="block text-ml font-bold text-gray-900 mb-1">
                     Upload Your Custom Text:
                   </label>
                   <textarea

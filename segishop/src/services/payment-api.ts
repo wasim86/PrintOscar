@@ -4,7 +4,7 @@ import { API_BASE_URL } from './config';
 export interface PaymentRequest {
   amount: number;
   currency?: string;
-  metadata?: Record<string, any>;
+  metadata?: Record<string, unknown>;
   items?: Array<{
     name: string;
     price: number;
@@ -22,8 +22,22 @@ export interface StripePaymentResponse {
 export interface PayPalOrderResponse {
   success: boolean;
   orderId?: string;
-  order?: any;
+  order?: unknown;
   error?: string;
+}
+
+export interface PayPalCaptureResponse {
+  success: boolean;
+  error?: string;
+  [key: string]: unknown;
+}
+
+export interface VerifyPaymentResponse {
+  success: boolean;
+  status?: string;
+  paymentId?: string;
+  error?: string;
+  [key: string]: unknown;
 }
 
 class PaymentApiService {
@@ -45,11 +59,15 @@ class PaymentApiService {
         throw new Error(`HTTP ${response.status} ${response.statusText} ${text}`);
       }
       return await response.json();
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Stripe payment intent creation failed:', error);
+      const message =
+        error instanceof Error && error.message
+          ? error.message
+          : 'Failed to create payment intent';
       return {
         success: false,
-        error: error.message || 'Failed to create payment intent'
+        error: message
       };
     }
   }
@@ -72,11 +90,15 @@ class PaymentApiService {
         throw new Error(`HTTP ${response.status} ${response.statusText} ${text}`);
       }
       return await response.json();
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('PayPal order creation failed:', error);
+      const message =
+        error instanceof Error && error.message
+          ? error.message
+          : 'Failed to create PayPal order';
       return {
         success: false,
-        error: error.message || 'Failed to create PayPal order'
+        error: message
       };
     }
   }
@@ -84,7 +106,7 @@ class PaymentApiService {
   /**
    * Capture PayPal Payment
    */
-  static async capturePayPalPayment(orderID: string): Promise<any> {
+  static async capturePayPalPayment(orderID: string): Promise<PayPalCaptureResponse> {
     try {
       const response = await fetch('/api/payments/paypal/capture-order', {
         method: 'POST',
@@ -98,12 +120,17 @@ class PaymentApiService {
         const text = await response.text();
         throw new Error(`HTTP ${response.status} ${response.statusText} ${text}`);
       }
-      return await response.json();
-    } catch (error: any) {
+      const data = (await response.json()) as PayPalCaptureResponse;
+      return data;
+    } catch (error: unknown) {
       console.error('PayPal payment capture failed:', error);
+      const message =
+        error instanceof Error && error.message
+          ? error.message
+          : 'Failed to capture PayPal payment';
       return {
         success: false,
-        error: error.message || 'Failed to capture PayPal payment'
+        error: message
       };
     }
   }
@@ -111,7 +138,10 @@ class PaymentApiService {
   /**
    * Verify payment status (for both Stripe and PayPal)
    */
-  static async verifyPayment(paymentId: string, provider: 'stripe' | 'paypal'): Promise<any> {
+  static async verifyPayment(
+    paymentId: string,
+    provider: 'stripe' | 'paypal'
+  ): Promise<VerifyPaymentResponse> {
     try {
       const response = await fetch(`/api/payments/${provider}/verify`, {
         method: 'POST',
@@ -121,12 +151,17 @@ class PaymentApiService {
         body: JSON.stringify({ paymentId }),
       });
 
-      return await response.json();
-    } catch (error: any) {
+      const data = (await response.json()) as VerifyPaymentResponse;
+      return data;
+    } catch (error: unknown) {
       console.error('Payment verification failed:', error);
+      const message =
+        error instanceof Error && error.message
+          ? error.message
+          : 'Payment verification failed';
       return {
         success: false,
-        error: error.message || 'Payment verification failed'
+        error: message
       };
     }
   }

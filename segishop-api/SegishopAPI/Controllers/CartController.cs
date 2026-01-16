@@ -327,22 +327,61 @@ namespace SegishopAPI.Controllers
         }
 
         private string? NormalizeImageUrl(string? url)
-    {
-        if (string.IsNullOrWhiteSpace(url)) return url;
-        var origin = $"{Request.Scheme}://{Request.Host.Value}";
-        if (url.StartsWith("http://localhost") || url.StartsWith("https://localhost") || url.StartsWith("http://0.0.0.0") || url.StartsWith("https://0.0.0.0"))
         {
-            try
+            if (string.IsNullOrWhiteSpace(url)) return url;
+
+            var domainsToReplace = new[]
             {
-                var u = new Uri(url);
-                var pathAndQuery = u.PathAndQuery;
-                return origin + pathAndQuery;
+                "http://localhost", "https://localhost",
+                "http://0.0.0.0", "https://0.0.0.0",
+                "http://printoscar.com", "https://printoscar.com",
+                "http://www.printoscar.com", "https://www.printoscar.com"
+            };
+
+            if (domainsToReplace.Any(domain => url.StartsWith(domain, StringComparison.OrdinalIgnoreCase)))
+            {
+                try
+                {
+                    var u = new Uri(url);
+                    var path = u.PathAndQuery;
+
+                    if (path.StartsWith("/wp-content/uploads/", StringComparison.OrdinalIgnoreCase))
+                    {
+                        var rest = path.Substring("/wp-content/uploads/".Length);
+                        return "/productImages/uploads/" + rest;
+                    }
+
+                    return path;
+                }
+                catch
+                {
+                    return url;
+                }
             }
-            catch { return origin; }
+
+            if (url.StartsWith("/", StringComparison.OrdinalIgnoreCase))
+            {
+                var path = url;
+                if (path.StartsWith("/wp-content/uploads/", StringComparison.OrdinalIgnoreCase))
+                {
+                    var rest = path.Substring("/wp-content/uploads/".Length);
+                    return "/productImages/uploads/" + rest;
+                }
+                return path;
+            }
+
+            if (url.StartsWith("uploads/", StringComparison.OrdinalIgnoreCase))
+            {
+                return "/productImages/" + url;
+            }
+
+            if (url.StartsWith("wp-content/", StringComparison.OrdinalIgnoreCase))
+            {
+                var rest = url.Substring("wp-content/".Length);
+                return "/productImages/uploads/" + rest.Replace("uploads/", string.Empty, StringComparison.OrdinalIgnoreCase);
+            }
+
+            return url;
         }
-        if (url.StartsWith("/")) return origin + url;
-        if (url.StartsWith("uploads/")) return origin + "/" + url;
-        return url;
-    }
     }
 }

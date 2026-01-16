@@ -23,6 +23,7 @@ import { AdminProductsApi, AdminProduct, AdminProductsSearchParams, AdminProduct
 import { ProductForm } from './ProductForm';
 import { ProductImportExport } from './ProductImportExport';
 import { CategoryManagement } from './CategoryManagement';
+import { DEFAULT_PRODUCT_IMAGE } from '@/services/config';
 
 export const ProductManagement: React.FC = () => {
   const [products, setProducts] = useState<AdminProduct[]>([]);
@@ -360,7 +361,7 @@ export const ProductManagement: React.FC = () => {
             const images = product.images || [];
             const defaultIndex = Math.max(images.findIndex(i => i.isPrimary), 0);
             const currentIndex = imageIndexes[product.id] ?? defaultIndex;
-            const displayImageUrl = images.length > 0 ? (images[Math.min(Math.max(currentIndex, 0), images.length - 1)]?.imageUrl || product.imageUrl) : (product.imageUrl || '/placeholder-product.svg');
+            const displayImageUrl = images.length > 0 ? (images[Math.min(Math.max(currentIndex, 0), images.length - 1)]?.imageUrl || product.imageUrl) : (product.imageUrl || DEFAULT_PRODUCT_IMAGE);
 
             return (
               <div key={product.id} className="bg-white rounded-lg border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow">

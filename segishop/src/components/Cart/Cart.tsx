@@ -7,6 +7,7 @@ import { SimplePriceDisplay } from '@/components/Currency/PriceDisplay';
 import { useCart } from '@/contexts/CartContext';
 import { CartFreeShippingBanner } from '@/components/FreeShippingBanner';
 import './Cart.css';
+import { DEFAULT_PRODUCT_IMAGE } from '@/services/config';
 
 export const Cart: React.FC = () => {
   const { cart, guestCart, isLoading, updateQuantity, removeFromCart, isCartOpen, closeCart, isGuestMode } = useCart();
@@ -124,10 +125,10 @@ export const Cart: React.FC = () => {
               {cartItems.map((item) => (
                 <div key={item.id} className="flex items-start gap-4 p-4 border border-gray-200 rounded-lg">
                   {/* Product Image */}
-                  <img
-                      src={item.productImage || '/placeholder-product.svg'}
+                    <img
+                      src={item.productImage || DEFAULT_PRODUCT_IMAGE}
                       alt={item.productName}
-                      className="w-16 h-16 object-cover rounded-lg border border-gray-200 flex-shrink-0"
+                      className="w-16 h-16 object-cover rounded-md border border-gray-200"
                     />
 
                   {/* Product Details */}

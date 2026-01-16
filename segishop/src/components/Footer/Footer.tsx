@@ -67,7 +67,7 @@ export const Footer: React.FC = () => {
             <div className="flex justify-center lg:justify-start mb-6">
               <NavigationLink href="/" className="inline-block">
                 <img
-                  src="/logo.png"
+                  src="/uploads/logo/logo.png"
                   alt="SegiShop"
                   className="h-32 w-auto object-contain filter brightness-110"
                 />

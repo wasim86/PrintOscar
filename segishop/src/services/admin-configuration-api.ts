@@ -247,8 +247,8 @@ export const categoryConfigurationApi = {
     apiRequest<ConfigurationType[]>(`/admin/categoryconfiguration/available-types/${categoryId}`),
 
   // Create category configuration template
-  createTemplate: (data: CreateCategoryConfigurationTemplateDto): Promise<any> =>
-    apiRequest<any>('/admin/categoryconfiguration/templates', {
+  createTemplate: (data: CreateCategoryConfigurationTemplateDto): Promise<void> =>
+    apiRequest<void>('/admin/categoryconfiguration/templates', {
       method: 'POST',
       body: JSON.stringify(data),
     }),

@@ -23,8 +23,20 @@ export interface ShippingOption {
   isEnabled: boolean;
 }
 
+export interface ShippingItem {
+  id?: number;
+  productId?: number;
+  productName?: string;
+  productSlug?: string;
+  productPrice?: number;
+  productImage?: string;
+  productAttributes?: string;
+  quantity: number;
+  totalPrice: number;
+}
+
 export interface ShippingCalculationRequest {
-  items: any[];
+  items: ShippingItem[];
   subtotal: number;
   shippingAddress: ShippingAddress;
 }
@@ -36,7 +48,7 @@ export interface ShippingCalculationResponse {
 }
 
 export interface TaxCalculationRequest {
-  items: any[];
+  items: ShippingItem[];
   subtotal: number;
   shippingAddress: ShippingAddress;
   selectedShippingOptionId?: number;
@@ -51,7 +63,7 @@ export interface TaxCalculationResponse {
 }
 
 export interface OrderTotalsRequest {
-  items: any[];
+  items: ShippingItem[];
   subtotal: number;
   shippingAddress: ShippingAddress;
   selectedShippingOptionId?: number;
@@ -98,7 +110,7 @@ async function apiRequest<T>(endpoint: string, options: RequestInit = {}): Promi
         const errorData = await response.text();
         console.error('API Error Response:', errorData);
         errorMessage += ` - ${errorData}`;
-      } catch (e) {
+      } catch {
         console.error('Could not parse error response');
       }
       throw new Error(errorMessage);
@@ -147,8 +159,8 @@ class ShippingApiService {
   /**
    * Get shipping zones for address validation
    */
-  static async getShippingZones(): Promise<{ success: boolean; zones: any[] }> {
-    return apiRequest<{ success: boolean; zones: any[] }>('/Shipping/zones');
+  static async getShippingZones(): Promise<{ success: boolean; zones: ShippingOption[] }> {
+    return apiRequest<{ success: boolean; zones: ShippingOption[] }>('/Shipping/zones');
   }
 
   /**

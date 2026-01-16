@@ -9,6 +9,7 @@ import { useAuth } from '@/contexts/AuthContext';
 import { useWishlist } from '@/contexts/WishlistContext';
 import { useComparison } from '@/contexts/ComparisonContext';
 import { ImageMagnifier } from './ImageMagnifier';
+import { DEFAULT_PRODUCT_IMAGE } from '@/services/config';
 
 interface QuickViewModalProps {
   product: any;
@@ -99,7 +100,7 @@ export const QuickViewModal: React.FC<QuickViewModalProps> = ({ product, isOpen,
       }
     }
 
-    return images.length > 0 ? images : ['/placeholder-product.svg'];
+    return images.length > 0 ? images : [DEFAULT_PRODUCT_IMAGE];
   }, [product]);
 
   // Reset state when modal opens/closes
@@ -357,7 +358,7 @@ export const QuickViewModal: React.FC<QuickViewModalProps> = ({ product, isOpen,
                 <span className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-medium ${
                   isInStock 
                     ? 'bg-green-100 text-green-800' 
-                    : 'bg-r ed-100 text-red-800'
+                    : 'bg-red-100 text-red-800'
                 }`}>
                   {isInStock ? '✓ In Stock' : '✗ Out of Stock'}
                 </span>

@@ -47,7 +47,7 @@ const nextConfig = {
         protocol: 'http',
         hostname: 'localhost',
         port: '5001',
-        pathname: '/uploads/images/**',
+        pathname: '/uploads/**',
       },
       {
         protocol: 'http',
@@ -57,9 +57,28 @@ const nextConfig = {
       },
     ],
   },
-  // Custom port configuration
   async rewrites() {
-    return []
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5001/api'
+    let apiOrigin = apiUrl
+    try {
+      const url = new URL(apiUrl)
+      apiOrigin = `${url.protocol}//${url.hostname}${url.port ? `:${url.port}` : ''}`
+    } catch {
+      if (apiOrigin.endsWith('/api')) {
+        apiOrigin = apiOrigin.replace(/\/api$/, '')
+      }
+    }
+
+    return [
+      {
+        source: '/uploads/:path*',
+        destination: `${apiOrigin}/uploads/:path*`,
+      },
+      {
+        source: '/productImages/uploads/:path*',
+        destination: `${apiOrigin}/uploads/productImages/:path*`,
+      },
+    ]
   },
 }
 

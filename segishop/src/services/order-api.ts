@@ -247,7 +247,7 @@ export class OrderApiService {
     page: number = 1,
     pageSize: number = 10,
     status?: string
-  ): Promise<any> {
+  ): Promise<OrderListResponse> {
     try {
       const params = new URLSearchParams({
         page: page.toString(),
@@ -264,7 +264,8 @@ export class OrderApiService {
         throw new Error('Failed to fetch user orders');
       }
 
-      return await response.json();
+      const result = (await response.json()) as OrderListResponse;
+      return result;
     } catch (error) {
       console.error('Error fetching user orders:', error);
       return {

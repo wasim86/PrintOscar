@@ -1,4 +1,5 @@
 import { API_BASE_URL } from './config';
+import { ShopLocalV2Response } from './public-shop-local-v2';
 
 function authHeaders(): HeadersInit {
   const token = typeof window !== 'undefined' ? localStorage.getItem('printoscar_admin_token') : null;
@@ -11,11 +12,12 @@ function authFileHeaders(): HeadersInit {
 }
 
 export const adminShopLocalV2Api = {
-  async get(): Promise<any> {
+  async get(): Promise<ShopLocalV2Response> {
     const base = API_BASE_URL.endsWith('/api') ? API_BASE_URL : `${API_BASE_URL.replace(/\/+$/, '')}/api`;
     const res = await fetch(`${base}/admin/shop-local-v2`, { headers: authHeaders(), cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return res.json();
+    const data = (await res.json()) as ShopLocalV2Response;
+    return data;
   },
   async updateSettings(payload: { heroTitle?: string; heroSubtitle?: string }): Promise<void> {
     const base = API_BASE_URL.endsWith('/api') ? API_BASE_URL : `${API_BASE_URL.replace(/\/+$/, '')}/api`;

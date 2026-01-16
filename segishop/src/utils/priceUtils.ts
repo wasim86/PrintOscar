@@ -102,8 +102,8 @@ export const priceUtils = {
   /**
    * Validate price input
    */
-  isValidPrice: (price: any): boolean => {
-    return typeof price === 'number' && !isNaN(price) && price >= 0;
+  isValidPrice: (price: unknown): boolean => {
+    return typeof price === 'number' && !Number.isNaN(price) && price >= 0;
   },
 
   /**

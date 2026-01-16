@@ -19,6 +19,7 @@ import { useAuth } from '@/contexts/AuthContext';
 import { useWishlist } from '@/contexts/WishlistContext';
 import { useComparison } from '@/contexts/ComparisonContext';
 import { QuickViewModal } from '@/components/Product/QuickViewModal';
+import { DEFAULT_PRODUCT_IMAGE } from '@/services/config';
 
 // Configuration type detection based on category configuration
 const getConfigurationType = (product: any): 'Regular' | 'SmallBulk' | 'VarietyBox' => {
@@ -145,21 +146,8 @@ const ProductCard = React.memo(({ product, viewMode, onQuickView }: {
 
   // Determine configuration type based on category configuration
   const configurationType = getConfigurationType(product);
-  const getCategoryFallback = (categoryName?: string) => {
-    const category = (categoryName || '').toLowerCase();
-    if (category.includes('troph') || category.includes('award')) {
-      return 'https://images.unsplash.com/photo-1518544801976-3e1c3135b3a2?w=400&h=400&fit=crop';
-    }
-    if (category.includes('medal')) {
-      return 'https://images.unsplash.com/photo-1574613438070-4be8c6a74645?w=400&h=400&fit=crop';
-    }
-    if (category.includes('plaque')) {
-      return 'https://images.unsplash.com/photo-1556228720-195a672e2a5b?w=400&h=400&fit=crop';
-    }
-    if (category.includes('glass') || category.includes('crystal')) {
-      return 'https://images.unsplash.com/photo-1519681393784-9c55d7d1c70f?w=400&h=400&fit=crop';
-    }
-    return 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=400&fit=crop';
+  const getCategoryFallback = () => {
+    return DEFAULT_PRODUCT_IMAGE;
   };
 
   const handleAddToCart = async (e: React.MouseEvent) => {
@@ -251,13 +239,13 @@ const ProductCard = React.memo(({ product, viewMode, onQuickView }: {
       <div className={`relative ${viewMode === 'list' ? 'w-48 flex-shrink-0' : 'aspect-square'}`}>
         <Link href={`/products/${product.slug || product.id}`} prefetch={false}>
           <img
-            src={product.image || getCategoryFallback(product.category)}
+            src={product.image || getCategoryFallback()}
             alt={product.title}
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 cursor-pointer"
             loading="lazy"
             onError={(e) => {
               const target = e.currentTarget as HTMLImageElement;
-              target.src = getCategoryFallback(product.category);
+              target.src = getCategoryFallback();
               target.onerror = null;
             }}
           />
@@ -957,16 +945,5 @@ function ProductsPageContent() {
 }
 
 export default function ProductsPage() {
-  return (
-    <Suspense fallback={
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-orange-500 mx-auto mb-4"></div>
-          <p className="text-gray-600">Loading products...</p>
-        </div>
-      </div>
-    }>
-      <ProductsPageContent />
-    </Suspense>
-  );
+  return <ProductsPageContent />;
 }

@@ -177,6 +177,150 @@ namespace SegishopAPI.Controllers
             }
         }
 
+        [HttpPost("optimize-uploads")]
+        public async Task<IActionResult> OptimizeUploads()
+        {
+            try
+            {
+                var uploadsRoot = Path.Combine(_environment.WebRootPath ?? _environment.ContentRootPath, "uploads");
+                if (!Directory.Exists(uploadsRoot))
+                {
+                    return NotFound("uploads directory not found");
+                }
+
+                var imageExtensions = new[] { ".jpg", ".jpeg", ".png" };
+                var files = Directory.GetFiles(uploadsRoot, "*.*", SearchOption.AllDirectories)
+                    .Where(f => imageExtensions.Contains(Path.GetExtension(f).ToLowerInvariant()))
+                    .ToList();
+
+                var processedCount = 0;
+                var errors = new List<string>();
+                var pathMappings = new Dictionary<string, string>();
+
+                foreach (var file in files)
+                {
+                    // Skip originals backups if present
+                    if (file.IndexOf($"{Path.DirectorySeparatorChar}originals{Path.DirectorySeparatorChar}", StringComparison.OrdinalIgnoreCase) >= 0)
+                    {
+                        continue;
+                    }
+
+                    var webpPath = Path.ChangeExtension(file, ".webp");
+                    var conversionSuccess = true;
+
+                    if (System.IO.File.Exists(webpPath))
+                    {
+                        conversionSuccess = true;
+                    }
+                    else
+                    {
+                        conversionSuccess = await _imageService.ProcessFileAsync(file, webpPath);
+                        if (conversionSuccess)
+                        {
+                            processedCount++;
+                        }
+                        else
+                        {
+                            errors.Add($"Failed to process: {file}");
+                        }
+                    }
+
+                    if (conversionSuccess)
+                    {
+                        var relativePathOld = GetUploadsRelativePath(file);
+                        var relativePathNew = GetUploadsRelativePath(webpPath);
+
+                        pathMappings[relativePathOld] = relativePathNew;
+                    }
+                }
+
+                var dbUpdates = 0;
+
+                var products = await _context.Products.ToListAsync();
+                foreach (var p in products)
+                {
+                    if (UpdateUrl(p.ImageUrl, pathMappings, out var newUrl))
+                    {
+                        p.ImageUrl = newUrl;
+                        dbUpdates++;
+                    }
+
+                    if (!string.IsNullOrEmpty(p.ImageGallery))
+                    {
+                        try
+                        {
+                            var gallery = JsonSerializer.Deserialize<List<string>>(p.ImageGallery);
+                            if (gallery != null)
+                            {
+                                var galleryUpdated = false;
+                                for (int i = 0; i < gallery.Count; i++)
+                                {
+                                    if (UpdateUrl(gallery[i], pathMappings, out var newGalleryUrl))
+                                    {
+                                        gallery[i] = newGalleryUrl;
+                                        galleryUpdated = true;
+                                    }
+                                }
+                                if (galleryUpdated)
+                                {
+                                    p.ImageGallery = JsonSerializer.Serialize(gallery);
+                                    dbUpdates++;
+                                }
+                            }
+                        }
+                        catch
+                        {
+                        }
+                    }
+                }
+
+                var productImages = await _context.ProductImages.ToListAsync();
+                foreach (var pi in productImages)
+                {
+                    if (UpdateUrl(pi.ImageUrl, pathMappings, out var newUrl))
+                    {
+                        pi.ImageUrl = newUrl;
+                        dbUpdates++;
+                    }
+                }
+
+                var categories = await _context.Categories.ToListAsync();
+                foreach (var c in categories)
+                {
+                    if (UpdateUrl(c.ImageUrl, pathMappings, out var newUrl))
+                    {
+                        c.ImageUrl = newUrl;
+                        dbUpdates++;
+                    }
+                }
+
+                var media = await _context.ShopLocalMedia.ToListAsync();
+                foreach (var m in media)
+                {
+                    if (UpdateUrl(m.ImageUrl, pathMappings, out var newUrl))
+                    {
+                        m.ImageUrl = newUrl;
+                        dbUpdates++;
+                    }
+                }
+
+                await _context.SaveChangesAsync();
+
+                return Ok(new
+                {
+                    Success = true,
+                    ProcessedImages = processedCount,
+                    DatabaseUpdates = dbUpdates,
+                    Errors = errors
+                });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error optimizing uploads");
+                return StatusCode(500, ex.Message);
+            }
+        }
+
         private string GetRelativePath(string fullPath)
         {
             // Extract path starting from /wp-content/
@@ -186,6 +330,17 @@ namespace SegishopAPI.Controllers
             {
                 var rel = fullPath.Substring(index).Replace("\\", "/");
                 return "/" + rel; // /wp-content/...
+            }
+            return fullPath;
+        }
+
+        private string GetUploadsRelativePath(string fullPath)
+        {
+            var index = fullPath.IndexOf("uploads", StringComparison.OrdinalIgnoreCase);
+            if (index >= 0)
+            {
+                var rel = fullPath.Substring(index).Replace("\\", "/");
+                return "/" + rel;
             }
             return fullPath;
         }

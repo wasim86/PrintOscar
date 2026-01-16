@@ -15,14 +15,14 @@ const mockProduct = {
   originalPrice: 29.99,
   stock: 15,
   stockCount: 15,
-  image: '/placeholder-product.svg',
+  image: '/uploads/bannerImages/banner1.jpg',
   images: [
-    { imageUrl: '/placeholder-product.svg' },
-    { imageUrl: '/placeholder-product.svg' }
+    { imageUrl: '/uploads/bannerImages/banner1.jpg' },
+    { imageUrl: '/uploads/bannerImages/banner1.jpg' }
   ],
   imageGallery: JSON.stringify([
-    '/placeholder-product.svg',
-    '/placeholder-product.svg'
+    '/uploads/bannerImages/banner1.jpg',
+    '/uploads/bannerImages/banner1.jpg'
   ]),
   isFeatured: true,
   category: 'Test Category',

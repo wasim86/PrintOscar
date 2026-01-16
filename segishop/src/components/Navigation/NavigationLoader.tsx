@@ -26,7 +26,7 @@ export const NavigationLoader: React.FC = () => {
           {/* LOGO */}
           <div className="relative mb-6">
             <Image
-              src="/logo.png"
+              src="/uploads/logo/logo.png"
               alt="Oscar Printing Shop"
               width={120}
               height={60}

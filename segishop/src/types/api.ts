@@ -1,3 +1,5 @@
+import { WP_UPLOADS_BASE, DEFAULT_PRODUCT_IMAGE } from '@/services/config';
+
 // Category Types
 export interface Category {
   id: number;
@@ -316,7 +318,7 @@ export function convertApiProductToFrontend(apiProduct: any): FrontendProduct {
         title: apiProduct.name,
         price: 75.00, // Estimated price
         originalPrice: undefined,
-        image: 'https://printoscar.com/wp-content/uploads/2025/12/36-2.webp', // Image from similar Zenith series
+        image: `${WP_UPLOADS_BASE}/2025/12/36-2.webp`, // Image from similar Zenith series
         rating: 5.0,
         reviewCount: 12,
         category: apiProduct.categoryName || 'Acrylic Awards',
@@ -332,9 +334,8 @@ export function convertApiProductToFrontend(apiProduct: any): FrontendProduct {
       };
     }
 
-    // Generate category-specific placeholder images
     const getPlaceholderImage = (categoryName: string) => {
-      return '/placeholder-product.svg';
+      return DEFAULT_PRODUCT_IMAGE;
     };
 
     return {
