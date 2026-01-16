@@ -16,7 +16,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    domains: ['images.unsplash.com', 'picsum.photos', 'localhost', 'printoscar.com'],
+    domains: ['images.unsplash.com', 'picsum.photos', 'localhost', 'printoscar.com', 'printoscarapi.xendekweb.com'],
     unoptimized: true,
     remotePatterns: [
       {
@@ -59,7 +59,10 @@ const nextConfig = {
   },
   async rewrites() {
     const isProd = process.env.NODE_ENV === 'production'
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL || (isProd ? 'https://printoscarapi.xendekweb.com/api' : 'http://localhost:5001/api')
+    // प्रोडक्शन में सभी रीराइट्स सीधे API डोमेन पर जाएं
+    const apiUrl = isProd
+      ? 'https://printoscarapi.xendekweb.com/api'
+      : (process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5001/api')
     let apiOrigin = apiUrl
     try {
       const url = new URL(apiUrl)

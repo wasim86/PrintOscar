@@ -25,29 +25,19 @@ interface HeroSectionProps {
 }
 
 const joinBase = (path: string) => {
-  let rawBase = (IMAGE_BASE_URL || '').replace(/\/$/, '');
-
-  // Sanitize localhost URLs - ensure we never point to localhost in production
-  if (process.env.NODE_ENV === 'production') {
-    if (rawBase.includes('localhost:5001')) {
-       rawBase = rawBase.replace('http://localhost:5001', 'https://printoscar.com');
-    }
-  }
+  const rawBase = (IMAGE_BASE_URL || '').replace(/\/$/, '');
 
   const p = path.startsWith('/') ? path : `/${path}`;
   
   if (/^https?:\/\//.test(path)) {
-    // Only force replace localhost in production
+    // प्रोडक्शन में किसी भी localhost इमेज को सीधे API डोमेन पर रीराइट करें
     if (process.env.NODE_ENV === 'production' && path.includes('localhost:5001')) {
-      return path.replace('http://localhost:5001', 'https://printoscar.com');
-    }
-    if (path.startsWith('https://printoscar.com')) {
-      return path.replace('https://printoscar.com', rawBase);
+      return path.replace('http://localhost:5001', 'https://printoscarapi.xendekweb.com');
     }
     return path;
   }
 
-  if (!rawBase) return `https://printoscar.com${p}`;
+  if (!rawBase) return `https://printoscarapi.xendekweb.com${p}`;
 
   return `${rawBase}${p}`;
 };
